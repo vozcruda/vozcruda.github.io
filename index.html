@@ -1,764 +1,555 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- SEO Meta Tags -->
-  <title>Voz Cruda — Smarter Fashion Sourcing & Wholesale Distribution</title>
-  <meta name="description" content="Voz Cruda connects retailers, resellers, boutiques, and online brands with reliable sourcing, flexible wholesale solutions, and modern fashion commerce support across India." />
-  <meta name="keywords" content="Garment Sourcing, Wholesale Apparel, Fashion Supply Chain, Private Label Clothing, B2B Fashion, Low MOQ Clothing, Apparel Distribution, Fashion Logistics, Online Fashion Business, Bulk Garment Supply" />
-  <meta name="author" content="Voz Cruda" />
-  <meta name="robots" content="index, follow" />
+  <title>Voz Cruda | B2B Apparel Sourcing & Wholesale India</title>
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="Voz Cruda — Smarter Fashion Sourcing & Wholesale" />
-  <meta property="og:description" content="Helping fashion brands and retailers scale with smarter sourcing. Wholesale, private labeling, and B2B distribution across India." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://vozcruda.com" />
+  <meta
+    name="description"
+    content="Voz Cruda helps fashion brands, retailers, wholesalers, and online businesses scale with dependable apparel sourcing and wholesale infrastructure."
+  />
 
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Voz Cruda — Smarter Fashion Sourcing & Wholesale" />
-  <meta name="twitter:description" content="Helping fashion brands and retailers scale with smarter sourcing." />
+  <meta
+    name="keywords"
+    content="B2B apparel sourcing India, wholesale clothing suppliers India, garment sourcing partner, low MOQ manufacturers, private label apparel India, apparel wholesale Bengaluru"
+  />
 
-  <!-- Canonical -->
-  <link rel="canonical" href="https://vozcruda.com" />
+  <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- Fonts: Clash Display + DM Sans -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet" />
-
-  <!-- Schema Markup: LocalBusiness + Organization -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": ["Organization", "LocalBusiness"],
-        "@id": "https://vozcruda.com/#organization",
-        "name": "Voz Cruda",
-        "url": "https://vozcruda.com",
-        "email": "sales@vozcruda.com",
-        "description": "Voz Cruda is a modern fashion sourcing and wholesale distribution company based in Bengaluru, India. We help retailers, resellers, boutiques, and online brands scale with reliable garment sourcing, flexible B2B wholesale solutions, private labeling, and e-commerce support.",
-        "foundingLocation": "Bengaluru, India",
-        "areaServed": "India",
-        "currenciesAccepted": "INR",
-        "priceRange": "$$",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Aspire Coworks, No. 47217, Balaji Arcade, 2nd & 3rd Floor, A.V.S. Compound, 20th L Cross Road, AVS Layout, Ejipura, Koramangala 4th Block",
-          "addressLocality": "Bengaluru",
-          "addressRegion": "Karnataka",
-          "postalCode": "560095",
-          "addressCountry": "IN"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": 12.9352,
-          "longitude": 77.6245
-        },
-        "sameAs": [
-          "https://vozcruda.github.io"
-        ],
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "Fashion Sourcing & Wholesale Services",
-          "itemListElement": [
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Garment Sourcing",
-                "description": "Reliable sourcing from trusted manufacturers and suppliers across multiple categories."
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Wholesale Distribution",
-                "description": "Flexible B2B supply solutions for retailers, resellers, boutiques, and growing brands."
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Retail & E-commerce",
-                "description": "Modern retail operations focused on digital commerce and customer accessibility."
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Private Labeling",
-                "description": "Brand development, custom packaging, and scalable private label opportunities."
-              }
-            }
-          ]
-        }
-      },
-      {
-        "@type": "WebSite",
-        "@id": "https://vozcruda.com/#website",
-        "url": "https://vozcruda.com",
-        "name": "Voz Cruda",
-        "publisher": {
-          "@id": "https://vozcruda.com/#organization"
-        }
-      },
-      {
-        "@type": "WebPage",
-        "@id": "https://vozcruda.com/#webpage",
-        "url": "https://vozcruda.com",
-        "name": "Voz Cruda — Smarter Fashion Sourcing & Wholesale Distribution",
-        "description": "Voz Cruda connects retailers, resellers, boutiques, and online brands with reliable sourcing, flexible wholesale solutions, and modern fashion commerce support across India.",
-        "isPartOf": {
-          "@id": "https://vozcruda.com/#website"
-        }
-      }
-    ]
-  }
-  </script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
 
   <style>
-    /* ─── Reset & Base ─────────────────────────────────────────── */
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-
-    :root {
-      --black:    #000000;
-      --zinc-950: #09090b;
-      --zinc-900: #18181b;
-      --zinc-800: #27272a;
-      --zinc-700: #3f3f46;
-      --zinc-600: #52525b;
-      --zinc-500: #71717a;
-      --zinc-400: #a1a1aa;
-      --zinc-300: #d4d4d8;
-      --white:    #ffffff;
-
-      --font-display: 'DM Sans', sans-serif;
-      --font-body:    'DM Sans', sans-serif;
-
-      --radius-sm:  0.75rem;
-      --radius-md:  1rem;
-      --radius-lg:  1.5rem;
-      --radius-xl:  2rem;
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
     }
 
     body {
-      background: var(--black);
-      color: var(--white);
-      font-family: var(--font-body);
+      font-family: 'Outfit', sans-serif;
+      background: #0A0A0A;
+      color: white;
       overflow-x: hidden;
-      -webkit-font-smoothing: antialiased;
-      line-height: 1.6;
     }
 
-    a { text-decoration: none; color: inherit; }
-    img { display: block; max-width: 100%; }
-
-    /* ─── Utility ──────────────────────────────────────────────── */
-    .container {
-      max-width: 80rem;
-      margin-inline: auto;
-      padding-inline: clamp(1.25rem, 5vw, 2rem);
+    .display-font {
+      font-family: 'Cormorant Garamond', serif;
     }
 
-    .section-label {
-      display: block;
-      font-size: 0.75rem;
-      letter-spacing: 0.25em;
-      text-transform: uppercase;
-      color: var(--zinc-500);
-      margin-bottom: 1rem;
-    }
-
-    /* ─── Animations ───────────────────────────────────────────── */
-    @keyframes marquee {
-      from { transform: translateX(0); }
-      to   { transform: translateX(-50%); }
-    }
-
-    @keyframes pulse {
-      0%, 100% { opacity: .2; }
-      50%       { opacity: .35; }
-    }
-
-    @keyframes fadeUp {
-      from { opacity: 0; transform: translateY(24px); }
-      to   { opacity: 1; transform: translateY(0); }
-    }
-
-    /* ─── Hero ─────────────────────────────────────────────────── */
-    .hero {
-      position: relative;
-      overflow: hidden;
-      background: linear-gradient(135deg, var(--zinc-900), var(--black) 55%, var(--zinc-950));
-    }
-
-    .hero__blob-tl,
-    .hero__blob-br {
+    .hero-gradient {
       position: absolute;
-      border-radius: 50%;
-      filter: blur(80px);
+      width: 700px;
+      height: 700px;
+      border-radius: 9999px;
+      background: radial-gradient(circle, rgba(201,169,110,0.12) 0%, rgba(201,169,110,0) 70%);
+      top: -250px;
+      right: -250px;
       pointer-events: none;
     }
-    .hero__blob-tl {
-      top: -4rem; left: -4rem;
-      width: 22rem; height: 22rem;
-      background: rgba(255,255,255,.08);
-      animation: pulse 5s ease-in-out infinite;
-    }
-    .hero__blob-br {
-      bottom: -6rem; right: -6rem;
-      width: 28rem; height: 28rem;
-      background: rgba(63,63,70,.18);
+
+    .glass-card {
+      background: rgba(255,255,255,0.04);
+      backdrop-filter: blur(14px);
     }
 
-    .hero__inner {
-      position: relative;
-      padding-block: clamp(5rem, 12vw, 9rem);
+    .hover-card {
+      transition: all 0.35s ease;
     }
 
-    .hero__badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      padding: 0.45rem 1.1rem;
-      border-radius: 999px;
-      border: 1px solid rgba(255,255,255,.12);
-      background: rgba(255,255,255,.05);
-      backdrop-filter: blur(12px);
-      font-size: 0.82rem;
-      color: var(--zinc-300);
-      margin-bottom: 2rem;
+    .hover-card:hover {
+      transform: translateY(-6px);
+      border-color: rgba(201,169,110,0.35);
+      box-shadow: 0 0 40px rgba(201,169,110,0.08);
     }
 
-    .hero__h1 {
-      font-family: var(--font-display);
-      font-size: clamp(2.4rem, 7vw, 5.5rem);
-      font-weight: 700;
-      line-height: 1.04;
-      letter-spacing: -0.02em;
-      max-width: 18ch;
-      animation: fadeUp .8s ease both;
-    }
-
-    .hero__sub {
-      margin-top: 1.75rem;
-      font-size: clamp(1rem, 2vw, 1.3rem);
-      color: var(--zinc-400);
-      max-width: 52ch;
-      font-weight: 300;
-      line-height: 1.7;
-      animation: fadeUp .9s .15s ease both;
-    }
-
-    .hero__ctas {
-      margin-top: 2.5rem;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1rem;
-      animation: fadeUp 1s .25s ease both;
-    }
-
-    .btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 0.4rem;
-      padding: 0.95rem 1.75rem;
-      border-radius: var(--radius-md);
-      font-size: 0.95rem;
-      font-weight: 500;
-      cursor: pointer;
-      transition: transform .25s, background .2s, border-color .2s;
-      white-space: nowrap;
-    }
-    .btn:hover { transform: scale(1.04); }
-
-    .btn--primary { background: var(--white); color: var(--black); }
-    .btn--primary:hover { background: var(--zinc-300); }
-
-    .btn--ghost {
-      background: transparent;
-      color: var(--white);
-      border: 1px solid var(--zinc-700);
-    }
-    .btn--ghost:hover { background: var(--zinc-900); border-color: var(--zinc-600); }
-
-    /* ─── Stats Grid ───────────────────────────────────────────── */
-    .stats {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 1rem;
-      margin-top: 3.5rem;
-      max-width: 44rem;
-      animation: fadeUp 1s .4s ease both;
-    }
-    @media (min-width: 640px) {
-      .stats { grid-template-columns: repeat(4, 1fr); }
-    }
-
-    .stat-card {
-      padding: 1.4rem 1.2rem;
-      border-radius: var(--radius-lg);
-      border: 1px solid rgba(255,255,255,.1);
-      background: rgba(255,255,255,.04);
-      backdrop-filter: blur(12px);
-      transition: background .25s;
-    }
-    .stat-card:hover { background: rgba(255,255,255,.09); }
-
-    .stat-card__icon  { font-size: 1.5rem; margin-bottom: 1rem; }
-    .stat-card__value { font-size: 1.3rem; font-weight: 600; }
-    .stat-card__label { font-size: 0.8rem; color: var(--zinc-500); margin-top: 0.25rem; }
-
-    /* ─── About ────────────────────────────────────────────────── */
-    .about {
-      padding-block: clamp(4rem, 8vw, 6rem);
-    }
-
-    .about__grid {
-      display: grid;
-      gap: 3rem;
-    }
-    @media (min-width: 1024px) {
-      .about__grid { grid-template-columns: 1fr 1fr; align-items: start; }
-    }
-
-    .about__h2 {
-      font-size: clamp(2rem, 4vw, 3.2rem);
-      font-weight: 700;
-      line-height: 1.15;
-      letter-spacing: -0.02em;
-    }
-
-    .about__body p {
-      color: var(--zinc-400);
-      font-size: clamp(0.95rem, 1.5vw, 1.1rem);
-      line-height: 1.8;
-    }
-    .about__body p + p { margin-top: 1.5rem; }
-
-    /* ─── Services ─────────────────────────────────────────────── */
-    .services {
-      background: var(--zinc-950);
-      border-block: 1px solid var(--zinc-900);
-      padding-block: clamp(4rem, 8vw, 6rem);
-    }
-
-    .services__header { max-width: 36rem; margin-bottom: 3.5rem; }
-    .services__h2 {
-      font-size: clamp(2rem, 4vw, 3rem);
-      font-weight: 700;
-      letter-spacing: -0.02em;
-      line-height: 1.15;
-    }
-
-    .services__grid {
-      display: grid;
-      gap: 1.25rem;
-      grid-template-columns: 1fr;
-    }
-    @media (min-width: 540px) { .services__grid { grid-template-columns: 1fr 1fr; } }
-    @media (min-width: 1280px) { .services__grid { grid-template-columns: repeat(4, 1fr); } }
-
-    .service-card {
-      position: relative;
-      padding: clamp(1.5rem, 3vw, 2.25rem);
-      border-radius: 1.5rem;
-      border: 1px solid var(--zinc-800);
-      background: var(--black);
-      overflow: hidden;
-      transition: border-color .25s, transform .3s, background .25s;
-    }
-    .service-card::before {
-      content: '';
-      position: absolute;
-      top: 0; right: 0;
-      width: 6rem; height: 6rem;
-      background: rgba(255,255,255,.05);
-      border-radius: 50%;
-      filter: blur(32px);
-      opacity: 0;
-      transition: opacity .4s;
-    }
-    .service-card:hover { border-color: var(--zinc-600); transform: translateY(-6px); background: rgba(39,39,42,.5); }
-    .service-card:hover::before { opacity: 1; }
-
-    .service-card__title {
-      font-size: clamp(1.1rem, 2vw, 1.4rem);
-      font-weight: 600;
-      margin-bottom: 0.9rem;
-      position: relative;
-    }
-
-    .service-card__desc {
-      color: var(--zinc-400);
-      font-size: 0.95rem;
-      line-height: 1.75;
-      position: relative;
-    }
-
-    /* ─── Marquee ───────────────────────────────────────────────── */
-    .marquee-section {
-      border-block: 1px solid var(--zinc-900);
-      background: var(--black);
-      padding-block: 1rem;
-      overflow: hidden;
-    }
-
-    .marquee-track {
-      display: flex;
-      white-space: nowrap;
-      animation: marquee 28s linear infinite;
+    .marquee {
+      animation: marquee 30s linear infinite;
       width: max-content;
     }
 
-    .marquee-item {
-      display: inline-block;
-      padding-inline: 2.5rem;
-      font-size: 0.72rem;
-      letter-spacing: 0.22em;
-      text-transform: uppercase;
-      color: var(--zinc-500);
+    @keyframes marquee {
+      0% {
+        transform: translateX(0);
+      }
+
+      100% {
+        transform: translateX(-50%);
+      }
     }
 
-    /* ─── Vision ────────────────────────────────────────────────── */
-    .vision {
-      padding-block: clamp(4rem, 8vw, 6rem);
-    }
-
-    .vision__card {
-      border-radius: var(--radius-xl);
-      border: 1px solid var(--zinc-800);
-      background: linear-gradient(135deg, var(--zinc-950), var(--zinc-900));
-      padding: clamp(2rem, 5vw, 5rem);
-      max-width: 56rem;
-    }
-
-    .vision__h2 {
-      font-size: clamp(1.8rem, 3.5vw, 2.8rem);
-      font-weight: 700;
-      line-height: 1.2;
-      letter-spacing: -0.02em;
-      margin-bottom: 1.75rem;
-    }
-
-    .vision__body {
-      font-size: clamp(1rem, 1.5vw, 1.15rem);
-      color: var(--zinc-400);
-      line-height: 1.8;
-    }
-
-    /* ─── Contact ───────────────────────────────────────────────── */
-    .contact {
-      border-top: 1px solid var(--zinc-900);
-      background: var(--zinc-950);
-      padding-block: clamp(4rem, 8vw, 6rem);
-      overflow: hidden;
-    }
-
-    .contact__grid {
-      display: grid;
-      gap: 3.5rem;
-    }
-    @media (min-width: 1024px) {
-      .contact__grid { grid-template-columns: 1fr 1fr; align-items: start; }
-    }
-
-    .contact__h2 {
-      font-size: clamp(2rem, 4vw, 3rem);
-      font-weight: 700;
-      line-height: 1.15;
-      letter-spacing: -0.02em;
-      margin-bottom: 1.25rem;
-    }
-
-    .contact__sub {
-      color: var(--zinc-400);
-      font-size: clamp(0.95rem, 1.5vw, 1.1rem);
-      line-height: 1.75;
-      max-width: 44ch;
-      margin-bottom: 2.5rem;
-    }
-
-    .contact__ctas { display: flex; flex-wrap: wrap; gap: 1rem; }
-
-    .contact__detail-label {
-      font-size: 0.72rem;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      color: var(--zinc-500);
-      margin-bottom: 0.5rem;
-    }
-
-    .contact__detail-value {
-      font-size: clamp(1rem, 1.5vw, 1.15rem);
-      color: var(--zinc-300);
-    }
-
-    .contact__address {
-      color: var(--zinc-400);
-      font-size: 0.95rem;
-      line-height: 1.85;
-    }
-
-    .contact__details > * + * { margin-top: 2.25rem; }
-
-    /* ─── SEO Tags ──────────────────────────────────────────────── */
-    .seo-tags {
-      padding-block: 4rem;
-    }
-
-    .seo-tags__inner {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.75rem;
-      justify-content: center;
-      opacity: 0.65;
-      transition: opacity .3s;
-    }
-    .seo-tags__inner:hover { opacity: 1; }
-
-    .seo-tag {
-      padding: 0.45rem 1rem;
-      border-radius: 999px;
-      border: 1px solid rgba(255,255,255,.1);
-      background: rgba(255,255,255,.04);
-      color: var(--zinc-400);
-      font-size: 0.78rem;
-      backdrop-filter: blur(8px);
-      white-space: nowrap;
-    }
-
-    /* ─── Footer ────────────────────────────────────────────────── */
-    .footer {
-      border-top: 1px solid var(--zinc-900);
-      padding-block: 1.5rem;
-      text-align: center;
-      font-size: 0.8rem;
-      color: var(--zinc-600);
+    @media (max-width: 768px) {
+      .hero-gradient {
+        width: 450px;
+        height: 450px;
+        top: -150px;
+        right: -150px;
+      }
     }
   </style>
 </head>
+
 <body>
 
-  <!-- ── Hero ──────────────────────────────────────────────────── -->
-  <section class="hero">
-    <div class="hero__blob-tl" aria-hidden="true"></div>
-    <div class="hero__blob-br" aria-hidden="true"></div>
+  <!-- NAVBAR -->
+  <nav class="fixed top-0 left-0 right-0 z-50 border-b border-white/10 bg-black/70 backdrop-blur-xl">
+    <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
 
-    <div class="container hero__inner">
-
-      <div class="hero__badge" aria-label="Tagline">
-        ✨ Built for modern fashion businesses
+      <div class="display-font text-3xl font-semibold tracking-tight">
+        Voz <span class="text-[#C9A96E]">Cruda</span>
       </div>
 
-      <h1 class="hero__h1">
-        Helping fashion brands and retailers scale with smarter sourcing.
-      </h1>
+      <div class="hidden md:flex gap-8 text-xs uppercase tracking-[0.2em] text-zinc-500">
+        <a href="#about" class="hover:text-white transition-colors duration-300">About</a>
+        <a href="#services" class="hover:text-white transition-colors duration-300">Services</a>
+        <a href="#why-us" class="hover:text-white transition-colors duration-300">Why Us</a>
+        <a href="#process" class="hover:text-white transition-colors duration-300">Process</a>
+        <a href="#contact" class="hover:text-white transition-colors duration-300">Contact</a>
+      </div>
 
-      <p class="hero__sub">
-        Voz Cruda connects retailers, resellers, boutiques, and online brands with reliable sourcing, flexible wholesale solutions, and modern fashion commerce support.
+      <a
+        href="#contact"
+        class="px-6 py-3 rounded-full border border-[#C9A96E] text-[#C9A96E] hover:bg-[#C9A96E] hover:text-black transition-all duration-300 text-xs uppercase tracking-[0.18em]"
+      >
+        Get In Touch
+      </a>
+
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="relative overflow-hidden pt-36 md:pt-40 pb-24 px-6">
+
+    <div class="hero-gradient"></div>
+
+    <div class="max-w-7xl mx-auto relative z-10 grid lg:grid-cols-12 gap-14 items-center">
+
+      <div class="lg:col-span-7">
+
+        <p class="uppercase tracking-[0.35em] text-xs text-[#C9A96E] mb-6">
+          Modern B2B Apparel Commerce
+        </p>
+
+        <h1 class="display-font text-5xl sm:text-6xl md:text-7xl lg:text-[88px] leading-none font-semibold tracking-tight">
+          Built for brands scaling faster than their
+          <span class="italic text-zinc-500"> supply chain.</span>
+        </h1>
+
+        <p class="mt-8 text-zinc-400 text-lg leading-relaxed max-w-2xl">
+          Voz Cruda helps fashion brands, retailers, wholesalers, and online businesses simplify sourcing, improve operational flexibility, and scale through dependable apparel supply infrastructure.
+        </p>
+
+        <div class="mt-10 flex flex-wrap gap-4">
+
+          <a
+            href="#contact"
+            class="px-8 py-4 rounded-full bg-[#C9A96E] text-black font-medium hover:bg-white transition-all duration-300"
+          >
+            Start a Sourcing Discussion
+          </a>
+
+          <a
+            href="#services"
+            class="px-8 py-4 rounded-full border border-white/10 hover:border-white/30 transition-all duration-300"
+          >
+            Explore Services
+          </a>
+
+        </div>
+
+      </div>
+
+      <div class="lg:col-span-5 grid grid-cols-1 sm:grid-cols-2 gap-4">
+
+        <div class="glass-card border border-white/10 rounded-3xl p-6">
+          <div class="text-4xl mb-4">📦</div>
+          <h3 class="text-2xl font-semibold">B2B</h3>
+          <p class="text-zinc-500 text-sm mt-2 uppercase tracking-wider">
+            Wholesale Operations
+          </p>
+        </div>
+
+        <div class="glass-card border border-white/10 rounded-3xl p-6">
+          <div class="text-4xl mb-4">🌍</div>
+          <h3 class="text-2xl font-semibold">Pan India</h3>
+          <p class="text-zinc-500 text-sm mt-2 uppercase tracking-wider">
+            Supplier Network
+          </p>
+        </div>
+
+        <div class="glass-card border border-white/10 rounded-3xl p-6">
+          <div class="text-4xl mb-4">👕</div>
+          <h3 class="text-2xl font-semibold">Low MOQ</h3>
+          <p class="text-zinc-500 text-sm mt-2 uppercase tracking-wider">
+            Flexible Sourcing
+          </p>
+        </div>
+
+        <div class="glass-card border border-white/10 rounded-3xl p-6">
+          <div class="text-4xl mb-4">🚚</div>
+          <h3 class="text-2xl font-semibold">Full Cycle</h3>
+          <p class="text-zinc-500 text-sm mt-2 uppercase tracking-wider">
+            Supply Coordination
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- MARQUEE -->
+  <section class="border-y border-white/10 py-4 overflow-hidden bg-[#0D0D0D]">
+    <div class="marquee flex gap-12 whitespace-nowrap uppercase tracking-[0.2em] text-xs text-zinc-500">
+
+      <span>
+        Wholesale Apparel • Garment Sourcing • Private Labeling • Fashion Commerce • B2B Distribution • E-commerce Support •
+      </span>
+
+      <span>
+        Wholesale Apparel • Garment Sourcing • Private Labeling • Fashion Commerce • B2B Distribution • E-commerce Support •
+      </span>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-24 px-6 border-y border-white/5 bg-[#0B0B0B]">
+
+    <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-start">
+
+      <div>
+
+        <p class="uppercase tracking-[0.35em] text-xs text-[#C9A96E] mb-6">
+          About Voz Cruda
+        </p>
+
+        <h2 class="display-font text-5xl md:text-6xl leading-tight font-semibold">
+          We built Voz Cruda because growing a fashion business shouldn’t feel impossible.
+        </h2>
+
+      </div>
+
+      <div class="space-y-8 text-zinc-400 text-lg leading-relaxed">
+
+        <p>
+          Across the fashion industry, we kept seeing the same problem repeat itself. Great businesses with strong potential were struggling because of unreliable sourcing, inconsistent suppliers, delayed production, and pricing models designed only for large-scale buyers.
+        </p>
+
+        <p>
+          Voz Cruda was created to bridge that gap by building a more transparent, dependable, and scalable sourcing ecosystem for modern fashion businesses.
+        </p>
+
+        <p>
+          We work as a sourcing and operational partner for retailers, resellers, boutiques, and online brands that need reliable apparel infrastructure without the traditional complexity of garment manufacturing and wholesale operations.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="py-24 px-6 bg-[#0D0D0D]">
+
+    <div class="max-w-7xl mx-auto">
+
+      <div class="flex flex-col lg:flex-row justify-between items-end gap-10 mb-16">
+
+        <div>
+
+          <p class="uppercase tracking-[0.35em] text-xs text-zinc-500 mb-6">
+            What We Do
+          </p>
+
+          <h2 class="display-font text-5xl md:text-6xl leading-tight font-semibold">
+            End-to-end apparel infrastructure for modern commerce.
+          </h2>
+
+        </div>
+
+        <p class="text-zinc-400 text-lg max-w-xl leading-relaxed">
+          We help brands and retailers streamline sourcing, reduce operational friction, improve supplier reliability, and scale without depending on fragmented vendor networks.
+        </p>
+
+      </div>
+
+      <div class="grid lg:grid-cols-2 gap-6">
+
+        <div class="hover-card border border-white/10 rounded-3xl p-10 bg-black">
+          <div class="text-6xl text-zinc-800 mb-6">01</div>
+          <h3 class="text-2xl font-semibold mb-5">Garment Sourcing</h3>
+          <p class="text-zinc-400 leading-relaxed">
+            We connect businesses with verified apparel manufacturers across India while managing supplier communication, production coordination, sampling, and sourcing workflows.
+          </p>
+        </div>
+
+        <div class="hover-card border border-white/10 rounded-3xl p-10 bg-black">
+          <div class="text-6xl text-zinc-800 mb-6">02</div>
+          <h3 class="text-2xl font-semibold mb-5">Wholesale Distribution</h3>
+          <p class="text-zinc-400 leading-relaxed">
+            Structured B2B distribution support for boutiques, retailers, resellers, and fashion businesses looking for reliable inventory access and scalable supply operations.
+          </p>
+        </div>
+
+        <div class="hover-card border border-white/10 rounded-3xl p-10 bg-black">
+          <div class="text-6xl text-zinc-800 mb-6">03</div>
+          <h3 class="text-2xl font-semibold mb-5">Retail & E-commerce Operations</h3>
+          <p class="text-zinc-400 leading-relaxed">
+            Operational support for D2C brands, Instagram stores, online sellers, and marketplace-driven businesses that need faster inventory movement and dependable sourcing.
+          </p>
+        </div>
+
+        <div class="hover-card border border-white/10 rounded-3xl p-10 bg-black">
+          <div class="text-6xl text-zinc-800 mb-6">04</div>
+          <h3 class="text-2xl font-semibold mb-5">Private Label Development</h3>
+          <p class="text-zinc-400 leading-relaxed">
+            We help emerging fashion brands launch private label collections with support across packaging, woven labels, branding, product development, and production scaling.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- WHY US -->
+  <section id="why-us" class="py-24 px-6 bg-[#0B0B0B] border-y border-white/5">
+
+    <div class="max-w-7xl mx-auto">
+
+      <div class="mb-16">
+
+        <p class="uppercase tracking-[0.35em] text-xs text-[#C9A96E] mb-6">
+          Why Voz Cruda
+        </p>
+
+        <h2 class="display-font text-5xl md:text-6xl leading-tight font-semibold max-w-4xl">
+          We operate like a sourcing partner,
+          not just another vendor.
+        </h2>
+
+      </div>
+
+      <div class="grid lg:grid-cols-3 gap-6">
+
+        <div class="hover-card border border-white/10 rounded-3xl p-8 bg-black">
+          <div class="text-4xl mb-6">◈</div>
+
+          <h3 class="text-2xl font-semibold mb-4">
+            Verified Supplier Network
+          </h3>
+
+          <p class="text-zinc-400 leading-relaxed">
+            We work with manufacturers that meet operational,
+            quality, and production standards required for
+            long-term scaling.
+          </p>
+        </div>
+
+        <div class="hover-card border border-white/10 rounded-3xl p-8 bg-black">
+          <div class="text-4xl mb-6">◉</div>
+
+          <h3 class="text-2xl font-semibold mb-4">
+            Built For Modern Commerce
+          </h3>
+
+          <p class="text-zinc-400 leading-relaxed">
+            Designed for retailers, resellers, online brands,
+            and fast-moving fashion businesses that require
+            flexibility and speed.
+          </p>
+        </div>
+
+        <div class="hover-card border border-white/10 rounded-3xl p-8 bg-black">
+          <div class="text-4xl mb-6">◍</div>
+
+          <h3 class="text-2xl font-semibold mb-4">
+            Scalable Operations
+          </h3>
+
+          <p class="text-zinc-400 leading-relaxed">
+            From low MOQ sourcing to repeat production cycles,
+            our systems are designed to grow with your business.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- PROCESS -->
+  <section id="process" class="py-24 px-6 border-y border-white/5 bg-[#0A0A0A]">
+
+    <div class="max-w-7xl mx-auto">
+
+      <div class="mb-16">
+
+        <p class="uppercase tracking-[0.35em] text-xs text-[#C9A96E] mb-6">
+          How We Work
+        </p>
+
+        <h2 class="display-font text-5xl md:text-6xl leading-tight font-semibold mb-8">
+          Structured onboarding. Clear communication. Scalable execution.
+        </h2>
+
+        <p class="text-zinc-400 text-lg leading-relaxed max-w-3xl">
+          Our workflow is designed to remove sourcing uncertainty and create operational clarity from the first conversation to final delivery.
+        </p>
+
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+        <div class="border border-white/10 rounded-3xl p-8 bg-[#0D0D0D] hover-card">
+          <div class="text-5xl text-zinc-800 mb-6">01</div>
+          <h3 class="text-xl font-semibold mb-4">Requirement Discovery</h3>
+          <p class="text-zinc-400 leading-relaxed text-sm">
+            Understanding product categories, pricing goals, order volumes, and sourcing expectations.
+          </p>
+        </div>
+
+        <div class="border border-white/10 rounded-3xl p-8 bg-[#0D0D0D] hover-card">
+          <div class="text-5xl text-zinc-800 mb-6">02</div>
+          <h3 class="text-xl font-semibold mb-4">Supplier Matching</h3>
+          <p class="text-zinc-400 leading-relaxed text-sm">
+            Matching businesses with suppliers based on quality, MOQ flexibility, and production capability.
+          </p>
+        </div>
+
+        <div class="border border-white/10 rounded-3xl p-8 bg-[#0D0D0D] hover-card">
+          <div class="text-5xl text-zinc-800 mb-6">03</div>
+          <h3 class="text-xl font-semibold mb-4">Production Coordination</h3>
+          <p class="text-zinc-400 leading-relaxed text-sm">
+            Managing communication, production follow-ups, and operational workflows.
+          </p>
+        </div>
+
+        <div class="border border-white/10 rounded-3xl p-8 bg-[#0D0D0D] hover-card">
+          <div class="text-5xl text-zinc-800 mb-6">04</div>
+          <h3 class="text-xl font-semibold mb-4">Delivery & Scale</h3>
+          <p class="text-zinc-400 leading-relaxed text-sm">
+            Helping businesses scale sourcing operations with predictable workflows and supplier continuity.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-24 px-6 bg-[#0D0D0D]">
+
+    <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-start">
+
+      <div>
+
+        <p class="uppercase tracking-[0.35em] text-xs text-[#C9A96E] mb-6">
+          Let’s Build Together
+        </p>
+
+        <h2 class="display-font text-5xl md:text-6xl leading-tight font-semibold">
+          Let’s build a stronger
+          apparel supply chain together.
+        </h2>
+
+        <p class="mt-8 text-zinc-400 text-lg leading-relaxed max-w-xl">
+          Whether you're launching a fashion label, scaling wholesale operations,
+          or improving sourcing reliability, Voz Cruda helps businesses build
+          dependable apparel infrastructure designed for long-term growth.
+        </p>
+
+        <div class="mt-10 flex flex-wrap gap-4">
+
+          <a
+            href="mailto:sales@vozcruda.com"
+            class="px-8 py-4 rounded-full bg-[#C9A96E] text-black font-medium hover:bg-white transition-all duration-300 inline-block"
+          >
+            Start a Sourcing Discussion
+          </a>
+
+        </div>
+
+      </div>
+
+      <div class="space-y-8">
+
+        <div class="border border-white/10 rounded-3xl p-8 bg-black">
+
+          <p class="uppercase tracking-[0.2em] text-xs text-zinc-500 mb-3">
+            Business Enquiries
+          </p>
+
+          <a
+            href="mailto:sales@vozcruda.com"
+            class="text-2xl text-zinc-300 hover:text-[#C9A96E] transition-colors"
+          >
+            sales@vozcruda.com
+          </a>
+
+        </div>
+
+        <div class="border border-white/10 rounded-3xl p-8 bg-black">
+
+          <p class="uppercase tracking-[0.2em] text-xs text-zinc-500 mb-4">
+            Registered Office
+          </p>
+
+          <address class="not-italic text-zinc-400 leading-relaxed">
+            Aspire Coworks
+            <br />
+            No.47217 Balaji Arcade, 2nd & 3rd Floor
+            <br />
+            A.V.S. Compound, 20th L Cross Road
+            <br />
+            AVS Layout, Ejipura, Koramangala 4th Block
+            <br />
+            Bengaluru, Karnataka - 560095
+          </address>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-white/10 bg-black py-8 px-6">
+
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+
+      <div class="display-font text-3xl font-semibold tracking-tight">
+        Voz <span class="text-[#C9A96E]">Cruda</span>
+      </div>
+
+      <div class="flex gap-8 text-xs uppercase tracking-[0.18em] text-zinc-500">
+        <a href="#about" class="hover:text-white transition-colors">About</a>
+        <a href="#services" class="hover:text-white transition-colors">Services</a>
+        <a href="#why-us" class="hover:text-white transition-colors">Why Us</a>
+        <a href="#process" class="hover:text-white transition-colors">Process</a>
+        <a href="#contact" class="hover:text-white transition-colors">Contact</a>
+      </div>
+
+      <p class="text-zinc-600 text-sm">
+        © 2026 Voz Cruda. All rights reserved.
       </p>
 
-      <div class="hero__ctas">
-        <a href="#services" class="btn btn--primary">Explore Services</a>
-        <a href="#contact" class="btn btn--ghost">Contact Us <span aria-hidden="true">↗</span></a>
-      </div>
-
-      <div class="stats" aria-label="At a glance">
-        <div class="stat-card">
-          <div class="stat-card__icon" aria-hidden="true">📦</div>
-          <div class="stat-card__value">B2B</div>
-          <div class="stat-card__label">Wholesale Focus</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-card__icon" aria-hidden="true">🌍</div>
-          <div class="stat-card__value">Pan India</div>
-          <div class="stat-card__label">Supply Network</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-card__icon" aria-hidden="true">👕</div>
-          <div class="stat-card__value">Fashion</div>
-          <div class="stat-card__label">Commerce Driven</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-card__icon" aria-hidden="true">🤝</div>
-          <div class="stat-card__value">Modern</div>
-          <div class="stat-card__label">Retail Partners</div>
-        </div>
-      </div>
-
     </div>
-  </section>
 
-  <!-- ── About ──────────────────────────────────────────────────── -->
-  <section class="about">
-    <div class="container about__grid">
-      <div>
-        <span class="section-label">About Voz Cruda</span>
-        <h2 class="about__h2">Built for the next generation of fashion entrepreneurs.</h2>
-      </div>
-      <div class="about__body">
-        <p>We started Voz Cruda with a simple belief: growing a fashion business shouldn't be complicated or expensive.</p>
-        <p>We noticed how difficult it was for growing fashion businesses to access reliable suppliers, quality products, and flexible purchasing options without huge upfront investments.</p>
-        <p>That's why we built Voz Cruda — a modern sourcing and distribution company focused on helping retailers, resellers, and online brands scale with confidence.</p>
-        <p>From sourcing and wholesale distribution to private labeling and e-commerce support, we're building a smarter and more accessible fashion supply ecosystem.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ── Services ───────────────────────────────────────────────── -->
-  <section id="services" class="services">
-    <div class="container">
-      <div class="services__header">
-        <span class="section-label">What We Do</span>
-        <h2 class="services__h2">Everything modern fashion businesses need to grow.</h2>
-      </div>
-
-      <div class="services__grid">
-        <article class="service-card">
-          <h3 class="service-card__title">Garment Sourcing</h3>
-          <p class="service-card__desc">Reliable sourcing from trusted manufacturers and suppliers across multiple categories.</p>
-        </article>
-        <article class="service-card">
-          <h3 class="service-card__title">Wholesale Distribution</h3>
-          <p class="service-card__desc">Flexible B2B supply solutions for retailers, resellers, boutiques, and growing brands.</p>
-        </article>
-        <article class="service-card">
-          <h3 class="service-card__title">Retail &amp; E-commerce</h3>
-          <p class="service-card__desc">Modern retail operations focused on digital commerce and customer accessibility.</p>
-        </article>
-        <article class="service-card">
-          <h3 class="service-card__title">Private Labeling</h3>
-          <p class="service-card__desc">Brand development, custom packaging, and scalable private label opportunities.</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- ── Marquee ─────────────────────────────────────────────────── -->
-  <div class="marquee-section" aria-hidden="true">
-    <!-- Items duplicated so the loop is seamless (50% shift = one full set) -->
-    <div class="marquee-track">
-      <span class="marquee-item">Wholesale Apparel</span>
-      <span class="marquee-item">Garment Sourcing</span>
-      <span class="marquee-item">Private Labeling</span>
-      <span class="marquee-item">Fashion Commerce</span>
-      <span class="marquee-item">B2B Distribution</span>
-      <span class="marquee-item">Modern Retail</span>
-      <span class="marquee-item">E-commerce Support</span>
-      <span class="marquee-item">Supply Chain Solutions</span>
-      <!-- duplicate -->
-      <span class="marquee-item">Wholesale Apparel</span>
-      <span class="marquee-item">Garment Sourcing</span>
-      <span class="marquee-item">Private Labeling</span>
-      <span class="marquee-item">Fashion Commerce</span>
-      <span class="marquee-item">B2B Distribution</span>
-      <span class="marquee-item">Modern Retail</span>
-      <span class="marquee-item">E-commerce Support</span>
-      <span class="marquee-item">Supply Chain Solutions</span>
-    </div>
-  </div>
-
-  <!-- ── Vision ─────────────────────────────────────────────────── -->
-  <section class="vision">
-    <div class="container">
-      <div class="vision__card">
-        <span class="section-label">Our Vision</span>
-        <h2 class="vision__h2">Creating a smarter and more transparent fashion supply network.</h2>
-        <p class="vision__body">We believe fashion commerce should be more transparent, more flexible, and more accessible. Our mission is to help emerging businesses scale without the traditional barriers of sourcing and distribution.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ── Contact ────────────────────────────────────────────────── -->
-  <section id="contact" class="contact">
-    <div class="container contact__grid">
-
-      <div>
-        <span class="section-label">Get In Touch</span>
-        <h2 class="contact__h2">Let's build something together.</h2>
-        <p class="contact__sub">Whether you're looking for sourcing support, wholesale partnerships, private labeling, or collaboration opportunities, we'd love to hear from you.</p>
-        <div class="contact__ctas">
-          <a href="mailto:sales@vozcruda.com" class="btn btn--primary">Start a Conversation</a>
-          <a href="#services" class="btn btn--ghost">Explore Services</a>
-        </div>
-      </div>
-
-      <div class="contact__details">
-        <div>
-          <p class="contact__detail-label">Email</p>
-          <a href="mailto:sales@vozcruda.com" class="contact__detail-value">sales@vozcruda.com</a>
-        </div>
-        <div>
-          <p class="contact__detail-label">Office</p>
-          <address class="contact__address" style="font-style:normal;">
-            Aspire Coworks<br />
-            No. 47217, Balaji Arcade, 2nd &amp; 3rd Floor<br />
-            A.V.S. Compound, 20th L Cross Road<br />
-            AVS Layout, Ejipura, Koramangala 4th Block<br />
-            Bengaluru, Karnataka – 560095<br />
-            India
-          </address>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- ── SEO Tags ───────────────────────────────────────────────── -->
-  <section class="seo-tags" aria-label="Topics">
-    <div class="container">
-      <div class="seo-tags__inner">
-        <span class="seo-tag">Garment Sourcing</span>
-        <span class="seo-tag">Wholesale Apparel</span>
-        <span class="seo-tag">Fashion Supply Chain</span>
-        <span class="seo-tag">Private Label Clothing</span>
-        <span class="seo-tag">B2B Fashion</span>
-        <span class="seo-tag">Low MOQ Clothing</span>
-        <span class="seo-tag">Apparel Distribution</span>
-        <span class="seo-tag">Fashion Logistics</span>
-        <span class="seo-tag">Online Fashion Business</span>
-        <span class="seo-tag">Bulk Garment Supply</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- ── Footer ────────────────────────────────────────────────── -->
-  <footer class="footer">
-    <p>&copy; <span id="year"></span> Voz Cruda. All rights reserved.</p>
   </footer>
-
-  <script>
-    // Dynamic year in footer
-    document.getElementById('year').textContent = new Date().getFullYear();
-
-    // Pause marquee on hover (accessibility)
-    const track = document.querySelector('.marquee-track');
-    track.addEventListener('mouseenter', () => track.style.animationPlayState = 'paused');
-    track.addEventListener('mouseleave', () => track.style.animationPlayState = 'running');
-
-    // Smooth scroll for all internal anchor links (works in iframes too)
-    document.querySelectorAll('a[href^="#"]').forEach(link => {
-      link.addEventListener('click', e => {
-        const id = link.getAttribute('href').slice(1);
-        const target = document.getElementById(id);
-        if (target) {
-          e.preventDefault();
-          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }
-      });
-    });
-  </script>
 
 </body>
 </html>
