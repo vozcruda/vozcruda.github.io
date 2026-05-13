@@ -30,6 +30,100 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet" />
 
+  <!-- Schema Markup: LocalBusiness + Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": ["Organization", "LocalBusiness"],
+        "@id": "https://vozcruda.com/#organization",
+        "name": "Voz Cruda",
+        "url": "https://vozcruda.com",
+        "email": "sales@vozcruda.com",
+        "description": "Voz Cruda is a modern fashion sourcing and wholesale distribution company based in Bengaluru, India. We help retailers, resellers, boutiques, and online brands scale with reliable garment sourcing, flexible B2B wholesale solutions, private labeling, and e-commerce support.",
+        "foundingLocation": "Bengaluru, India",
+        "areaServed": "India",
+        "currenciesAccepted": "INR",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Aspire Coworks, No. 47217, Balaji Arcade, 2nd & 3rd Floor, A.V.S. Compound, 20th L Cross Road, AVS Layout, Ejipura, Koramangala 4th Block",
+          "addressLocality": "Bengaluru",
+          "addressRegion": "Karnataka",
+          "postalCode": "560095",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 12.9352,
+          "longitude": 77.6245
+        },
+        "sameAs": [
+          "https://vozcruda.github.io"
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Fashion Sourcing & Wholesale Services",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Garment Sourcing",
+                "description": "Reliable sourcing from trusted manufacturers and suppliers across multiple categories."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Wholesale Distribution",
+                "description": "Flexible B2B supply solutions for retailers, resellers, boutiques, and growing brands."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Retail & E-commerce",
+                "description": "Modern retail operations focused on digital commerce and customer accessibility."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Private Labeling",
+                "description": "Brand development, custom packaging, and scalable private label opportunities."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://vozcruda.com/#website",
+        "url": "https://vozcruda.com",
+        "name": "Voz Cruda",
+        "publisher": {
+          "@id": "https://vozcruda.com/#organization"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://vozcruda.com/#webpage",
+        "url": "https://vozcruda.com",
+        "name": "Voz Cruda — Smarter Fashion Sourcing & Wholesale Distribution",
+        "description": "Voz Cruda connects retailers, resellers, boutiques, and online brands with reliable sourcing, flexible wholesale solutions, and modern fashion commerce support across India.",
+        "isPartOf": {
+          "@id": "https://vozcruda.com/#website"
+        }
+      }
+    ]
+  }
+  </script>
+
   <style>
     /* ─── Reset & Base ─────────────────────────────────────────── */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
