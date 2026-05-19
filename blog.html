@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Insights & Resources | Voz Cruda LLP — Apparel Sourcing Blog</title>
+  <meta name="description" content="Guides, insights, and resources for retailers, D2C brands, and fashion businesses on apparel sourcing, MOQ aggregation, and supply chain management in India." />
+
+  <!-- SEO / Open Graph -->
+  <meta property="og:title" content="Insights & Resources | Voz Cruda LLP" />
+  <meta property="og:description" content="Apparel sourcing guides and supply chain insights for modern fashion businesses in India." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://vozcruda.com/blog.html" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://vozcruda.com/blog.html" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Outfit', sans-serif; background: #0A0A0A; color: white; overflow-x: hidden; }
+    .display-font { font-family: 'Cormorant Garamond', serif; }
+
+    .glass-card { background: rgba(255,255,255,0.04); backdrop-filter: blur(14px); }
+
+    .hover-card { transition: all 0.35s ease; }
+    .hover-card:hover {
+      transform: translateY(-6px);
+      border-color: rgba(201,169,110,0.35);
+      box-shadow: 0 0 40px rgba(201,169,110,0.08);
+    }
+
+    .hero-gradient {
+      position: absolute;
+      width: 600px; height: 600px;
+      border-radius: 9999px;
+      background: radial-gradient(circle, rgba(201,169,110,0.1) 0%, rgba(201,169,110,0) 70%);
+      top: -200px; right: -200px;
+      pointer-events: none;
+    }
+
+    /* Mobile nav */
+    .mobile-menu {
+      display: none; flex-direction: column;
+      position: fixed; top: 69px; left: 0; right: 0;
+      background: rgba(0,0,0,0.97); backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      padding: 24px; gap: 4px; z-index: 49;
+    }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu a { font-size: 13px; text-transform: uppercase; letter-spacing: 0.2em; color: rgba(255,255,255,0.55); padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.05); text-decoration: none; transition: color 0.2s; }
+    .mobile-menu a:last-child { border-bottom: none; }
+    .mobile-menu a:hover { color: #fff; }
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 4px; background: none; border: none; }
+    .hamburger span { display: block; width: 22px; height: 1.5px; background: rgba(255,255,255,0.7); transition: all 0.25s; }
+
+    .tag {
+      display: inline-block; font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase;
+      color: #C9A96E; background: rgba(201,169,110,0.1);
+      padding: 3px 10px; border-radius: 20px;
+    }
+    .tag-dark {
+      display: inline-block; font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase;
+      color: rgba(255,255,255,0.4); background: rgba(255,255,255,0.06);
+      padding: 3px 10px; border-radius: 20px;
+    }
+
+    .article-card { transition: all 0.35s ease; }
+    .article-card:hover {
+      transform: translateY(-6px);
+      border-color: rgba(201,169,110,0.35) !important;
+      box-shadow: 0 0 40px rgba(201,169,110,0.08);
+    }
+    .article-card:hover .read-arrow { transform: translateX(4px); color: #C9A96E; }
+    .read-arrow { transition: all 0.25s ease; display: inline-block; }
+
+    .featured-card { transition: all 0.35s ease; }
+    .featured-card:hover { border-color: rgba(201,169,110,0.35) !important; box-shadow: 0 0 60px rgba(201,169,110,0.1); }
+    .featured-card:hover .read-arrow { transform: translateX(4px); color: #C9A96E; }
+
+    @media (max-width: 768px) {
+      .hamburger { display: flex; }
+    }
+    @media (max-width: 480px) {
+      nav .display-font { font-size: 1.5rem; }
+      .py-24 { padding-top: 64px !important; padding-bottom: 64px !important; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="fixed top-0 left-0 right-0 z-50 border-b border-white/10 bg-black/70 backdrop-blur-xl">
+    <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+      <a href="index.html" class="display-font text-3xl font-semibold tracking-tight">
+        Voz <span class="text-[#C9A96E]">Cruda</span>
+      </a>
+      <div class="hidden md:flex gap-8 text-xs uppercase tracking-[0.2em] text-zinc-500">
+        <a href="index.html#about"      class="hover:text-white transition-colors duration-300">About</a>
+        <a href="index.html#technology" class="hover:text-white transition-colors duration-300">Technology</a>
+        <a href="index.html#platform"   class="hover:text-white transition-colors duration-300">Platform</a>
+        <a href="index.html#services"   class="hover:text-white transition-colors duration-300">Services</a>
+        <a href="blog.html"             class="text-[#C9A96E]">Insights</a>
+        <a href="index.html#contact"    class="hover:text-white transition-colors duration-300">Contact</a>
+      </div>
+      <a href="index.html#contact" class="px-6 py-3 rounded-full border border-[#C9A96E] text-[#C9A96E] hover:bg-[#C9A96E] hover:text-black transition-all duration-300 text-xs uppercase tracking-[0.18em]">
+        Get In Touch
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="index.html#about"      onclick="closeMenu()">About</a>
+    <a href="index.html#technology" onclick="closeMenu()">Technology</a>
+    <a href="index.html#platform"   onclick="closeMenu()">Platform</a>
+    <a href="index.html#services"   onclick="closeMenu()">Services</a>
+    <a href="blog.html"             onclick="closeMenu()">Insights</a>
+    <a href="index.html#contact"    onclick="closeMenu()">Contact</a>
+  </div>
+  <script>
+    const btn = document.getElementById('hamburger');
+    const menu = document.getElementById('mobile-menu');
+    btn.addEventListener('click', () => menu.classList.toggle('open'));
+    function closeMenu() { menu.classList.remove('open'); }
+  </script>
+
+  <!-- HERO -->
+  <section class="relative overflow-hidden pt-36 md:pt-44 pb-20 px-6 border-b border-white/5">
+    <div class="hero-gradient"></div>
+    <div class="max-w-7xl mx-auto relative z-10">
+      <p class="uppercase tracking-[0.35em] text-xs text-[#C9A96E] mb-6">Insights & Resources</p>
+      <h1 class="display-font text-5xl sm:text-6xl md:text-7xl leading-none font-semibold tracking-tight max-w-5xl">
+        Knowledge for modern apparel businesses.
+      </h1>
+      <p class="mt-8 text-zinc-400 text-lg leading-relaxed max-w-2xl">
+        Practical guides on apparel sourcing, supply chain management, MOQ aggregation, and scaling fashion businesses in India.
+      </p>
+    </div>
+  </section>
+
+  <!-- FEATURED ARTICLE -->
+  <section class="py-16 px-6 bg-[#0B0B0B] border-b border-white/5">
+    <div class="max-w-7xl mx-auto">
+      <p class="uppercase tracking-[0.3em] text-xs text-zinc-500 mb-8">Featured Article</p>
+      <a href="apparel-sourcing-guide.html" class="featured-card block border border-white/10 rounded-3xl p-10 md:p-14 bg-black">
+        <div class="flex flex-wrap gap-3 mb-6">
+          <span class="tag">Sourcing Guide</span>
+          <span class="tag-dark">10 min read</span>
+          <span class="tag-dark">May 2026</span>
+        </div>
+        <h2 class="display-font text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight mb-6 max-w-4xl">
+          The Complete Apparel Sourcing Guide for Small Businesses in India
+        </h2>
+        <p class="text-zinc-400 text-lg leading-relaxed max-w-3xl mb-8">
+          Everything small retailers, D2C founders, and Instagram sellers need to know about finding manufacturers, navigating MOQs, managing quality, and building reliable supply chains.
+        </p>
+        <div class="flex items-center gap-2 text-zinc-500 text-sm uppercase tracking-[0.15em]">
+          Read Article <span class="read-arrow">→</span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ALL ARTICLES GRID -->
+  <section class="py-20 px-6 bg-[#0A0A0A]">
+    <div class="max-w-7xl mx-auto">
+      <p class="uppercase tracking-[0.3em] text-xs text-zinc-500 mb-10">All Articles</p>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <!-- Article 1 — live -->
+        <a href="apparel-sourcing-guide.html" class="article-card block border border-white/10 rounded-3xl p-8 bg-[#0D0D0D]">
+          <div class="flex flex-wrap gap-2 mb-5">
+            <span class="tag">Sourcing Guide</span>
+          </div>
+          <h3 class="text-xl font-semibold mb-3 leading-snug">The Complete Apparel Sourcing Guide for Small Businesses in India</h3>
+          <p class="text-zinc-500 text-sm leading-relaxed mb-6">How to find manufacturers, handle MOQs, and build a supply chain that scales.</p>
+          <div class="flex items-center justify-between text-xs text-zinc-600 uppercase tracking-[0.15em]">
+            <span>May 2026 · 10 min</span>
+            <span class="read-arrow">→</span>
+          </div>
+        </a>
+
+        <!-- Placeholder 2 -->
+        <div class="article-card block border border-white/10 rounded-3xl p-8 bg-[#0D0D0D] opacity-40 cursor-default select-none">
+          <div class="flex flex-wrap gap-2 mb-5">
+            <span class="tag-dark">MOQ Explained</span>
+          </div>
+          <h3 class="text-xl font-semibold mb-3 leading-snug">What Is MOQ Aggregation and Why It Matters for Small Brands</h3>
+          <p class="text-zinc-500 text-sm leading-relaxed mb-6">How pooling orders unlocks manufacturer access that was once only for large buyers.</p>
+          <div class="flex items-center justify-between text-xs text-zinc-600 uppercase tracking-[0.15em]">
+            <span>Coming Soon</span>
+            <span>→</span>
+          </div>
+        </div>
+
+        <!-- Placeholder 3 -->
+        <div class="article-card block border border-white/10 rounded-3xl p-8 bg-[#0D0D0D] opacity-40 cursor-default select-none">
+          <div class="flex flex-wrap gap-2 mb-5">
+            <span class="tag-dark">Private Label</span>
+          </div>
+          <h3 class="text-xl font-semibold mb-3 leading-snug">How to Launch a Private Label Fashion Brand in India</h3>
+          <p class="text-zinc-500 text-sm leading-relaxed mb-6">Step-by-step: from concept and sampling to labelling, logistics, and first order.</p>
+          <div class="flex items-center justify-between text-xs text-zinc-600 uppercase tracking-[0.15em]">
+            <span>Coming Soon</span>
+            <span>→</span>
+          </div>
+        </div>
+
+        <!-- Placeholder 4 -->
+        <div class="article-card block border border-white/10 rounded-3xl p-8 bg-[#0D0D0D] opacity-40 cursor-default select-none">
+          <div class="flex flex-wrap gap-2 mb-5">
+            <span class="tag-dark">Supplier Vetting</span>
+          </div>
+          <h3 class="text-xl font-semibold mb-3 leading-snug">How to Vet Apparel Suppliers: Quality, Reliability, and Red Flags</h3>
+          <p class="text-zinc-500 text-sm leading-relaxed mb-6">A practical checklist for evaluating manufacturers before placing your first order.</p>
+          <div class="flex items-center justify-between text-xs text-zinc-600 uppercase tracking-[0.15em]">
+            <span>Coming Soon</span>
+            <span>→</span>
+          </div>
+        </div>
+
+        <!-- Placeholder 5 -->
+        <div class="article-card block border border-white/10 rounded-3xl p-8 bg-[#0D0D0D] opacity-40 cursor-default select-none">
+          <div class="flex flex-wrap gap-2 mb-5">
+            <span class="tag-dark">D2C Operations</span>
+          </div>
+          <h3 class="text-xl font-semibold mb-3 leading-snug">Inventory Planning for D2C Apparel Brands Selling on Instagram</h3>
+          <p class="text-zinc-500 text-sm leading-relaxed mb-6">Managing restock cycles, sizes, and sell-through without over-committing capital.</p>
+          <div class="flex items-center justify-between text-xs text-zinc-600 uppercase tracking-[0.15em]">
+            <span>Coming Soon</span>
+            <span>→</span>
+          </div>
+        </div>
+
+        <!-- Placeholder 6 -->
+        <div class="article-card block border border-white/10 rounded-3xl p-8 bg-[#0D0D0D] opacity-40 cursor-default select-none">
+          <div class="flex flex-wrap gap-2 mb-5">
+            <span class="tag-dark">Supply Chain</span>
+          </div>
+          <h3 class="text-xl font-semibold mb-3 leading-snug">India's Apparel Manufacturing Hubs: Tirupur, Surat, Jaipur and Beyond</h3>
+          <p class="text-zinc-500 text-sm leading-relaxed mb-6">A city-by-city breakdown of specialisations, MOQs, and what to source where.</p>
+          <div class="flex items-center justify-between text-xs text-zinc-600 uppercase tracking-[0.15em]">
+            <span>Coming Soon</span>
+            <span>→</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA STRIP -->
+  <section class="py-20 px-6 bg-[#0B0B0B] border-t border-white/5">
+    <div class="max-w-5xl mx-auto text-center">
+      <p class="uppercase tracking-[0.35em] text-xs text-[#C9A96E] mb-6">Ready to Source Smarter?</p>
+      <h2 class="display-font text-4xl md:text-5xl font-semibold mb-8 leading-tight">
+        Let's build your apparel supply chain.
+      </h2>
+      <a href="index.html#contact" class="px-8 py-4 rounded-full bg-[#C9A96E] text-black font-medium hover:bg-white transition-all duration-300">
+        Start a Sourcing Discussion
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-white/10 bg-black py-8 px-6">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+      <div class="display-font text-3xl font-semibold tracking-tight">
+        Voz <span class="text-[#C9A96E]">Cruda</span>
+      </div>
+      <p class="text-zinc-600 text-sm">© 2026 Voz Cruda LLP. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
