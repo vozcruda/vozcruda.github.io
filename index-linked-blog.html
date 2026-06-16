@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Voz Cruda LLP | Tech-Enabled B2B Apparel Sourcing Platform</title>
+
+  <meta
+    name="description"
+    content="Tech-enabled B2B apparel sourcing and MOQ aggregation platform helping retailers, online sellers, and fashion brands access scalable manufacturing and procurement infrastructure."
+  />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: #0A0A0A;
+      color: white;
+      overflow-x: hidden;
+    }
+
+    .display-font { font-family: 'Cormorant Garamond', serif; }
+
+    /* ── HERO GRADIENT ── */
+    .hero-gradient {
+      position: absolute;
+      width: 700px; height: 700px;
+      border-radius: 9999px;
+      background: radial-gradient(circle, rgba(201,169,110,0.12) 0%, rgba(201,169,110,0) 70%);
+      top: -250px; right: -250px;
+      pointer-events: none;
+    }
+
+    .glass-card {
+      background: rgba(255,255,255,0.04);
+      backdrop-filter: blur(14px);
+    }
+
+    .hover-card { transition: all 0.35s ease; }
+    .hover-card:hover {
+      transform: translateY(-6px);
+      border-color: rgba(201,169,110,0.35);
+      box-shadow: 0 0 40px rgba(201,169,110,0.08);
+    }
+
+    /* ── MOBILE NAV ── */
+    .mobile-menu {
+      display: none;
+      flex-direction: column;
+      position: fixed;
+      top: 69px; left: 0; right: 0;
+      background: rgba(0,0,0,0.97);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      padding: 24px;
+      gap: 4px;
+      z-index: 49;
+    }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu a {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: rgba(255,255,255,0.55);
+      padding: 12px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .mobile-menu a:last-child { border-bottom: none; }
+    .mobile-menu a:hover { color: #fff; }
+
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      padding: 4px;
+      background: none;
+      border: none;
+    }
+    .hamburger span {
+      display: block;
+      width: 22px; height: 1.5px;
+      background: rgba(255,255,255,0.7);
+      transition: all 0.25s;
+    }
+
+    /* ── PLATFORM PREVIEW CARDS ── */
+    .platform-cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .pc-shell {
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 28px;
+      overflow: hidden;
+      background: #111111;
+      display: flex;
+      flex-direction: column;
+      transition: all 0.35s ease;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+    }
+    .pc-shell:hover {
+      transform: translateY(-6px);
+      border-color: rgba(201,169,110,0.35);
+      box-shadow: 0 0 40px rgba(201,169,110,0.08), 0 24px 64px rgba(0,0,0,0.5);
+    }
+    .pc-screen { height: 220px; overflow: hidden; position: relative; }
+    .pc-footer { padding: 20px 22px 22px; border-top: 1px solid rgba(255,255,255,0.06); }
+    .pc-tag {
+      display: inline-block;
+      font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase;
+      color: #C9A96E; background: rgba(201,169,110,0.1);
+      padding: 3px 10px; border-radius: 20px; margin-bottom: 8px;
+    }
+    .pc-title { font-size: 16px; font-weight: 600; color: #fff; margin-bottom: 6px; }
+    .pc-desc { font-size: 13px; color: rgba(255,255,255,0.45); line-height: 1.6; }
+
+    /* ── MINI UI: SHARED ── */
+    .mu { font-family: 'Outfit', sans-serif; }
+
+    /* ── MINI UI: DASHBOARD ── */
+    .dash-wrap { display: flex; height: 100%; background: #f5f2ec; }
+    .dash-sb {
+      width: 52px; background: #0f0e0c;
+      display: flex; flex-direction: column; align-items: center;
+      padding: 10px 0; gap: 2px; flex-shrink: 0;
+    }
+    .dsb-brand {
+      width: 26px; height: 26px; background: #d4551a; border-radius: 5px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 8px; font-weight: 700; color: #fff; margin-bottom: 8px;
+    }
+    .dsb-item {
+      width: 36px; height: 26px; border-radius: 5px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 11px; color: rgba(255,255,255,0.35);
+    }
+    .dsb-item.on { background: rgba(212,85,26,0.2); color: #f0703a; }
+    .dash-main { flex: 1; display: flex; flex-direction: column; overflow: hidden; }
+    .dash-tb {
+      background: #fff; border-bottom: 1px solid #e0dbd0;
+      height: 28px; display: flex; align-items: center; padding: 0 10px; gap: 8px;
+    }
+    .dtb-title { font-size: 9.5px; font-weight: 700; color: #0f0e0c; flex: 1; }
+    .dtb-btn { background: #d4551a; color: #fff; font-size: 7.5px; padding: 3px 7px; border-radius: 4px; }
+    .dash-body { flex: 1; padding: 9px; overflow: hidden; }
+    .stats-mini { display: grid; grid-template-columns: repeat(4,1fr); gap: 5px; margin-bottom: 8px; }
+    .smc { background: #fff; border: 1px solid #e0dbd0; border-radius: 6px; padding: 6px 7px; }
+    .smc-lbl { font-size: 6.5px; text-transform: uppercase; letter-spacing: 0.3px; color: #8a8478; }
+    .smc-val { font-size: 13px; font-weight: 700; color: #0f0e0c; line-height: 1.2; }
+    .smc-sub { font-size: 6.5px; color: #2d7a4f; }
+    .smc-sub.dn { color: #922b21; }
+    .dash-2col { display: grid; grid-template-columns: 1fr 82px; gap: 6px; }
+    .mini-tbl { background: #fff; border: 1px solid #e0dbd0; border-radius: 6px; overflow: hidden; }
+    .mth { padding: 5px 8px; border-bottom: 1px solid #e0dbd0; font-size: 8px; font-weight: 700; color: #0f0e0c; }
+    .mtr { display: flex; align-items: center; padding: 4px 8px; border-bottom: 1px solid rgba(224,219,208,0.5); gap: 5px; }
+    .mtr:last-child { border-bottom: none; }
+    .mtr-dot { width: 5px; height: 5px; border-radius: 50%; flex-shrink: 0; }
+    .mtr-name { flex: 1; font-size: 7.5px; color: #0f0e0c; }
+    .mtr-bg { flex: 1; height: 4px; background: #f5f2ec; border-radius: 2px; overflow: hidden; }
+    .mtr-fill { height: 100%; border-radius: 2px; }
+    .mtr-pct { font-size: 7.5px; color: #8a8478; min-width: 20px; text-align: right; }
+    .mini-act { background: #fff; border: 1px solid #e0dbd0; border-radius: 6px; overflow: hidden; }
+    .mai { padding: 4px 7px; border-bottom: 1px solid rgba(224,219,208,0.5); }
+    .mai:last-child { border-bottom: none; }
+    .mai-t { font-size: 7px; color: #0f0e0c; line-height: 1.35; }
+    .mai-s { font-size: 6.5px; color: #8a8478; margin-top: 1px; }
+
+    /* ── MINI UI: PRODUCTS ── */
+    .mkt-wrap { background: #faf8f4; height: 100%; display: flex; flex-direction: column; }
+    .mkt-tb {
+      background: #fff; border-bottom: 1px solid #e0dbd0;
+      height: 28px; display: flex; align-items: center; padding: 0 10px; gap: 6px; flex-shrink: 0;
+    }
+    .mkt-tb-title { font-size: 9.5px; font-weight: 700; color: #0f0e0c; flex: 1; }
+    .mkt-search {
+      background: #f5f2ec; border: 1px solid #e0dbd0;
+      border-radius: 4px; padding: 3px 7px; font-size: 7.5px; color: #8a8478; width: 80px;
+    }
+    .mkt-btn { background: #d4551a; color: #fff; font-size: 7px; padding: 3px 7px; border-radius: 4px; }
+    .mkt-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; padding: 9px; flex: 1; overflow: hidden; }
+    .mkt-card { background: #fff; border: 1px solid #e0dbd0; border-radius: 7px; overflow: hidden; }
+    .mkt-img { height: 50px; display: flex; align-items: center; justify-content: center; font-size: 22px; position: relative; }
+    .mkt-badge { position: absolute; top: 4px; right: 4px; font-size: 6.5px; font-weight: 600; padding: 2px 5px; border-radius: 10px; }
+    .mb-active { background: rgba(45,122,79,0.15); color: #2d7a4f; }
+    .mb-near   { background: rgba(212,85,26,0.15); color: #d4551a; }
+    .mb-prod   { background: rgba(26,82,118,0.12); color: #1a5276; }
+    .mb-done   { background: rgba(45,122,79,0.12); color: #2d7a4f; }
+    .mkt-body { padding: 5px 7px 7px; }
+    .mkt-cat { font-size: 6.5px; color: #8a8478; text-transform: uppercase; letter-spacing: 0.3px; }
+    .mkt-name { font-size: 8px; font-weight: 700; color: #0f0e0c; margin: 1px 0 3px; line-height: 1.2; }
+    .mkt-pb { height: 4px; background: #f5f2ec; border-radius: 2px; overflow: hidden; border: 1px solid #e0dbd0; margin-bottom: 4px; }
+    .mkt-pf { height: 100%; border-radius: 2px; }
+    .pf-o { background: linear-gradient(90deg,#d4551a,#f0703a); }
+    .pf-y { background: linear-gradient(90deg,#d4a017,#e8b820); }
+    .pf-g { background: linear-gradient(90deg,#2d7a4f,#3d9b63); }
+    .mkt-row { display: flex; justify-content: space-between; align-items: center; }
+    .mkt-price { font-size: 8px; font-weight: 700; color: #0f0e0c; }
+    .mkt-join { background: #d4551a; color: #fff; font-size: 6.5px; padding: 2px 6px; border-radius: 3px; }
+    .mkt-track { background: #fff; color: #0f0e0c; font-size: 6.5px; padding: 2px 6px; border-radius: 3px; border: 1px solid #e0dbd0; }
+
+    /* ── MINI UI: SUPPLIERS ── */
+    .sup-wrap { background: #faf8f4; height: 100%; display: flex; flex-direction: column; }
+    .sup-tb {
+      background: #fff; border-bottom: 1px solid #e0dbd0;
+      height: 28px; display: flex; align-items: center; padding: 0 10px; gap: 6px; flex-shrink: 0;
+    }
+    .sup-tb-title { font-size: 9.5px; font-weight: 700; color: #0f0e0c; flex: 1; }
+    .sup-add { background: #d4551a; color: #fff; font-size: 7px; padding: 3px 7px; border-radius: 4px; }
+    .sup-body { padding: 8px; flex: 1; display: flex; flex-direction: column; gap: 6px; overflow: hidden; }
+    .sup-stats { display: grid; grid-template-columns: repeat(3,1fr); gap: 5px; }
+    .ss { background: #fff; border: 1px solid #e0dbd0; border-radius: 5px; padding: 5px 7px; }
+    .ss-v { font-size: 13px; font-weight: 700; color: #0f0e0c; }
+    .ss-l { font-size: 7px; color: #8a8478; }
+    .sup-tbl { background: #fff; border: 1px solid #e0dbd0; border-radius: 6px; overflow: hidden; flex: 1; }
+    .sth {
+      display: grid; grid-template-columns: 1fr 46px 38px 36px;
+      padding: 5px 8px; background: #f5f2ec; border-bottom: 1px solid #e0dbd0;
+    }
+    .sth span { font-size: 6.5px; color: #8a8478; text-transform: uppercase; letter-spacing: 0.3px; font-weight: 600; }
+    .str {
+      display: grid; grid-template-columns: 1fr 46px 38px 36px;
+      padding: 5px 8px; border-bottom: 1px solid rgba(224,219,208,0.5); align-items: center;
+    }
+    .str:last-child { border-bottom: none; }
+    .str-name { font-size: 7.5px; font-weight: 500; color: #0f0e0c; }
+    .str-sub  { font-size: 6.5px; color: #8a8478; }
+    .str-moq  { font-size: 7.5px; color: #0f0e0c; }
+    .chip { font-size: 6.5px; padding: 2px 5px; border-radius: 9px; font-weight: 500; display: inline-block; }
+    .cg { background: rgba(45,122,79,0.1); color: #2d7a4f; }
+    .co { background: rgba(212,85,26,0.1); color: #d4551a; }
+    .cb { background: rgba(26,82,118,0.1); color: #1a5276; }
+    .cy { background: rgba(184,134,11,0.1); color: #b8860b; }
+
+    /* ════════════════════════════════
+       RESPONSIVE BREAKPOINTS
+    ════════════════════════════════ */
+
+    /* ── Tablet landscape + small desktop (769–1024px) ── */
+    @media (max-width: 1024px) {
+      .platform-cards {
+        grid-template-columns: 1fr;
+        max-width: 560px;
+        margin: 0 auto;
+      }
+      .pc-screen { height: 260px; }
+    }
+
+    /* ── Tablet portrait (481–768px) ── */
+    @media (max-width: 768px) {
+      .hero-gradient { width: 450px; height: 450px; top: -150px; right: -150px; }
+
+      /* Nav: hide desktop links, show hamburger */
+      .hamburger { display: flex; }
+
+      /* Platform cards: full width, taller screen */
+      .platform-cards { max-width: 100%; }
+      .pc-screen { height: 240px; }
+      .pc-shell { border-radius: 20px; }
+
+      /* Boost mini-UI text slightly for readability on larger single-column cards */
+      .dtb-title, .mkt-tb-title, .sup-tb-title { font-size: 11px; }
+      .smc-val, .ss-v { font-size: 14px; }
+      .mtr-name, .str-name, .mkt-name { font-size: 9px; }
+      .smc-lbl, .mkt-cat, .str-sub, .ss-l { font-size: 7.5px; }
+      .mkt-img { height: 60px; font-size: 26px; }
+      .mkt-price, .mkt-join, .mkt-track { font-size: 8px; }
+    }
+
+    /* ── Mobile (≤480px) ── */
+    @media (max-width: 480px) {
+      /* Navbar: shrink brand, hide CTA text on very small screens */
+      nav .display-font { font-size: 1.5rem; }
+      nav a.px-6 { padding: 8px 14px; font-size: 10px; letter-spacing: 0.1em; }
+
+      /* Hero: tighter padding */
+      section.pt-36 { padding-top: 96px; padding-bottom: 48px; }
+
+      /* Hero stat cards: 2 cols */
+      .lg\:col-span-5 .grid { grid-template-columns: 1fr 1fr !important; }
+
+      /* Section padding */
+      .py-24 { padding-top: 64px !important; padding-bottom: 64px !important; }
+      .px-6 { padding-left: 20px !important; padding-right: 20px !important; }
+
+      /* Platform cards */
+      .pc-screen { height: 210px; }
+      .pc-footer { padding: 16px 18px 18px; }
+      .pc-title { font-size: 15px; }
+      .pc-desc { font-size: 12px; }
+
+      /* Shrink dashboard sidebar on narrow screens */
+      .dash-sb { width: 40px; }
+      .dsb-item { width: 30px; font-size: 10px; }
+      .dsb-brand { width: 22px; height: 22px; font-size: 7px; }
+
+      /* Services / process grid: single col */
+      .lg\:grid-cols-2 { grid-template-columns: 1fr !important; }
+      .lg\:grid-cols-4 { grid-template-columns: 1fr 1fr !important; }
+      .md\:grid-cols-2 { grid-template-columns: 1fr !important; }
+
+      /* Contact grid */
+      .lg\:grid-cols-2 { grid-template-columns: 1fr !important; }
+
+      /* Footer */
+      footer .flex { flex-direction: column; text-align: center; gap: 12px; }
+    }
+
+    /* ── Very small mobile (≤360px) ── */
+    @media (max-width: 360px) {
+      nav .display-font { font-size: 1.25rem; }
+      nav a.px-6 { display: none; }
+      .pc-screen { height: 190px; }
+      .stats-mini { grid-template-columns: repeat(2,1fr); }
+      .dash-2col { grid-template-columns: 1fr; }
+      .mini-act { display: none; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="fixed top-0 left-0 right-0 z-50 border-b border-white/10 bg-black/70 backdrop-blur-xl">
+    <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+
+      <div class="display-font text-3xl font-semibold tracking-tight">
+        Voz <span class="text-[#C9A96E]">Cruda</span>
+      </div>
+
+      <div class="hidden md:flex gap-8 text-xs uppercase tracking-[0.2em] text-zinc-500">
+        <a href="#about" class="hover:text-white transition-colors duration-300">About</a>
+        <a href="#technology" class="hover:text-white transition-colors duration-300">Technology</a>
+        <a href="#platform" class="hover:text-white transition-colors duration-300">Platform</a>
+        <a href="#services" class="hover:text-white transition-colors duration-300">Services</a>
+        <a href="#process" class="hover:text-white transition-colors duration-300">Process</a>
+        <a href="blog.html" class="hover:text-white transition-colors duration-300">Insights</a>
+        <a href="#contact" class="hover:text-white transition-colors duration-300">Contact</a>
+      </div>
+
+      <a
+        href="#contact"
+        class="px-6 py-3 rounded-full border border-[#C9A96E] text-[#C9A96E] hover:bg-[#C9A96E] hover:text-black transition-all duration-300 text-xs uppercase tracking-[0.18em]"
+      >
+        Get In Touch
+      </a>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#about"      onclick="closeMenu()">About</a>
+    <a href="#technology" onclick="closeMenu()">Technology</a>
+    <a href="#platform"   onclick="closeMenu()">Platform</a>
+    <a href="#services"   onclick="closeMenu()">Services</a>
+    <a href="#process"    onclick="closeMenu()">Process</a>
+    <a href="blog.html" onclick="closeMenu()">Insights</a>
+    <a href="#contact"    onclick="closeMenu()">Contact</a>
+  </div>
+
+  <script>
+    const btn  = document.getElementById('hamburger');
+    const menu = document.getElementById('mobile-menu');
+    btn.addEventListener('click', () => menu.classList.toggle('open'));
+    function closeMenu() { menu.classList.remove('open'); }
+  </script>
+
+  <!-- HERO -->
+  <section class="relative overflow-hidden pt-36 md:pt-40 pb-24 px-6">
+
+    <div class="hero-gradient"></div>
+
+    <div class="max-w-7xl mx-auto relative z-10 grid lg:grid-cols-12 gap-14 items-center">
+
+      <div class="lg:col-span-7">
+
+        <p class="uppercase tracking-[0.35em] text-xs text-[#C9A96E] mb-6">
+          Tech-Enabled Apparel Infrastructure
+        </p>
+
+        <h1 class="display-font text-5xl sm:text-6xl md:text-7xl lg:text-[88px] leading-none font-semibold tracking-tight">
+          Built for brands scaling faster than their
+          <span class="italic text-zinc-500"> supply chain.</span>
+        </h1>
+
+        <p class="mt-8 text-zinc-400 text-lg leading-relaxed max-w-2xl">
+          Voz Cruda is building a tech-enabled B2B apparel sourcing and MOQ aggregation platform helping retailers, online sellers, and emerging fashion brands access scalable manufacturing and procurement infrastructure.
+        </p>
+
+        <div class="mt-10 flex flex-wrap gap-4">
+
+          <a
+            href="#contact"
+            class="px-8 py-4 rounded-full bg-[#C9A96E] text-black font-medium hover:bg-white transition-all duration-300"
+          >
+            Start a Sourcing Discussion
+          </a>
+
+          <a
+            href="#platform"
+            class="px-8 py-4 rounded-full border border-white/10 hover:border-white/30 transition-all duration-300"
+          >
+            Explore Platform
+          </a>
+
+          <a href="blog.html" class="px-8 py-4 rounded-full border border-[#C9A96E] text-[#C9A96E] hover:bg-[#C9A96E] hover:text-black transition-all duration-300">Read Insights</a>
+
+        </div>
+
+      </div>
+
+      <div class="lg:col-span-5 grid grid-cols-1 sm:grid-cols-2 gap-4">
+
+        <div class="glass-card border border-white/10 rounded-3xl p-6">
+          <div class="text-4xl mb-4">📦</div>
+          <h3 class="text-2xl font-semibold">B2B</h3>
+          <p class="text-zinc-500 text-sm mt-2 uppercase tracking-wider">
+            Procurement Infrastructure
+          </p>
+        </div>
+
+        <div class="glass-card border border-white/10 rounded-3xl p-6">
+          <div class="text-4xl mb-4">🌍</div>
+          <h3 class="text-2xl font-semibold">Pan India</h3>
+          <p class="text-zinc-500 text-sm mt-2 uppercase tracking-wider">
+            Supplier Network
+          </p>
+        </div>
+
+        <div class="glass-card border border-white/10 rounded-3xl p-6">
+          <div class="text-4xl mb-4">👕</div>
+          <h3 class="text-2xl font-semibold">Low MOQ</h3>
+          <p class="text-zinc-500 text-sm mt-2 uppercase tracking-wider">
+            Aggregated Sourcing
+          </p>
+        </div>
+
+        <div class="glass-card border border-white/10 rounded-3xl p-6">
+          <div class="text-4xl mb-4">⚙️</div>
+          <h3 class="text-2xl font-semibold">Workflow</h3>
+          <p class="text-zinc-500 text-sm mt-2 uppercase tracking-wider">
+            Technology Driven Operations
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-24 px-6 border-y border-white/5 bg-[#0B0B0B]">
+
+    <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-start">
+
+      <div>
+
+        <p class="uppercase tracking-[0.35em] text-xs text-[#C9A96E] mb-6">
+          About Voz Cruda
+        </p>
+
+        <h2 class="display-font text-5xl md:text-6xl leading-tight font-semibold">
+          Building scalable sourcing infrastructure for modern apparel commerce.
+        </h2>
+
+      </div>
+
+      <div class="space-y-8 text-zinc-400 text-lg leading-relaxed">
+
+        <p>
+          Traditional apparel manufacturing systems are optimized for large buyers, making sourcing inaccessible for small retailers, online sellers, and emerging fashion brands.
+        </p>
+
+        <p>
+          Voz Cruda was created to solve this problem through technology-enabled sourcing operations, supplier coordination systems, and low MOQ procurement infrastructure designed for modern commerce.
+        </p>
+
+        <p>
+          We are building scalable workflows that simplify sourcing, improve operational visibility, and enable growing businesses to access dependable manufacturing infrastructure across India.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- TECHNOLOGY -->
+  <section id="technology" class="py-24 px-6 bg-black border-y border-white/5">
+
+    <div class="max-w-7xl mx-auto">
+
+      <div class="mb-16">
+
+        <p class="uppercase tracking-[0.35em] text-xs text-[#C9A96E] mb-6">
+          Technology Infrastructure
+        </p>
+
+        <h2 class="display-font text-5xl md:text-6xl leading-tight font-semibold max-w-5xl mb-8">
+          Operational systems designed for scalable sourcing.
+        </h2>
+
+        <p class="text-zinc-400 text-lg leading-relaxed max-w-3xl">
+          Voz Cruda is developing technology-enabled sourcing systems focused on procurement visibility, supplier coordination, MOQ aggregation, and operational efficiency.
+        </p>
+
+      </div>
+
+      <div class="grid lg:grid-cols-3 gap-8 items-stretch">
+
+        <div class="border border-white/10 rounded-3xl p-8 bg-[#0D0D0D] hover-card">
+          <h3 class="text-2xl font-semibold mb-4">MOQ Aggregation</h3>
+          <p class="text-zinc-400 leading-relaxed">
+            Aggregating sourcing demand across businesses to unlock manufacturing access traditionally available only to large-scale buyers.
+          </p>
+        </div>
+
+        <div class="border border-white/10 rounded-3xl p-8 bg-[#0D0D0D] hover-card">
+          <h3 class="text-2xl font-semibold mb-4">Supplier Matching</h3>
+          <p class="text-zinc-400 leading-relaxed">
+            Streamlining vendor discovery and sourcing workflows through structured supplier coordination systems.
+          </p>
+        </div>
+
+        <div class="border border-white/10 rounded-3xl p-8 bg-[#0D0D0D] hover-card">
+          <h3 class="text-2xl font-semibold mb-4">Workflow Visibility</h3>
+          <p class="text-zinc-400 leading-relaxed">
+            Building operational transparency across procurement, production coordination, and delivery workflows.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- PLATFORM -->
+  <section id="platform" class="py-24 px-6 bg-[#0B0B0B] border-y border-white/5">
+
+    <div class="max-w-7xl mx-auto">
+
+      <div class="mb-16">
+
+        <p class="uppercase tracking-[0.35em] text-xs text-[#C9A96E] mb-6">
+          Platform Preview
+        </p>
+
+        <h2 class="display-font text-5xl md:text-6xl leading-tight font-semibold max-w-5xl mb-8">
+          Technology designed for modern sourcing workflows.
+        </h2>
+
+        <p class="text-zinc-400 text-lg leading-relaxed max-w-3xl">
+          A unified platform for procurement visibility, MOQ aggregation, and supplier coordination — built for growing apparel businesses.
+        </p>
+
+      </div>
+
+      <div class="platform-cards">
+
+        <!-- CARD 1: ADMIN DASHBOARD -->
+        <div class="pc-shell">
+          <div class="pc-screen">
+            <div class="dash-wrap mu">
+              <!-- Sidebar -->
+              <div class="dash-sb">
+                <div class="dsb-brand">VC</div>
+                <div class="dsb-item on">⬛</div>
+                <div class="dsb-item">🔔</div>
+                <div class="dsb-item">📦</div>
+                <div class="dsb-item">📊</div>
+                <div class="dsb-item">📋</div>
+                <div class="dsb-item">🧾</div>
+                <div class="dsb-item">🏭</div>
+              </div>
+              <!-- Main -->
+              <div class="dash-main">
+                <div class="dash-tb">
+                  <div class="dtb-title">Dashboard</div>
+                  <div class="dtb-btn">+ New Product</div>
+                </div>
+                <div class="dash-body">
+                  <div class="stats-mini">
+                    <div class="smc"><div class="smc-lbl">Batches</div><div class="smc-val">12</div><div class="smc-sub">↑ 3 this wk</div></div>
+                    <div class="smc"><div class="smc-lbl">Revenue</div><div class="smc-val">₹8.4L</div><div class="smc-sub">↑ 14%</div></div>
+                    <div class="smc"><div class="smc-lbl">Buyers</div><div class="smc-val">234</div><div class="smc-sub">↑ 18 new</div></div>
+                    <div class="smc"><div class="smc-lbl">Pending</div><div class="smc-val">₹1.2L</div><div class="smc-sub dn">3 action</div></div>
+                  </div>
+                  <div class="dash-2col">
+                    <div class="mini-tbl">
+                      <div class="mth">Active Batches</div>
+                      <div class="mtr"><div class="mtr-dot" style="background:#d4551a;"></div><div class="mtr-name">Cotton Kurta</div><div class="mtr-bg"><div class="mtr-fill" style="width:84%;background:#d4551a;"></div></div><div class="mtr-pct">84%</div></div>
+                      <div class="mtr"><div class="mtr-dot" style="background:#d4a017;"></div><div class="mtr-name">Linen Pants</div><div class="mtr-bg"><div class="mtr-fill" style="width:91%;background:#d4a017;"></div></div><div class="mtr-pct">91%</div></div>
+                      <div class="mtr"><div class="mtr-dot" style="background:#d4551a;"></div><div class="mtr-name">Crop Tee</div><div class="mtr-bg"><div class="mtr-fill" style="width:72%;background:#d4551a;"></div></div><div class="mtr-pct">72%</div></div>
+                      <div class="mtr"><div class="mtr-dot" style="background:#2d7a4f;"></div><div class="mtr-name">Blazer</div><div class="mtr-bg"><div class="mtr-fill" style="width:100%;background:#2d7a4f;"></div></div><div class="mtr-pct">✅</div></div>
+                    </div>
+                    <div class="mini-act">
+                      <div class="mth">Activity</div>
+                      <div class="mai"><div class="mai-t">Batch #014 MOQ reached</div><div class="mai-s">2 min ago</div></div>
+                      <div class="mai"><div class="mai-t">New buyer: Priya S.</div><div class="mai-s">18 min ago</div></div>
+                      <div class="mai"><div class="mai-t">PO-2025-006 sent</div><div class="mai-s">1 hr ago</div></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pc-footer">
+            <span class="pc-tag">Dashboard</span>
+            <div class="pc-title">Sourcing dashboard</div>
+            <div class="pc-desc">Centralized visibility for active batches, revenue, and real-time procurement metrics.</div>
+          </div>
+        </div>
+
+        <!-- CARD 2: PRODUCT MARKETPLACE / MOQ -->
+        <div class="pc-shell">
+          <div class="pc-screen">
+            <div class="mkt-wrap mu">
+              <div class="mkt-tb">
+                <div class="mkt-tb-title">Products</div>
+                <div class="mkt-search">🔍 Search…</div>
+                <div class="mkt-btn">+ New</div>
+              </div>
+              <div class="mkt-grid">
+                <div class="mkt-card">
+                  <div class="mkt-img" style="background:linear-gradient(135deg,#e8ddd0,#d4c8b8);">👘<span class="mkt-badge mb-active">Active</span></div>
+                  <div class="mkt-body">
+                    <div class="mkt-cat">Ethnic · Women</div>
+                    <div class="mkt-name">Premium Cotton Kurta</div>
+                    <div class="mkt-pb"><div class="mkt-pf pf-o" style="width:84%;"></div></div>
+                    <div class="mkt-row"><div class="mkt-price">₹285/pc</div><div class="mkt-join">Join Batch</div></div>
+                  </div>
+                </div>
+                <div class="mkt-card">
+                  <div class="mkt-img" style="background:linear-gradient(135deg,#dce8e0,#c8d9cf);">👖<span class="mkt-badge mb-near">91% filled</span></div>
+                  <div class="mkt-body">
+                    <div class="mkt-cat">Bottoms · Unisex</div>
+                    <div class="mkt-name">Linen Straight Pants</div>
+                    <div class="mkt-pb"><div class="mkt-pf pf-y" style="width:91%;"></div></div>
+                    <div class="mkt-row"><div class="mkt-price">₹390/pc</div><div class="mkt-join">Join Batch</div></div>
+                  </div>
+                </div>
+                <div class="mkt-card">
+                  <div class="mkt-img" style="background:linear-gradient(135deg,#e0dce8,#cfc8d9);">🧥<span class="mkt-badge mb-done">MOQ Reached</span></div>
+                  <div class="mkt-body">
+                    <div class="mkt-cat">Outerwear · Men</div>
+                    <div class="mkt-name">Structured Blazer</div>
+                    <div class="mkt-pb"><div class="mkt-pf pf-g" style="width:100%;"></div></div>
+                    <div class="mkt-row"><div class="mkt-price">₹820/pc</div><div class="mkt-track">Closed</div></div>
+                  </div>
+                </div>
+                <div class="mkt-card">
+                  <div class="mkt-img" style="background:linear-gradient(135deg,#e8e4d8,#d8d2c4);">👗<span class="mkt-badge mb-prod">In Production</span></div>
+                  <div class="mkt-body">
+                    <div class="mkt-cat">Dresses · Women</div>
+                    <div class="mkt-name">Floral Wrap Dress</div>
+                    <div class="mkt-pb"><div class="mkt-pf pf-g" style="width:100%;"></div></div>
+                    <div class="mkt-row"><div class="mkt-price">₹445/pc</div><div class="mkt-track">Track →</div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pc-footer">
+            <span class="pc-tag">MOQ Engine</span>
+            <div class="pc-title">MOQ aggregation marketplace</div>
+            <div class="pc-desc">Live batch progress across all products — buyers join and track aggregated orders in real time.</div>
+          </div>
+        </div>
+
+        <!-- CARD 3: SUPPLIER COORDINATION -->
+        <div class="pc-shell">
+          <div class="pc-screen">
+            <div class="sup-wrap mu">
+              <div class="sup-tb">
+                <div class="sup-tb-title">Suppliers</div>
+                <div class="sup-add">+ Add Supplier</div>
+              </div>
+              <div class="sup-body">
+                <div class="sup-stats">
+                  <div class="ss"><div class="ss-v">18</div><div class="ss-l">Total</div></div>
+                  <div class="ss"><div class="ss-v">14</div><div class="ss-l">Active</div></div>
+                  <div class="ss"><div class="ss-v">3</div><div class="ss-l">In Review</div></div>
+                </div>
+                <div class="sup-tbl">
+                  <div class="sth"><span>Supplier</span><span>Location</span><span>MOQ</span><span>Status</span></div>
+                  <div class="str">
+                    <div><div class="str-name">Arjun Fabrics</div><div class="str-sub">Knitwear</div></div>
+                    <div class="str-sub">Tirupur</div>
+                    <div class="str-moq">50 pcs</div>
+                    <div><span class="chip cg">Active</span></div>
+                  </div>
+                  <div class="str">
+                    <div><div class="str-name">Surat Textiles</div><div class="str-sub">Woven</div></div>
+                    <div class="str-sub">Surat</div>
+                    <div class="str-moq">100 pcs</div>
+                    <div><span class="chip cg">Active</span></div>
+                  </div>
+                  <div class="str">
+                    <div><div class="str-name">Delhi Drape House</div><div class="str-sub">Outerwear</div></div>
+                    <div class="str-sub">Delhi</div>
+                    <div class="str-moq">200 pcs</div>
+                    <div><span class="chip co">Review</span></div>
+                  </div>
+                  <div class="str">
+                    <div><div class="str-name">Jaipur Creations</div><div class="str-sub">Ethnic Wear</div></div>
+                    <div class="str-sub">Jaipur</div>
+                    <div class="str-moq">400 pcs</div>
+                    <div><span class="chip cb">Production</span></div>
+                  </div>
+                  <div class="str">
+                    <div><div class="str-name">Mumbai Mills</div><div class="str-sub">Tops & Tees</div></div>
+                    <div class="str-sub">Mumbai</div>
+                    <div class="str-moq">500 pcs</div>
+                    <div><span class="chip cy">Onboarding</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pc-footer">
+            <span class="pc-tag">Suppliers</span>
+            <div class="pc-title">Supplier coordination</div>
+            <div class="pc-desc">Track vendors by location, MOQ, category, and production status across your network.</div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="py-24 px-6 bg-[#0D0D0D]">
+
+    <div class="max-w-7xl mx-auto">
+
+      <div class="mb-16">
+
+        <p class="uppercase tracking-[0.35em] text-xs text-zinc-500 mb-6">
+          What We Do
+        </p>
+
+        <h2 class="display-font text-5xl md:text-6xl leading-tight font-semibold max-w-5xl">
+          End-to-end apparel infrastructure for modern commerce.
+        </h2>
+
+      </div>
+
+      <div class="grid lg:grid-cols-2 gap-6">
+
+        <div class="hover-card border border-white/10 rounded-3xl p-10 bg-black">
+          <div class="text-6xl text-zinc-800 mb-6">01</div>
+          <h3 class="text-2xl font-semibold mb-5">Garment Sourcing</h3>
+          <p class="text-zinc-400 leading-relaxed">
+            Connecting businesses with verified apparel manufacturers while managing sourcing workflows, production coordination, and supplier communication.
+          </p>
+        </div>
+
+        <div class="hover-card border border-white/10 rounded-3xl p-10 bg-black">
+          <div class="text-6xl text-zinc-800 mb-6">02</div>
+          <h3 class="text-2xl font-semibold mb-5">B2B Procurement Infrastructure</h3>
+          <p class="text-zinc-400 leading-relaxed">
+            Structured sourcing systems designed to improve procurement visibility, supplier continuity, and scalable inventory access.
+          </p>
+        </div>
+
+        <div class="hover-card border border-white/10 rounded-3xl p-10 bg-black">
+          <div class="text-6xl text-zinc-800 mb-6">03</div>
+          <h3 class="text-2xl font-semibold mb-5">Retail & E-commerce Operations</h3>
+          <p class="text-zinc-400 leading-relaxed">
+            Operational sourcing support for D2C brands, Instagram stores, and marketplace-driven businesses requiring faster inventory movement.
+          </p>
+        </div>
+
+        <div class="hover-card border border-white/10 rounded-3xl p-10 bg-black">
+          <div class="text-6xl text-zinc-800 mb-6">04</div>
+          <h3 class="text-2xl font-semibold mb-5">Private Label Development</h3>
+          <p class="text-zinc-400 leading-relaxed">
+            Helping emerging brands launch private label collections through structured sourcing, packaging, labeling, and production coordination.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- WHO WE SERVE -->
+  <section class="py-24 px-6 bg-black border-y border-white/5">
+
+    <div class="max-w-7xl mx-auto">
+
+      <div class="mb-16">
+
+        <p class="uppercase tracking-[0.35em] text-xs text-[#C9A96E] mb-6">
+          Who We Serve
+        </p>
+
+        <h2 class="display-font text-5xl md:text-6xl leading-tight font-semibold max-w-5xl">
+          Built for modern fashion businesses across India.
+        </h2>
+
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <div class="border border-white/10 rounded-3xl p-8 bg-[#0D0D0D] hover-card">
+          <h3 class="text-2xl font-semibold mb-4">Instagram Sellers</h3>
+          <p class="text-zinc-400 leading-relaxed">
+            Flexible low MOQ sourcing for fast-moving social commerce businesses.
+          </p>
+        </div>
+
+        <div class="border border-white/10 rounded-3xl p-8 bg-[#0D0D0D] hover-card">
+          <h3 class="text-2xl font-semibold mb-4">Boutique Retailers</h3>
+          <p class="text-zinc-400 leading-relaxed">
+            Reliable inventory sourcing and supplier coordination for independent retailers.
+          </p>
+        </div>
+
+        <div class="border border-white/10 rounded-3xl p-8 bg-[#0D0D0D] hover-card">
+          <h3 class="text-2xl font-semibold mb-4">Marketplace Sellers</h3>
+          <p class="text-zinc-400 leading-relaxed">
+            Operational sourcing support for businesses selling across digital marketplaces.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- PROCESS -->
+  <section id="process" class="py-24 px-6 bg-[#0D0D0D]">
+
+    <div class="max-w-7xl mx-auto">
+
+      <div class="mb-16">
+
+        <p class="uppercase tracking-[0.35em] text-xs text-[#C9A96E] mb-6">
+          How We Work
+        </p>
+
+        <h2 class="display-font text-5xl md:text-6xl leading-tight font-semibold mb-8">
+          Structured onboarding. Clear communication. Scalable execution.
+        </h2>
+
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+        <div class="border border-white/10 rounded-3xl p-8 bg-black hover-card">
+          <div class="text-5xl text-zinc-800 mb-6">01</div>
+          <h3 class="text-xl font-semibold mb-4">Requirement Discovery</h3>
+          <p class="text-zinc-400 leading-relaxed text-sm">
+            Understanding sourcing goals, operational requirements, and inventory expectations.
+          </p>
+        </div>
+
+        <div class="border border-white/10 rounded-3xl p-8 bg-black hover-card">
+          <div class="text-5xl text-zinc-800 mb-6">02</div>
+          <h3 class="text-xl font-semibold mb-4">Supplier Matching</h3>
+          <p class="text-zinc-400 leading-relaxed text-sm">
+            Matching businesses with suppliers based on MOQ flexibility and production capabilities.
+          </p>
+        </div>
+
+        <div class="border border-white/10 rounded-3xl p-8 bg-black hover-card">
+          <div class="text-5xl text-zinc-800 mb-6">03</div>
+          <h3 class="text-xl font-semibold mb-4">Production Coordination</h3>
+          <p class="text-zinc-400 leading-relaxed text-sm">
+            Managing sourcing communication, production workflows, and operational execution.
+          </p>
+        </div>
+
+        <div class="border border-white/10 rounded-3xl p-8 bg-black hover-card">
+          <div class="text-5xl text-zinc-800 mb-6">04</div>
+          <h3 class="text-xl font-semibold mb-4">Scale & Repeat</h3>
+          <p class="text-zinc-400 leading-relaxed text-sm">
+            Helping businesses scale sourcing operations with structured procurement systems.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- VISION -->
+  <section class="py-24 px-6 bg-black border-y border-white/5">
+
+    <div class="max-w-5xl mx-auto text-center">
+
+      <p class="uppercase tracking-[0.35em] text-xs text-[#C9A96E] mb-6">
+        Our Vision
+      </p>
+
+      <h2 class="display-font text-5xl md:text-6xl leading-tight font-semibold mb-10">
+        Building India's next generation apparel sourcing infrastructure.
+      </h2>
+
+      <p class="text-zinc-400 text-lg leading-relaxed max-w-4xl mx-auto">
+        Our vision is to simplify apparel sourcing for small and growing businesses by creating scalable, technology-enabled procurement systems that reduce sourcing barriers and improve operational efficiency across the fashion supply chain.
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-24 px-6 bg-[#0D0D0D]">
+
+    <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-start">
+
+      <div>
+
+        <p class="uppercase tracking-[0.35em] text-xs text-[#C9A96E] mb-6">
+          Let's Build Together
+        </p>
+
+        <h2 class="display-font text-5xl md:text-6xl leading-tight font-semibold">
+          Let's build a stronger apparel supply chain together.
+        </h2>
+
+        <p class="mt-8 text-zinc-400 text-lg leading-relaxed max-w-xl">
+          Whether you're launching a fashion label, scaling wholesale operations, or improving sourcing reliability, Voz Cruda helps businesses build dependable apparel infrastructure designed for long-term growth.
+        </p>
+
+      </div>
+
+      <div class="space-y-8">
+
+        <div class="border border-white/10 rounded-3xl p-8 bg-black">
+
+          <p class="uppercase tracking-[0.2em] text-xs text-zinc-500 mb-3">
+            Business Enquiries
+          </p>
+
+          <a
+            href="mailto:sales@vozcruda.com"
+            class="text-2xl text-zinc-300 hover:text-[#C9A96E] transition-colors"
+          >
+            sales@vozcruda.com
+          </a>
+
+        </div>
+
+        <div class="border border-white/10 rounded-3xl p-8 bg-black">
+
+          <p class="uppercase tracking-[0.2em] text-xs text-zinc-500 mb-4">
+            Registered Office
+          </p>
+
+          <address class="not-italic text-zinc-400 leading-relaxed">
+            Voz Cruda LLP, Balaji Arcade
+            <br />
+            2nd & 3'd Floor, A.V.S. Compound, 20th L Cross Road, AVS Layout, 4th Block,Ejipura
+            <br />
+            Karnataka, India
+          </address>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-white/10 bg-black py-8 px-6">
+
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+
+      <div class="display-font text-3xl font-semibold tracking-tight">
+        Voz <span class="text-[#C9A96E]">Cruda</span>
+      </div>
+
+      <p class="text-zinc-600 text-sm">
+        © 2026 Voz Cruda LLP. All rights reserved.
+      </p>
+
+    </div>
+
+  </footer>
+
+</body>
+</html>
