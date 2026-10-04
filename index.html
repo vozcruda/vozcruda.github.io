@@ -1,963 +1,788 @@
-<!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Voz Cruda | Apparel Sourcing Made Clear</title>
+<meta name="description" content="Voz Cruda helps fashion brands and growing apparel businesses in India find the right manufacturing partners. Now with Smallotz: pool orders with other buyers and order without minimums.">
+<meta property="og:title" content="Voz Cruda | Apparel Sourcing Made Clear">
+<meta property="og:description" content="Find the right manufacturer for your apparel business. Order small runs through Smallotz, with no minimums.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://vozcruda.com/">
+<meta name="theme-color" content="#0A0A0A">
+<link rel="canonical" href="https://vozcruda.com/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Outfit:wght@400;500;600&family=Cormorant+Garamond:wght@600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: indigo-dyed textile world. Wide editorial bands alternating greige cloth and deep indigo,
+   with stitched seam rules and tech-pack style labels. Turmeric is the single dye accent. */
+:root{
+  /* Brand: Voz Cruda black + teal (#1ABABD). Smallotz sections use its own navy (#13233A). */
+  --cloth:#0A0A0A; --cloth-2:#101314; --ink:#F2F5F5; --ink-2:#C5CCCD; --muted:#859092;
+  --line:#252B2D; --turmeric:#1ABABD; --turmeric-ink:#3FD0D3; --card:#121617;
+  --indigo-bg:#13233A; --indigo-fg:#EAF0F5; --indigo-muted:#9EAEC2; --indigo-line:#2C4060;
+  --f-display:"Bricolage Grotesque", "Avenir Next", "Segoe UI", sans-serif;
+  --f-body:"Outfit", "Helvetica Neue", Arial, sans-serif;
+  --f-mono:"JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --f-logo:"Cormorant Garamond", Georgia, serif;
+  --wrap:1180px; --gutter:clamp(16px, 4vw, 40px);
+  color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;background:var(--cloth);color:var(--ink);font:16px/1.6 var(--f-body);-webkit-font-smoothing:antialiased}
+img,svg{max-width:100%}
+a{color:inherit}
+h1,h2,h3,h4{font-family:var(--f-display);line-height:1.08;margin:0;text-wrap:balance;letter-spacing:-0.015em}
+p{margin:0}
+.wrap{max-width:var(--wrap);margin:0 auto;padding-inline:var(--gutter)}
+.label{font:500 12px/1.4 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.label.dye{color:var(--turmeric-ink)}
+:focus-visible{outline:2px solid var(--turmeric);outline-offset:3px;border-radius:4px}
+@media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 
-  <title>Voz Cruda | Apparel Sourcing Made Clear</title>
+/* stitched seam rule */
+.seam{height:0;border:0;border-top:2px dashed var(--line);margin:0}
 
-  <meta
-    name="description"
-    content="Voz Cruda helps fashion brands and growing apparel businesses find suitable manufacturing partners and navigate apparel sourcing with greater clarity."
-  />
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:.5em;padding:.85em 1.3em;border-radius:999px;font:600 15px/1 var(--f-body);text-decoration:none;border:1.5px solid transparent;cursor:pointer;transition:transform .15s ease, background .15s ease}
+.btn:hover{transform:translateY(-1px)}
+.btn-primary{background:var(--turmeric);color:#0A0A0A}
+.btn-primary:hover{background:#FFFFFF}
+.btn-ghost{border-color:currentColor;background:transparent}
+.btn .arr{transition:transform .15s ease}
+.btn:hover .arr{transform:translateX(3px)}
 
-  <script src="https://cdn.tailwindcss.com"></script>
+/* header */
+.site-header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:color-mix(in srgb, var(--cloth) 88%, transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:24px;height:68px}
+.brand{font:600 30px/1 var(--f-logo);text-decoration:none;letter-spacing:-0.01em;color:var(--ink)}
+.brand span{color:var(--turmeric)}
+.nav-links{display:flex;gap:26px;list-style:none;margin:0;padding:0}
+.nav-links a{text-decoration:none;font-size:15px;font-weight:500;color:var(--ink-2)}
+.nav-links a:hover{color:var(--ink)}
+.nav-links .new{font:500 10px/1 var(--f-mono);background:var(--turmeric);color:#13233A;padding:3px 5px;border-radius:4px;margin-left:5px;vertical-align:2px}
+.nav-cta{padding:.7em 1.1em;font-size:14px}
+.menu-btn{display:none;background:none;border:1.5px solid var(--line);border-radius:10px;width:42px;height:42px;color:var(--ink);cursor:pointer}
+@media (max-width: 960px){
+  .nav-links,.nav .nav-cta{display:none}
+  .menu-btn{display:grid;place-items:center}
+  .nav-links.open{display:flex;flex-direction:column;position:absolute;top:68px;left:0;right:0;background:var(--cloth);padding:16px var(--gutter) 24px;border-bottom:1px solid var(--line);gap:16px}
+}
 
-  <link
-    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet"
-  />
+/* hero */
+.hero{position:relative;overflow:hidden;background:radial-gradient(600px 500px at 90% 0%, rgba(26,186,189,.12), transparent 70%);padding-block:clamp(48px,8vw,96px) clamp(56px,8vw,104px)}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(32px,5vw,72px);align-items:center}
+.hero-grid > *{min-width:0}
+.pill-link{display:inline-flex;align-items:center;gap:10px;padding:6px 14px 6px 6px;border:1px solid var(--line);border-radius:999px;text-decoration:none;font-size:14px;background:var(--card);margin-bottom:28px}
+.pill-link b{font:500 11px/1 var(--f-mono);letter-spacing:.06em;background:var(--ink);color:var(--cloth);padding:6px 9px;border-radius:999px}
+.hero h1{font-size:clamp(40px,6.4vw,78px);font-weight:800;letter-spacing:-0.035em}
+.hero h1 em{font-style:normal;color:var(--turmeric-ink);position:relative;white-space:nowrap}
+.hero h1 em::after{content:"";position:absolute;left:0;right:0;bottom:.04em;border-bottom:3px dashed var(--turmeric)}
+.hero-lede{font-size:clamp(17px,1.6vw,20px);color:var(--ink-2);max-width:56ch;margin-top:24px}
+.hero-ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
+.hero-meta{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:36px}
+.hero-meta span{font:500 13px var(--f-mono);color:var(--muted)}
+.hero-meta span::before{content:"✓ ";color:var(--turmeric-ink)}
 
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
+/* tech pack card */
+.techpack{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px;box-shadow:0 30px 80px -30px rgba(26,186,189,.25);position:relative}
+.techpack::before{content:"";position:absolute;inset:8px;border:1.5px dashed var(--line);border-radius:12px;pointer-events:none}
+.tp-head{display:flex;justify-content:space-between;align-items:center;padding:6px 8px 14px;position:relative}
+.tp-head .tag{font:500 11px var(--f-mono);background:var(--cloth-2);padding:4px 8px;border-radius:6px;color:var(--muted)}
+.tp-title{font:600 20px/1.2 var(--f-display);padding:0 8px 16px;position:relative}
+.tp-rows{list-style:none;margin:0;padding:0 8px;position:relative}
+.tp-rows li{display:flex;justify-content:space-between;gap:16px;padding:10px 0;border-top:1px solid var(--line);font-size:14px}
+.tp-rows li span:first-child{font:500 12px var(--f-mono);color:var(--muted);text-transform:uppercase;letter-spacing:.06em;padding-top:2px}
+.tp-rows li span:last-child{text-align:right;font-variant-numeric:tabular-nums}
+.tp-status{margin:16px 8px 6px;padding:14px;border-radius:12px;background:rgba(26,186,189,.12);border:1px solid rgba(26,186,189,.35);color:var(--ink);display:flex;gap:12px;align-items:center;position:relative;font-size:14px}
+.dot{width:10px;height:10px;border-radius:50%;background:var(--turmeric);flex:none;box-shadow:0 0 0 4px rgba(26,186,189,.3);animation:pulse 2s infinite}
+@keyframes pulse{50%{box-shadow:0 0 0 8px rgba(26,186,189,0)}}
+.tp-note{font:400 11px var(--f-mono);color:var(--muted);padding:10px 8px 0;position:relative}
+@media (max-width: 860px){.hero-grid{grid-template-columns:1fr}}
 
-    body {
-      font-family: 'Outfit', sans-serif;
-      background: #0A0A0A;
-      color: white;
-      overflow-x: hidden;
-    }
+/* sections */
+section{padding-block:clamp(64px,9vw,112px)}
+.sec-head{display:grid;grid-template-columns:1fr 1fr;gap:24px 64px;align-items:end;margin-bottom:clamp(36px,5vw,56px)}
+.sec-head > *{min-width:0}
+.sec-head h2{font-size:clamp(32px,4.2vw,52px);font-weight:800;margin-top:14px}
+.sec-head p{color:var(--ink-2);font-size:18px;max-width:52ch}
+@media (max-width: 860px){.sec-head{grid-template-columns:1fr}}
 
-    .display-font { font-family: 'Cormorant Garamond', serif; }
+/* problem */
+.problem{background:var(--cloth-2)}
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.compare > div{border-radius:18px;padding:clamp(22px,3vw,34px);min-width:0}
+.compare .old{border:1.5px dashed var(--line)}
+.compare .new{background:linear-gradient(160deg, rgba(26,186,189,.14), rgba(26,186,189,.03));border:1px solid rgba(26,186,189,.4);color:var(--ink)}
+.compare h3{font-size:22px;margin-bottom:18px}
+.compare ul{list-style:none;margin:0;padding:0;display:grid;gap:14px}
+.compare li{display:grid;grid-template-columns:26px 1fr;gap:10px;font-size:16px}
+.compare .old li{color:var(--muted)}
+.compare .old li::before{content:"✕";color:var(--muted);font-weight:600}
+.compare .new li::before{content:"✓";color:var(--turmeric);font-weight:700}
+@media (max-width: 760px){.compare{grid-template-columns:1fr}}
 
-    /* ── HERO GRADIENT ── */
-    .hero-gradient {
-      position: absolute;
-      width: 700px; height: 700px;
-      border-radius: 9999px;
-      background: radial-gradient(circle, rgba(26,186,189,0.12) 0%, rgba(26,186,189,0) 70%);
-      top: -250px; right: -250px;
-      pointer-events: none;
-    }
+/* process */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;counter-reset:s;border-top:2px dashed var(--line)}
+.step{padding:28px 24px 8px 0;position:relative;min-width:0}
+.step::before{counter-increment:s;content:counter(s,decimal-leading-zero);font:500 13px var(--f-mono);color:var(--turmeric-ink);display:block;margin-bottom:18px}
+.step::after{content:"";position:absolute;top:-7px;left:0;width:12px;height:12px;border-radius:50%;background:var(--cloth);border:2px solid var(--ink)}
+.step h3{font-size:22px;margin-bottom:10px}
+.step p{color:var(--ink-2);font-size:15.5px}
+@media (max-width: 900px){.steps{grid-template-columns:1fr 1fr;row-gap:24px}}
+@media (max-width: 520px){.steps{grid-template-columns:1fr}}
 
-    .glass-card {
-      background: rgba(255,255,255,0.04);
-      backdrop-filter: blur(14px);
-    }
+/* smallotz */
+.smallotz{background:var(--indigo-bg);color:var(--indigo-fg);position:relative;overflow:hidden}
+.smallotz::before{content:"";position:absolute;inset:0;background-image:repeating-linear-gradient(135deg, rgba(255,255,255,.025) 0 2px, transparent 2px 9px);pointer-events:none}
+.smallotz .wrap{position:relative}
+.smallotz .label{color:var(--indigo-muted)}
+.sz-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(36px,6vw,80px);align-items:center}
+.sz-grid > *{min-width:0}
+.sz-logo{font:800 clamp(18px,2vw,22px)/1 var(--f-display);display:inline-flex;align-items:center;gap:10px;margin-bottom:24px}
+.sz-logo i{font-style:normal;font:500 11px var(--f-mono);border:1px solid var(--indigo-line);padding:4px 8px;border-radius:6px;color:var(--turmeric)}
+.smallotz h2{font-size:clamp(38px,5.4vw,66px);font-weight:800;letter-spacing:-0.035em}
+.smallotz h2 span{color:var(--turmeric)}
+.sz-lede{font-size:19px;color:var(--indigo-muted);margin-top:22px;max-width:50ch}
+.sz-points{list-style:none;margin:30px 0 0;padding:0;display:grid;gap:18px}
+.sz-points li{display:grid;grid-template-columns:44px 1fr;gap:14px;align-items:start}
+.sz-points .ic{width:44px;height:44px;border-radius:12px;border:1.5px dashed var(--indigo-line);display:grid;place-items:center;font:500 13px var(--f-mono);color:var(--turmeric)}
+.sz-points b{display:block;font-family:var(--f-display);font-size:18px;margin-bottom:2px}
+.sz-points span{color:var(--indigo-muted);font-size:15px}
+.sz-ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
+.smallotz .btn-ghost{color:var(--indigo-fg)}
 
-    .hover-card { transition: all 0.35s ease; }
-    .hover-card:hover {
-      transform: translateY(-6px);
-      border-color: rgba(26,186,189,0.35);
-      box-shadow: 0 0 40px rgba(26,186,189,0.08);
-    }
+/* pool simulator */
+.pool{background:rgba(255,255,255,.04);border:1px solid var(--indigo-line);border-radius:20px;padding:clamp(20px,3vw,30px)}
+.pool-top{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.pool-top h3{font-size:20px}
+.moq{font:500 13px var(--f-mono);color:var(--indigo-muted)}
+.bar{margin-top:22px;height:56px;border-radius:12px;background:repeating-linear-gradient(90deg, transparent 0 10px, rgba(255,255,255,.05) 10px 11px), rgba(255,255,255,.03);border:1.5px dashed var(--indigo-line);display:flex;overflow:hidden;position:relative}
+.seg{height:100%;transition:width .35s ease;position:relative}
+.seg + .seg{border-left:2px solid var(--indigo-bg)}
+.seg.you{background:var(--turmeric)}
+.seg.b1{background:#5E7BA6}.seg.b2{background:#4A6690}.seg.b3{background:#3B5479}.seg.b4{background:#7D96BA}
+.bar-scale{display:flex;justify-content:space-between;font:400 11px var(--f-mono);color:var(--indigo-muted);margin-top:8px;font-variant-numeric:tabular-nums}
+.legend{display:flex;flex-wrap:wrap;gap:8px 16px;margin-top:16px;font-size:13px;color:var(--indigo-muted)}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.slider-row{margin-top:24px}
+.slider-row label{display:flex;justify-content:space-between;font-size:14px;margin-bottom:10px}
+.slider-row output{font:600 15px var(--f-mono);color:var(--turmeric);font-variant-numeric:tabular-nums}
+input[type=range]{width:100%;accent-color:var(--turmeric)}
+.verdicts{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:22px}
+.verdict{border-radius:12px;padding:14px;font-size:14px;border:1px solid var(--indigo-line);min-width:0}
+.verdict .label{display:block;margin-bottom:6px}
+.verdict strong{font:600 17px var(--f-display);display:block}
+.verdict.no strong{color:#F0A8A8}
+.verdict.yes{background:rgba(26,186,189,.12);border-color:rgba(26,186,189,.45)}
+.verdict.yes strong{color:var(--turmeric)}
+.pool-note{font:400 11px var(--f-mono);color:var(--indigo-muted);margin-top:14px}
+@media (max-width: 900px){.sz-grid{grid-template-columns:1fr}}
 
-    /* ── MOBILE NAV ── */
-    .mobile-menu {
-      display: none;
-      flex-direction: column;
-      position: fixed;
-      top: 69px; left: 0; right: 0;
-      background: rgba(0,0,0,0.97);
-      backdrop-filter: blur(20px);
-      border-bottom: 1px solid rgba(255,255,255,0.08);
-      padding: 24px;
-      gap: 4px;
-      z-index: 49;
-    }
-    .mobile-menu.open { display: flex; }
-    .mobile-menu a {
-      font-size: 13px;
-      text-transform: uppercase;
-      letter-spacing: 0.2em;
-      color: rgba(255,255,255,0.55);
-      padding: 12px 0;
-      border-bottom: 1px solid rgba(255,255,255,0.05);
-      text-decoration: none;
-      transition: color 0.2s;
-    }
-    .mobile-menu a:last-child { border-bottom: none; }
-    .mobile-menu a:hover { color: #fff; }
+/* sz how */
+.sz-how{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:clamp(48px,6vw,72px);padding-top:clamp(32px,4vw,44px);border-top:2px dashed var(--indigo-line)}
+.sz-how > div{min-width:0}
+.sz-how .n{font:500 12px var(--f-mono);color:var(--turmeric)}
+.sz-how h4{font-size:20px;margin:8px 0 6px}
+.sz-how p{color:var(--indigo-muted);font-size:15px}
+@media (max-width: 760px){.sz-how{grid-template-columns:1fr}}
 
-    .hamburger {
-      display: none;
-      flex-direction: column;
-      gap: 5px;
-      cursor: pointer;
-      padding: 4px;
-      background: none;
-      border: none;
-    }
-    .hamburger span {
-      display: block;
-      width: 22px; height: 1.5px;
-      background: rgba(255,255,255,0.7);
-      transition: all 0.25s;
-    }
+/* categories */
+.cats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.cat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;display:flex;flex-direction:column;gap:30px;min-width:0;transition:border-color .2s, transform .2s}
+.cat:hover{border-color:var(--ink);transform:translateY(-2px)}
+.swatch{width:46px;height:46px;border-radius:10px;border:1px solid var(--line)}
+.cat h3{font-size:19px}
+.cat p{font-size:14px;color:var(--muted);margin-top:4px}
+.sw-knit{background:repeating-linear-gradient(0deg,#DCE3EE 0 3px,#C7D2E3 3px 6px)}
+.sw-shirt{background:repeating-linear-gradient(90deg,#F4F6FA 0 6px,#9BB0CF 6px 8px),#fff}
+.sw-denim{background:repeating-linear-gradient(45deg,#2E4A78 0 2px,#3B5A8E 2px 4px)}
+.sw-dress{background:radial-gradient(circle at 30% 30%,#E8B4B4 3px,transparent 4px) 0 0/12px 12px,#F6E6E2}
+.sw-ethnic{background:repeating-linear-gradient(90deg,#B5462E 0 4px,#E3A21A 4px 7px,#13233A 7px 9px)}
+.sw-outer{background:repeating-linear-gradient(135deg,#5D6B57 0 5px,#4E5B49 5px 10px)}
+.sw-label{background:#fff;display:grid;place-items:center;font:600 9px var(--f-mono);color:#13233A}
+.sw-custom{background:conic-gradient(#E3A21A,#13233A,#9BB0CF,#E3A21A)}
+@media (max-width: 960px){.cats{grid-template-columns:repeat(2,1fr)}}
+@media (max-width: 420px){.cats{grid-template-columns:1fr}}
 
-    /* ── PLATFORM PREVIEW CARDS ── */
-    .platform-cards {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 24px;
-    }
+/* who */
+.who{background:var(--cloth-2)}
+.who-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.who-card{padding:28px 0;border-top:2px solid var(--ink);min-width:0}
+.who-card h3{font-size:24px;margin-bottom:10px}
+.who-card p{color:var(--ink-2)}
+.who-card .tag{margin-top:18px;display:inline-block}
+@media (max-width: 820px){.who-grid{grid-template-columns:1fr}}
 
-    .pc-shell {
-      border: 1px solid rgba(255,255,255,0.1);
-      border-radius: 28px;
-      overflow: hidden;
-      background: #111111;
-      display: flex;
-      flex-direction: column;
-      transition: all 0.35s ease;
-      box-shadow: 0 20px 60px rgba(0,0,0,0.4);
-    }
-    .pc-shell:hover {
-      transform: translateY(-6px);
-      border-color: rgba(26,186,189,0.35);
-      box-shadow: 0 0 40px rgba(26,186,189,0.08), 0 24px 64px rgba(0,0,0,0.5);
-    }
-    .pc-screen { height: 220px; overflow: hidden; position: relative; }
-    .pc-footer { padding: 20px 22px 22px; border-top: 1px solid rgba(255,255,255,0.06); }
-    .pc-tag {
-      display: inline-block;
-      font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase;
-      color: #1ABABD; background: rgba(26,186,189,0.1);
-      padding: 3px 10px; border-radius: 20px; margin-bottom: 8px;
-    }
-    .pc-title { font-size: 16px; font-weight: 600; color: #fff; margin-bottom: 6px; }
-    .pc-desc { font-size: 13px; color: rgba(255,255,255,0.45); line-height: 1.6; }
+/* hubs */
+.hubs{display:grid;grid-template-columns:repeat(5,1fr);border:1px solid var(--line);border-radius:18px;overflow:hidden;background:var(--card)}
+.hub{padding:24px 20px;border-left:1px solid var(--line);min-width:0}
+.hub:first-child{border-left:0}
+.hub .label{font-size:11px}
+.hub h3{font-size:24px;margin:10px 0 6px}
+.hub p{font-size:14px;color:var(--muted)}
+@media (max-width: 900px){.hubs{grid-template-columns:1fr 1fr}.hub{border-left:0;border-top:1px solid var(--line)}.hub:nth-child(-n+2){border-top:0}.hub:nth-child(even){border-left:1px solid var(--line)}.hub:last-child{grid-column:1/-1;border-left:0}}
 
-    /* ── MINI UI: SHARED ── */
-    .mu { font-family: 'Outfit', sans-serif; }
 
-    /* ── MINI UI: DASHBOARD ── */
-    .dash-wrap { display: flex; height: 100%; background: #f5f2ec; }
-    .dash-sb {
-      width: 52px; background: #0f0e0c;
-      display: flex; flex-direction: column; align-items: center;
-      padding: 10px 0; gap: 2px; flex-shrink: 0;
-    }
-    .dsb-brand {
-      width: 26px; height: 26px; background: #158A97; border-radius: 5px;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 8px; font-weight: 700; color: #fff; margin-bottom: 8px;
-    }
-    .dsb-item {
-      width: 36px; height: 26px; border-radius: 5px;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 11px; color: rgba(255,255,255,0.35);
-    }
-    .dsb-item.on { background: rgba(21,138,151,0.2); color: #1ABABD; }
-    .dash-main { flex: 1; display: flex; flex-direction: column; overflow: hidden; }
-    .dash-tb {
-      background: #fff; border-bottom: 1px solid #e0dbd0;
-      height: 28px; display: flex; align-items: center; padding: 0 10px; gap: 8px;
-    }
-    .dtb-title { font-size: 9.5px; font-weight: 700; color: #0f0e0c; flex: 1; }
-    .dtb-btn { background: #158A97; color: #fff; font-size: 7.5px; padding: 3px 7px; border-radius: 4px; }
-    .dash-body { flex: 1; padding: 9px; overflow: hidden; }
-    .stats-mini { display: grid; grid-template-columns: repeat(4,1fr); gap: 5px; margin-bottom: 8px; }
-    .smc { background: #fff; border: 1px solid #e0dbd0; border-radius: 6px; padding: 6px 7px; }
-    .smc-lbl { font-size: 6.5px; text-transform: uppercase; letter-spacing: 0.3px; color: #8a8478; }
-    .smc-val { font-size: 13px; font-weight: 700; color: #0f0e0c; line-height: 1.2; }
-    .smc-sub { font-size: 6.5px; color: #45B88B; }
-    .smc-sub.dn { color: #922b21; }
-    .dash-2col { display: grid; grid-template-columns: 1fr 82px; gap: 6px; }
-    .mini-tbl { background: #fff; border: 1px solid #e0dbd0; border-radius: 6px; overflow: hidden; }
-    .mth { padding: 5px 8px; border-bottom: 1px solid #e0dbd0; font-size: 8px; font-weight: 700; color: #0f0e0c; }
-    .mtr { display: flex; align-items: center; padding: 4px 8px; border-bottom: 1px solid rgba(224,219,208,0.5); gap: 5px; }
-    .mtr:last-child { border-bottom: none; }
-    .mtr-dot { width: 5px; height: 5px; border-radius: 50%; flex-shrink: 0; }
-    .mtr-name { flex: 1; font-size: 7.5px; color: #0f0e0c; }
-    .mtr-bg { flex: 1; height: 4px; background: #f5f2ec; border-radius: 2px; overflow: hidden; }
-    .mtr-fill { height: 100%; border-radius: 2px; }
-    .mtr-pct { font-size: 7.5px; color: #8a8478; min-width: 20px; text-align: right; }
-    .mini-act { background: #fff; border: 1px solid #e0dbd0; border-radius: 6px; overflow: hidden; }
-    .mai { padding: 4px 7px; border-bottom: 1px solid rgba(224,219,208,0.5); }
-    .mai:last-child { border-bottom: none; }
-    .mai-t { font-size: 7px; color: #0f0e0c; line-height: 1.35; }
-    .mai-s { font-size: 6.5px; color: #8a8478; margin-top: 1px; }
+/* shop */
+.shop-band{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(32px,5vw,64px);align-items:center}
+.shop-band > *{min-width:0}
+.shop-band h2{font-size:clamp(32px,4.2vw,52px);font-weight:800;margin:14px 0 18px}
+.shop-band .lede{color:var(--ink-2);font-size:17px;max-width:46ch}
+.shop-tags{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 30px}
+.shop-tags span{font:500 12px var(--f-mono);border:1px solid var(--line);border-radius:999px;padding:6px 12px;color:var(--ink-2)}
+.drops{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.drop{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;text-decoration:none;display:flex;flex-direction:column;gap:14px;transition:border-color .2s,transform .2s;min-width:0}
+.drop:hover{border-color:var(--turmeric);transform:translateY(-2px)}
+.drop-art{aspect-ratio:4/3;max-width:100%;border-radius:10px;background:var(--cloth-2);display:grid;place-items:center;position:relative;overflow:hidden}
+.drop-art::after{content:"";position:absolute;inset:8px;border:1.5px dashed var(--line);border-radius:6px}
+.drop-art svg{width:46%;height:auto;fill:none;stroke:var(--ink-2);stroke-width:1.6}
+.drop-art .tag{position:absolute;top:12px;left:12px;font:500 10px var(--f-mono);letter-spacing:.06em;color:var(--turmeric-ink);z-index:1}
+.drop-row{display:flex;justify-content:space-between;gap:10px;align-items:baseline}
+.drop h3{font:600 16px/1.3 var(--f-display)}
+.drop .price{font:500 14px var(--f-mono);color:var(--turmeric-ink);white-space:nowrap;font-variant-numeric:tabular-nums}
+@media (max-width: 860px){.shop-band{grid-template-columns:1fr}}
 
-    /* ── MINI UI: PRODUCTS ── */
-    .mkt-wrap { background: #faf8f4; height: 100%; display: flex; flex-direction: column; }
-    .mkt-tb {
-      background: #fff; border-bottom: 1px solid #e0dbd0;
-      height: 28px; display: flex; align-items: center; padding: 0 10px; gap: 6px; flex-shrink: 0;
-    }
-    .mkt-tb-title { font-size: 9.5px; font-weight: 700; color: #0f0e0c; flex: 1; }
-    .mkt-search {
-      background: #f5f2ec; border: 1px solid #e0dbd0;
-      border-radius: 4px; padding: 3px 7px; font-size: 7.5px; color: #8a8478; width: 80px;
-    }
-    .mkt-btn { background: #158A97; color: #fff; font-size: 7px; padding: 3px 7px; border-radius: 4px; }
-    .mkt-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; padding: 9px; flex: 1; overflow: hidden; }
-    .mkt-card { background: #fff; border: 1px solid #e0dbd0; border-radius: 7px; overflow: hidden; }
-    .mkt-img { height: 50px; display: flex; align-items: center; justify-content: center; font-size: 22px; position: relative; }
-    .mkt-badge { position: absolute; top: 4px; right: 4px; font-size: 6.5px; font-weight: 600; padding: 2px 5px; border-radius: 10px; }
-    .mb-active { background: rgba(69,184,139,0.15); color: #45B88B; }
-    .mb-near   { background: rgba(21,138,151,0.15); color: #158A97; }
-    .mb-prod   { background: rgba(12,53,103,0.12); color: #0C3567; }
-    .mb-done   { background: rgba(69,184,139,0.12); color: #45B88B; }
-    .mkt-body { padding: 5px 7px 7px; }
-    .mkt-cat { font-size: 6.5px; color: #8a8478; text-transform: uppercase; letter-spacing: 0.3px; }
-    .mkt-name { font-size: 8px; font-weight: 700; color: #0f0e0c; margin: 1px 0 3px; line-height: 1.2; }
-    .mkt-pb { height: 4px; background: #f5f2ec; border-radius: 2px; overflow: hidden; border: 1px solid #e0dbd0; margin-bottom: 4px; }
-    .mkt-pf { height: 100%; border-radius: 2px; }
-    .pf-o { background: linear-gradient(90deg,#158A97,#1ABABD); }
-    .pf-y { background: linear-gradient(90deg,#45B88B,#68C98B); }
-    .pf-g { background: linear-gradient(90deg,#45B88B,#68C98B); }
-    .mkt-row { display: flex; justify-content: space-between; align-items: center; }
-    .mkt-price { font-size: 8px; font-weight: 700; color: #0f0e0c; }
-    .mkt-join { background: #158A97; color: #fff; font-size: 6.5px; padding: 2px 6px; border-radius: 3px; }
-    .mkt-track { background: #fff; color: #0f0e0c; font-size: 6.5px; padding: 2px 6px; border-radius: 3px; border: 1px solid #e0dbd0; }
+/* manufacturers */
+.mfr{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(32px,5vw,72px);align-items:start}
+.mfr > *{min-width:0}
+.mfr h2{font-size:clamp(30px,3.8vw,46px);font-weight:800;margin:14px 0 18px}
+.mfr p.lede{color:var(--ink-2);font-size:17px;max-width:48ch}
+.mfr-list{list-style:none;margin:0;padding:0;display:grid;gap:14px}
+.mfr-list li{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;display:grid;grid-template-columns:auto 1fr;gap:16px}
+.mfr-list .k{font:500 12px var(--f-mono);color:var(--turmeric-ink);padding-top:4px}
+.mfr-list b{font:600 18px var(--f-display);display:block;margin-bottom:4px}
+.mfr-list span{color:var(--muted);font-size:15px}
+.mfr .btn{margin-top:28px}
+.btn-dark{background:var(--ink);color:var(--cloth)}
+@media (max-width: 860px){.mfr{grid-template-columns:1fr}}
 
-    /* ── MINI UI: SUPPLIERS ── */
-    .sup-wrap { background: #faf8f4; height: 100%; display: flex; flex-direction: column; }
-    .sup-tb {
-      background: #fff; border-bottom: 1px solid #e0dbd0;
-      height: 28px; display: flex; align-items: center; padding: 0 10px; gap: 6px; flex-shrink: 0;
-    }
-    .sup-tb-title { font-size: 9.5px; font-weight: 700; color: #0f0e0c; flex: 1; }
-    .sup-add { background: #158A97; color: #fff; font-size: 7px; padding: 3px 7px; border-radius: 4px; }
-    .sup-body { padding: 8px; flex: 1; display: flex; flex-direction: column; gap: 6px; overflow: hidden; }
-    .sup-stats { display: grid; grid-template-columns: repeat(3,1fr); gap: 5px; }
-    .ss { background: #fff; border: 1px solid #e0dbd0; border-radius: 5px; padding: 5px 7px; }
-    .ss-v { font-size: 13px; font-weight: 700; color: #0f0e0c; }
-    .ss-l { font-size: 7px; color: #8a8478; }
-    .sup-tbl { background: #fff; border: 1px solid #e0dbd0; border-radius: 6px; overflow: hidden; flex: 1; }
-    .sth {
-      display: grid; grid-template-columns: 1fr 46px 38px 36px;
-      padding: 5px 8px; background: #f5f2ec; border-bottom: 1px solid #e0dbd0;
-    }
-    .sth span { font-size: 6.5px; color: #8a8478; text-transform: uppercase; letter-spacing: 0.3px; font-weight: 600; }
-    .str {
-      display: grid; grid-template-columns: 1fr 46px 38px 36px;
-      padding: 5px 8px; border-bottom: 1px solid rgba(224,219,208,0.5); align-items: center;
-    }
-    .str:last-child { border-bottom: none; }
-    .str-name { font-size: 7.5px; font-weight: 500; color: #0f0e0c; }
-    .str-sub  { font-size: 6.5px; color: #8a8478; }
-    .str-moq  { font-size: 7.5px; color: #0f0e0c; }
-    .chip { font-size: 6.5px; padding: 2px 5px; border-radius: 9px; font-weight: 500; display: inline-block; }
-    .cg { background: rgba(69,184,139,0.1); color: #45B88B; }
-    .co { background: rgba(21,138,151,0.1); color: #158A97; }
-    .cb { background: rgba(12,53,103,0.1); color: #0C3567; }
-    .cy { background: rgba(69,184,139,0.1); color: #45B88B; }
+/* insights */
+.insights{background:var(--cloth-2)}
+.ins-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:20px}
+.ins-grid > *{min-width:0}
+.feature{background:linear-gradient(160deg, rgba(26,186,189,.16), var(--card) 70%);border:1px solid rgba(26,186,189,.35);color:var(--ink);border-radius:20px;padding:clamp(24px,3vw,36px);text-decoration:none;display:flex;flex-direction:column;justify-content:space-between;gap:36px;transition:transform .2s}
+.feature:hover{transform:translateY(-2px)}
+.feature .label{color:var(--muted)}
+.feature h3{font-size:clamp(24px,2.6vw,32px);margin:14px 0 12px}
+.feature p{color:var(--ink-2)}
+.feature .read{color:var(--turmeric);font-weight:600}
+.upcoming{list-style:none;margin:0;padding:0;display:grid}
+.upcoming li{padding:16px 0;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:16px;align-items:baseline}
+.upcoming li:last-child{border-bottom:1px solid var(--line)}
+.upcoming h4{font:600 17px/1.3 var(--f-display)}
+.upcoming .label{font-size:11px;white-space:nowrap}
+@media (max-width: 860px){.ins-grid{grid-template-columns:1fr}}
 
-    /* ════════════════════════════════
-       RESPONSIVE BREAKPOINTS
-    ════════════════════════════════ */
+/* contact */
+.contact-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(32px,5vw,72px)}
+.contact-grid > *{min-width:0}
+.contact h2{font-size:clamp(32px,4.4vw,54px);font-weight:800;margin:14px 0 18px}
+.contact .lede{color:var(--ink-2);font-size:17px}
+.contact-info{margin-top:36px;display:grid;gap:22px}
+.contact-info .label{display:block;margin-bottom:6px}
+.contact-info a{font:600 18px var(--f-display);text-decoration:none;border-bottom:2px dashed var(--turmeric)}
+.contact-info address{font-style:normal;color:var(--ink-2);font-size:15px}
+form.req{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:clamp(22px,3vw,34px);display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.field{display:grid;gap:7px;min-width:0}
+.field.full{grid-column:1/-1}
+.field label{font:500 12px var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.field input,.field select,.field textarea{font:16px var(--f-body);color:var(--ink);background:var(--cloth);border:1.5px solid var(--line);border-radius:10px;padding:12px 14px;width:100%}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--ink)}
+.field textarea{min-height:110px;resize:vertical}
+.chips{display:flex;flex-wrap:wrap;gap:8px;position:relative}
+.field .chips input{position:absolute;left:0;top:0;width:1px;height:1px;padding:0;border:0;opacity:0;pointer-events:none}
+.chips label{font:500 14px var(--f-body);text-transform:none;letter-spacing:0;color:var(--ink);border:1.5px solid var(--line);border-radius:999px;padding:8px 14px;cursor:pointer;transition:all .15s}
+.chips input:checked + label{background:var(--ink);color:var(--cloth);border-color:var(--ink)}
+.chips input:focus-visible + label{outline:2px solid var(--turmeric);outline-offset:2px}
+.sz-hint{grid-column:1/-1;font-size:14px;background:color-mix(in srgb, var(--turmeric) 14%, transparent);border:1px solid color-mix(in srgb, var(--turmeric) 45%, transparent);border-radius:12px;padding:12px 14px}
+.sz-hint a{font-weight:600}
+.form-foot{grid-column:1/-1;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px}
+.form-foot small{color:var(--muted);font-size:13px}
+.form-msg{grid-column:1/-1;font-size:14px;color:var(--ink-2)}
+@media (max-width: 860px){.contact-grid{grid-template-columns:1fr}}
+@media (max-width: 520px){form.req{grid-template-columns:1fr}}
 
-    /* ── Tablet landscape + small desktop (769–1024px) ── */
-    @media (max-width: 1024px) {
-      .platform-cards {
-        grid-template-columns: 1fr;
-        max-width: 560px;
-        margin: 0 auto;
-      }
-      .pc-screen { height: 260px; }
-    }
-
-    /* ── Tablet portrait (481–768px) ── */
-    @media (max-width: 768px) {
-      .hero-gradient { width: 450px; height: 450px; top: -150px; right: -150px; }
-
-      /* Nav: hide desktop links, show hamburger */
-      .hamburger { display: flex; }
-
-      /* Platform cards: full width, taller screen */
-      .platform-cards { max-width: 100%; }
-      .pc-screen { height: 240px; }
-      .pc-shell { border-radius: 20px; }
-
-      /* Boost mini-UI text slightly for readability on larger single-column cards */
-      .dtb-title, .mkt-tb-title, .sup-tb-title { font-size: 11px; }
-      .smc-val, .ss-v { font-size: 14px; }
-      .mtr-name, .str-name, .mkt-name { font-size: 9px; }
-      .smc-lbl, .mkt-cat, .str-sub, .ss-l { font-size: 7.5px; }
-      .mkt-img { height: 60px; font-size: 26px; }
-      .mkt-price, .mkt-join, .mkt-track { font-size: 8px; }
-    }
-
-    /* ── Mobile (≤480px) ── */
-    @media (max-width: 480px) {
-      /* Navbar: shrink brand, hide CTA text on very small screens */
-      nav .display-font { font-size: 1.5rem; }
-      nav a.px-6 { padding: 8px 14px; font-size: 10px; letter-spacing: 0.1em; }
-
-      /* Hero: tighter padding */
-      section.pt-36 { padding-top: 96px; padding-bottom: 48px; }
-
-      /* Hero stat cards: 2 cols */
-      .lg\:col-span-5 .grid { grid-template-columns: 1fr 1fr !important; }
-
-      /* Section padding */
-      .py-24 { padding-top: 64px !important; padding-bottom: 64px !important; }
-      .px-6 { padding-left: 20px !important; padding-right: 20px !important; }
-
-      /* Platform cards */
-      .pc-screen { height: 210px; }
-      .pc-footer { padding: 16px 18px 18px; }
-      .pc-title { font-size: 15px; }
-      .pc-desc { font-size: 12px; }
-
-      /* Shrink dashboard sidebar on narrow screens */
-      .dash-sb { width: 40px; }
-      .dsb-item { width: 30px; font-size: 10px; }
-      .dsb-brand { width: 22px; height: 22px; font-size: 7px; }
-
-      /* Services / process grid: single col */
-      .lg\:grid-cols-2 { grid-template-columns: 1fr !important; }
-      .lg\:grid-cols-4 { grid-template-columns: 1fr 1fr !important; }
-      .md\:grid-cols-2 { grid-template-columns: 1fr !important; }
-
-      /* Contact grid */
-      .lg\:grid-cols-2 { grid-template-columns: 1fr !important; }
-
-      /* Footer */
-      footer .flex { flex-direction: column; text-align: center; gap: 12px; }
-    }
-
-    /* ── Very small mobile (≤360px) ── */
-    @media (max-width: 360px) {
-      nav .display-font { font-size: 1.25rem; }
-      nav a.px-6 { display: none; }
-      .pc-screen { height: 190px; }
-      .stats-mini { grid-template-columns: repeat(2,1fr); }
-      .dash-2col { grid-template-columns: 1fr; }
-      .mini-act { display: none; }
-    }
-  </style>
+/* footer */
+footer{background:#000;border-top:1px solid var(--line);color:var(--indigo-fg);padding-block:64px 36px}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:32px}
+.foot-grid > *{min-width:0}
+footer .brand{color:var(--indigo-fg)}
+footer p{color:var(--indigo-muted);font-size:14px;margin-top:14px;max-width:36ch}
+footer h4{font:500 12px var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--indigo-muted);margin-bottom:14px}
+footer ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+footer ul a{text-decoration:none;font-size:15px}
+footer ul a:hover{color:var(--turmeric)}
+.foot-bottom{margin-top:48px;padding-top:22px;border-top:2px dashed var(--line);display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;font-size:13px;color:var(--indigo-muted)}
+@media (max-width: 820px){.foot-grid{grid-template-columns:1fr 1fr}}
+@media (max-width: 460px){.foot-grid{grid-template-columns:1fr}}
+</style>
 </head>
-
 <body>
 
-  <!-- NAVBAR -->
-  <nav class="fixed top-0 left-0 right-0 z-50 border-b border-white/10 bg-black/70 backdrop-blur-xl">
-    <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
-
-      <div class="display-font text-3xl font-semibold tracking-tight">
-        Voz <span class="text-[#1ABABD]">Cruda</span>
-      </div>
-
-      <div class="hidden md:flex gap-8 text-xs uppercase tracking-[0.2em] text-zinc-500">
-        <a href="#process" class="hover:text-white transition-colors duration-300">How It Works</a>
-        <a href="#categories" class="hover:text-white transition-colors duration-300">What We Source</a>
-        <a href="#who-we-help" class="hover:text-white transition-colors duration-300">Who We Help</a>
-        <a href="#why-vozcruda" class="hover:text-white transition-colors duration-300">Why Voz Cruda</a>
-        <a href="blog.html" class="hover:text-white transition-colors duration-300">Insights</a>
-        <a href="#contact" class="hover:text-white transition-colors duration-300">Contact</a>
-      </div>
-
-      <a
-        href="#contact"
-        class="px-6 py-3 rounded-full border border-[#1ABABD] text-[#1ABABD] hover:bg-[#1ABABD] hover:text-black transition-all duration-300 text-xs uppercase tracking-[0.18em]"
-      >
-        Start Sourcing
-      </a>
-
-      <button class="hamburger" id="hamburger" aria-label="Open menu">
-        <span></span><span></span><span></span>
-      </button>
-
-    </div>
-  </nav>
-
-  <!-- MOBILE MENU -->
-  <div class="mobile-menu" id="mobile-menu">
-    <a href="#process" onclick="closeMenu()">How It Works</a>
-    <a href="#categories" onclick="closeMenu()">What We Source</a>
-    <a href="#who-we-help" onclick="closeMenu()">Who We Help</a>
-    <a href="#why-vozcruda" onclick="closeMenu()">Why Voz Cruda</a>
-    <a href="blog.html" onclick="closeMenu()">Insights</a>
-    <a href="#contact"    onclick="closeMenu()">Contact</a>
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="Voz Cruda home">Voz <span>Cruda</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#process">How it works</a></li>
+      <li><a href="#smallotz">Smallotz<span class="new">NEW</span></a></li>
+      <li><a href="#categories">What we source</a></li>
+      <li><a href="#who-we-help">Who we help</a></li>
+      <li><a href="#manufacturers">Manufacturers</a></li>
+      <li><a href="https://shop.vozcruda.com/" target="_blank" rel="noopener">Shop ↗</a></li>
+      <li><a href="blog.html">Insights</a></li>
+    </ul>
+    <a class="btn btn-primary nav-cta" href="#contact">Start sourcing <span class="arr">→</span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h14M3 14h14"/></svg>
+    </button>
   </div>
+</header>
 
-  <script>
-    const btn  = document.getElementById('hamburger');
-    const menu = document.getElementById('mobile-menu');
-    btn.addEventListener('click', () => menu.classList.toggle('open'));
-    function closeMenu() { menu.classList.remove('open'); }
-  </script>
+<main id="top">
 
-  <!-- HERO -->
-  <section class="relative overflow-hidden pt-36 md:pt-40 pb-24 px-6">
-
-    <div class="hero-gradient"></div>
-
-    <div class="max-w-7xl mx-auto relative z-10 grid lg:grid-cols-12 gap-14 items-center">
-
-      <div class="lg:col-span-7">
-
-        <p class="uppercase tracking-[0.35em] text-xs text-[#1ABABD] mb-6">
-          Apparel Sourcing for Growing Businesses
-        </p>
-
-        <h1 class="display-font text-5xl sm:text-6xl md:text-7xl lg:text-[88px] leading-none font-semibold tracking-tight">
-          Find the right manufacturer for your
-          <span class="italic text-[#1ABABD]"> apparel business.</span>
-        </h1>
-
-        <p class="mt-8 text-zinc-400 text-lg leading-relaxed max-w-2xl">
-          Tell us what you want to make. Voz Cruda helps fashion brands and growing apparel businesses find suitable manufacturing partners based on their product, quantity, and requirements.
-        </p>
-
-        <div class="mt-10 flex flex-wrap gap-4">
-
-          <a
-            href="#contact"
-            class="px-8 py-4 rounded-full bg-[#1ABABD] text-black font-medium hover:bg-white transition-all duration-300"
-          >
-            Start Your Sourcing Request
-          </a>
-
-          <a
-            href="#process"
-            class="px-8 py-4 rounded-full border border-white/10 hover:border-white/30 transition-all duration-300"
-          >
-            See How It Works
-          </a>
-
-          <a href="blog.html" class="px-8 py-4 rounded-full border border-[#1ABABD] text-[#1ABABD] hover:bg-[#1ABABD] hover:text-black transition-all duration-300">Read Insights</a>
-
-        </div>
-
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <a class="pill-link" href="#smallotz"><b>NEW</b> Smallotz: order small runs, no minimums →</a>
+      <h1>Find the right manufacturer for your <em>apparel</em> business.</h1>
+      <p class="hero-lede">Tell us what you want to make. Voz Cruda matches fashion brands and growing apparel businesses with manufacturing partners that fit their product, quantity and requirements, then helps coordinate the path to production.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="#contact">Start your sourcing request <span class="arr">→</span></a>
+        <a class="btn btn-ghost" href="#process">See how it works</a>
       </div>
-
-      <div class="lg:col-span-5">
-
-        <div class="glass-card border border-white/10 rounded-3xl p-6 md:p-8 relative overflow-hidden">
-          <div class="absolute -top-24 -right-24 w-56 h-56 rounded-full bg-[#1ABABD]/10 blur-3xl"></div>
-
-          <div class="relative">
-            <p class="text-[#1ABABD] text-[10px] uppercase tracking-[0.28em] mb-3">The Voz Cruda Model</p>
-            <h3 class="text-2xl md:text-3xl font-semibold leading-tight mb-2">From requirement to production  without the sourcing chaos.</h3>
-            <p class="text-zinc-500 text-sm leading-relaxed mb-7">A structured sourcing workflow built to connect growing fashion businesses with the right manufacturing network.</p>
-
-            <div class="space-y-3">
-              <div class="flex items-center gap-4 rounded-2xl border border-white/10 bg-black/20 p-4">
-                <div class="w-10 h-10 rounded-xl border border-[#1ABABD]/30 bg-[#1ABABD]/10 text-[#1ABABD] flex items-center justify-center text-sm font-semibold shrink-0">01</div>
-                <div><h4 class="font-medium">Share your requirement</h4><p class="text-zinc-500 text-xs mt-1">Product, quantity, specifications and sourcing goals.</p></div>
-              </div>
-
-              <div class="flex items-center gap-4 rounded-2xl border border-white/10 bg-black/20 p-4">
-                <div class="w-10 h-10 rounded-xl border border-[#244A73]/50 bg-[#244A73]/20 text-[#7AB6D9] flex items-center justify-center text-sm font-semibold shrink-0">02</div>
-                <div><h4 class="font-medium">Match with the right supplier</h4><p class="text-zinc-500 text-xs mt-1">Aligned with capability, category and production needs.</p></div>
-              </div>
-
-              <div class="flex items-center gap-4 rounded-2xl border border-white/10 bg-black/20 p-4">
-                <div class="w-10 h-10 rounded-xl border border-[#1ABABD]/30 bg-[#1ABABD]/10 text-[#1ABABD] flex items-center justify-center text-sm font-semibold shrink-0">03</div>
-                <div><h4 class="font-medium">Optimize MOQ and procurement</h4><p class="text-zinc-500 text-xs mt-1">Aggregate demand and unlock more practical production access.</p></div>
-              </div>
-
-              <div class="flex items-center gap-4 rounded-2xl border border-white/10 bg-black/20 p-4">
-                <div class="w-10 h-10 rounded-xl border border-[#4CAF70]/30 bg-[#4CAF70]/10 text-[#76D69A] flex items-center justify-center text-sm font-semibold shrink-0">04</div>
-                <div><h4 class="font-medium">Coordinate production</h4><p class="text-zinc-500 text-xs mt-1">Clearer communication and visibility across the workflow.</p></div>
-              </div>
-            </div>
-
-            <div class="mt-6 pt-5 border-t border-white/10 flex items-center justify-between gap-4">
-              <span class="text-xs uppercase tracking-[0.2em] text-zinc-500">One sourcing partner</span>
-              <span class="text-[#1ABABD] text-sm font-medium">One clear workflow →</span>
-            </div>
-          </div>
-        </div>
-
+      <div class="hero-meta">
+        <span>Supplier matching</span>
+        <span>MOQ aggregation</span>
+        <span>Production coordination</span>
       </div>
-
     </div>
 
-  </section>
+    <aside class="techpack" aria-label="Example sourcing request">
+      <div class="tp-head"><span class="label dye">Sourcing request</span><span class="tag">Example</span></div>
+      <div class="tp-title">Oversized heavyweight tee, private label</div>
+      <ul class="tp-rows">
+        <li><span>Category</span><span>T-shirts &amp; tops</span></li>
+        <li><span>Fabric</span><span>100% cotton, 240 GSM</span></li>
+        <li><span>Quantity</span><span>150 units · 3 colours</span></li>
+        <li><span>Sizes</span><span>S – XXL</span></li>
+        <li><span>Hub</span><span>Tiruppur (knitwear)</span></li>
+      </ul>
+      <div class="tp-status"><span class="dot" aria-hidden="true"></span><span>Matched with suitable knitwear units · lot pooled via Smallotz</span></div>
+      <p class="tp-note">Illustrative request, not a live order.</p>
+    </aside>
+  </div>
+</section>
 
-  <!-- ABOUT -->
-  <section id="about" class="py-24 px-6 border-y border-white/5 bg-[#0B0B0B]">
+<hr class="seam">
 
-    <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-start">
-
+<!-- PROBLEM -->
+<section class="problem" id="why-vozcruda">
+  <div class="wrap">
+    <div class="sec-head">
       <div>
-
-        <p class="uppercase tracking-[0.35em] text-xs text-[#1ABABD] mb-6">
-          Why Apparel Sourcing Gets Difficult
-        </p>
-
-        <h2 class="display-font text-5xl md:text-6xl leading-tight font-semibold">
-          Finding a manufacturer should not be the hardest part of building a fashion business.
-        </h2>
-
+        <span class="label dye">Why sourcing gets difficult</span>
+        <h2>Finding a manufacturer shouldn't be the hardest part of building a fashion brand.</h2>
       </div>
-
-      <div class="space-y-8 text-zinc-400 text-lg leading-relaxed">
-
-        <p>
-          Finding the right manufacturer often means navigating referrals, fragmented information, unclear MOQs, and multiple conversations before you know who is actually suitable.
-        </p>
-
-        <p>
-          For a growing brand, the challenge is not simply finding a factory. It is finding one that can make the right product, work with the required quantity, and fit the production needs.
-        </p>
-
-        <p>
-          Voz Cruda exists to make that process clearer: understand the requirement, identify suitable manufacturing capability, and coordinate the path from sourcing to production.
-        </p>
-
-      </div>
-
+      <p>Referrals, scattered information, unclear MOQs and a dozen conversations before you know who can actually make your product. The challenge isn't finding a factory. It's finding one that fits your product, quantity and production needs.</p>
     </div>
-
-  </section>
-
-  <!-- WHY VOZ CRUDA / DIFFERENTIATION -->
-  <section id="why-vozcruda" class="py-24 px-6 bg-black border-y border-white/5">
-    <div class="max-w-7xl mx-auto">
-      <div class="max-w-3xl mb-16">
-        <p class="uppercase tracking-[0.35em] text-xs text-[#1ABABD] mb-6">Why Voz Cruda</p>
-        <h2 class="display-font text-5xl md:text-6xl leading-tight font-semibold mb-6">A better way to move from an idea to production.</h2>
-        <p class="text-zinc-400 text-lg leading-relaxed">Instead of leaving you to navigate supplier search and coordination alone, we start with your requirement and build the sourcing process around what you actually need.</p>
+    <div class="compare">
+      <div class="old">
+        <h3>Traditional sourcing</h3>
+        <ul>
+          <li>Manufacturers found through fragmented networks and referrals.</li>
+          <li>High MOQs that rule out smaller production runs.</li>
+          <li>Many supplier conversations and handoffs to manage yourself.</li>
+          <li>Little visibility once production starts.</li>
+        </ul>
       </div>
-
-      <div class="grid lg:grid-cols-2 gap-6">
-        <div class="border border-white/10 rounded-3xl p-8 md:p-10 bg-[#0D0D0D]">
-          <p class="uppercase tracking-[0.25em] text-xs text-zinc-500 mb-8">Traditional Sourcing</p>
-          <div class="space-y-5 text-zinc-400">
-            <div class="flex gap-4"><span class="text-zinc-600">01</span><p>Finding manufacturers through fragmented networks and referrals.</p></div>
-            <div class="flex gap-4"><span class="text-zinc-600">02</span><p>High MOQs that can make smaller production runs difficult.</p></div>
-            <div class="flex gap-4"><span class="text-zinc-600">03</span><p>Managing multiple supplier conversations and handoffs.</p></div>
-            <div class="flex gap-4"><span class="text-zinc-600">04</span><p>Limited visibility across sourcing and production workflows.</p></div>
-          </div>
-        </div>
-
-        <div class="border border-[#1ABABD]/30 rounded-3xl p-8 md:p-10 bg-[#102021] relative overflow-hidden">
-          <div class="absolute -right-20 -top-20 w-64 h-64 rounded-full bg-[#1ABABD]/10 blur-3xl"></div>
-          <div class="relative">
-            <p class="uppercase tracking-[0.25em] text-xs text-[#1ABABD] mb-8">The Voz Cruda Way</p>
-            <div class="space-y-5 text-zinc-300">
-              <div class="flex gap-4"><span class="text-[#1ABABD]">01</span><p>Structured supplier matching based on product and production needs.</p></div>
-              <div class="flex gap-4"><span class="text-[#1ABABD]">02</span><p>Explore practical production options based on your quantity and sourcing needs.</p></div>
-              <div class="flex gap-4"><span class="text-[#1ABABD]">03</span><p>Centralized coordination for clearer sourcing communication.</p></div>
-              <div class="flex gap-4"><span class="text-[#1ABABD]">04</span><p>Build a clearer process that supports repeat orders and future growth.</p></div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-5 mt-8">
-        <div class="hover-card border border-white/10 rounded-2xl p-6 bg-[#0D0D0D]"><div class="text-[#1ABABD] text-xs uppercase tracking-[0.2em] mb-3">01</div><h3 class="text-lg font-semibold mb-2">Right Supplier</h3><p class="text-zinc-500 text-sm leading-relaxed">Match production requirements with relevant manufacturing capability.</p></div>
-        <div class="hover-card border border-white/10 rounded-2xl p-6 bg-[#0D0D0D]"><div class="text-[#1ABABD] text-xs uppercase tracking-[0.2em] mb-3">02</div><h3 class="text-lg font-semibold mb-2">Smarter MOQ</h3><p class="text-zinc-500 text-sm leading-relaxed">Explore more practical sourcing options for growing businesses.</p></div>
-        <div class="hover-card border border-white/10 rounded-2xl p-6 bg-[#0D0D0D]"><div class="text-[#1ABABD] text-xs uppercase tracking-[0.2em] mb-3">03</div><h3 class="text-lg font-semibold mb-2">Clear Coordination</h3><p class="text-zinc-500 text-sm leading-relaxed">Keep communication and production workflows more structured.</p></div>
-        <div class="hover-card border border-white/10 rounded-2xl p-6 bg-[#0D0D0D]"><div class="text-[#1ABABD] text-xs uppercase tracking-[0.2em] mb-3">04</div><h3 class="text-lg font-semibold mb-2">Built to Scale</h3><p class="text-zinc-500 text-sm leading-relaxed">Create sourcing processes that can support repeat orders and growth.</p></div>
+      <div class="new">
+        <h3>The Voz Cruda way</h3>
+        <ul>
+          <li>Structured supplier matching based on your product and production needs.</li>
+          <li>Practical options for your quantity, including pooled lots through Smallotz.</li>
+          <li>One point of coordination for clearer communication.</li>
+          <li>A repeatable process that supports reorders and growth.</li>
+        </ul>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- TECHNOLOGY -->
-  <section id="technology" class="py-24 px-6 bg-black border-y border-white/5">
+<!-- PROCESS -->
+<section id="process">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="label dye">How it works</span>
+        <h2>Four steps from requirement to production.</h2>
+      </div>
+      <p>Technology runs behind the scenes to improve supplier information, matching and coordination. You don't have to learn a complicated platform. Your requirement comes first.</p>
+    </div>
+    <div class="steps">
+      <div class="step"><h3>Share your requirement</h3><p>Product, quantity, budget, specifications and timeline.</p></div>
+      <div class="step"><h3>Match with suppliers</h3><p>We find manufacturing options that fit your category, capability and volume.</p></div>
+      <div class="step"><h3>Choose your path</h3><p>Compare the most relevant options with clarity before you commit.</p></div>
+      <div class="step"><h3>Produce and repeat</h3><p>We coordinate next steps and help build a process you can reorder from.</p></div>
+    </div>
+  </div>
+</section>
 
-    <div class="max-w-7xl mx-auto">
-
-      <div class="mb-16">
-
-        <p class="uppercase tracking-[0.35em] text-xs text-[#1ABABD] mb-6">
-          The System Behind Voz Cruda
-        </p>
-
-        <h2 class="display-font text-5xl md:text-6xl leading-tight font-semibold max-w-5xl mb-8">
-          Technology supports the process. Your sourcing requirement comes first.
-        </h2>
-
-        <p class="text-zinc-400 text-lg leading-relaxed max-w-3xl">
-          We are building structured systems behind the scenes to improve supplier information, requirement matching, coordination, and repeatability — without making customers learn a complicated platform.
-        </p>
-
+<!-- SMALLOTZ -->
+<section class="smallotz" id="smallotz">
+  <div class="wrap">
+    <div class="sz-grid">
+      <div>
+        <div class="sz-logo">Smallotz <i>by Voz Cruda</i></div>
+        <h2>Order what you need. <span>No minimums.</span></h2>
+        <p class="sz-lede">Factories set minimum order quantities that small brands can't reach on their own. Smallotz pools your order with other buyers making the same kind of product, so together you reach the factory MOQ and each of you orders only what you need.</p>
+        <ul class="sz-points">
+          <li><span class="ic">MOQ</span><div><b>Factory access without factory volumes</b><span>Get into production runs normally reserved for large buyers.</span></div></li>
+          <li><span class="ic">₹</span><div><b>Less cash locked in stock</b><span>Buy for the demand you have, not for a number a factory set.</span></div></li>
+          <li><span class="ic">↻</span><div><b>Test and reorder</b><span>Try new styles in small lots and scale what sells.</span></div></li>
+        </ul>
+        <div class="sz-ctas">
+          <a class="btn btn-primary" href="https://smallotz.vozcruda.com/" target="_blank" rel="noopener">Open Smallotz <span class="arr">↗</span></a>
+          <a class="btn btn-ghost" href="#contact">Talk to us first</a>
+        </div>
       </div>
 
-      <div class="grid lg:grid-cols-3 gap-8 items-stretch">
-
-        <div class="border border-white/10 rounded-3xl p-8 bg-[#0D0D0D] hover-card">
-          <h3 class="text-2xl font-semibold mb-4">MOQ Aggregation</h3>
-          <p class="text-zinc-400 leading-relaxed">
-            Aggregating sourcing demand across businesses to unlock manufacturing access traditionally available only to large-scale buyers.
-          </p>
+      <div class="pool" aria-label="How a pooled lot fills">
+        <div class="pool-top">
+          <h3>How a pooled lot fills</h3>
+          <span class="moq">Factory MOQ: <b id="moqVal">500</b> pcs</span>
         </div>
-
-        <div class="border border-white/10 rounded-3xl p-8 bg-[#0D0D0D] hover-card">
-          <h3 class="text-2xl font-semibold mb-4">We Find Suitable Options</h3>
-          <p class="text-zinc-400 leading-relaxed">
-            Streamlining vendor discovery and sourcing workflows through structured supplier coordination systems.
-          </p>
+        <div class="bar" id="bar" role="img" aria-label="Pooled lot progress">
+          <div class="seg you" id="segYou"></div>
+          <div class="seg b1" style="width:16%"></div>
+          <div class="seg b2" style="width:24%"></div>
+          <div class="seg b3" style="width:12%"></div>
+          <div class="seg b4" id="segLast"></div>
         </div>
-
-        <div class="border border-white/10 rounded-3xl p-8 bg-[#0D0D0D] hover-card">
-          <h3 class="text-2xl font-semibold mb-4">Workflow Visibility</h3>
-          <p class="text-zinc-400 leading-relaxed">
-            Building operational transparency across procurement, production coordination, and delivery workflows.
-          </p>
+        <div class="bar-scale"><span>0</span><span>250</span><span>500 pcs</span></div>
+        <div class="legend">
+          <span><i style="background:var(--turmeric)"></i>Your brand</span>
+          <span><i style="background:#5E7BA6"></i>Other buyers in the lot</span>
         </div>
-
+        <div class="slider-row">
+          <label for="qty">Your quantity <output id="qtyOut" for="qty">120 pcs</output></label>
+          <input type="range" id="qty" min="20" max="240" step="10" value="120">
+        </div>
+        <div class="verdicts">
+          <div class="verdict no"><span class="label">Ordering alone</span><strong id="alone">120 of 500</strong><span id="aloneTxt">Below MOQ. Most factories decline.</span></div>
+          <div class="verdict yes"><span class="label">Pooled on Smallotz</span><strong id="pooled">Lot full: 500</strong><span>Production goes ahead.</span></div>
+        </div>
+        <p class="pool-note">Illustration only. Real MOQs vary by product, fabric and factory.</p>
       </div>
-
     </div>
 
-  </section>
-
-  <!-- SERVICES -->
-  <section id="services" class="py-24 px-6 bg-[#0D0D0D]">
-
-    <div class="max-w-7xl mx-auto">
-
-      <div class="mb-16">
-
-        <p class="uppercase tracking-[0.35em] text-xs text-zinc-500 mb-6">
-          How We Help
-        </p>
-
-        <h2 class="display-font text-5xl md:text-6xl leading-tight font-semibold max-w-5xl">
-          Practical sourcing support from your requirement to production.
-        </h2>
-
-      </div>
-
-      <div class="grid lg:grid-cols-2 gap-6">
-
-        <div class="hover-card border border-white/10 rounded-3xl p-10 bg-black">
-          <div class="text-6xl text-zinc-800 mb-6">01</div>
-          <h3 class="text-2xl font-semibold mb-5">Understand Your Requirement</h3>
-          <p class="text-zinc-400 leading-relaxed">
-            We start with what you want to make, how many units you need, and the specifications that matter before looking for the right production path.
-          </p>
-        </div>
-
-        <div class="hover-card border border-white/10 rounded-3xl p-10 bg-black">
-          <div class="text-6xl text-zinc-800 mb-6">02</div>
-          <h3 class="text-2xl font-semibold mb-5">Find Suitable Manufacturers</h3>
-          <p class="text-zinc-400 leading-relaxed">
-            We align your requirement with relevant manufacturing capability, product category, quantity, and production needs.
-          </p>
-        </div>
-
-        <div class="hover-card border border-white/10 rounded-3xl p-10 bg-black">
-          <div class="text-6xl text-zinc-800 mb-6">03</div>
-          <h3 class="text-2xl font-semibold mb-5">Compare the Right Options</h3>
-          <p class="text-zinc-400 leading-relaxed">
-            Get clarity around the manufacturing options that are most relevant to your requirement before moving forward.
-          </p>
-        </div>
-
-        <div class="hover-card border border-white/10 rounded-3xl p-10 bg-black">
-          <div class="text-6xl text-zinc-800 mb-6">04</div>
-          <h3 class="text-2xl font-semibold mb-5">Coordinate the Next Steps</h3>
-          <p class="text-zinc-400 leading-relaxed">
-            Once a suitable path is identified, we help structure communication and sourcing coordination so the process can move forward with less confusion.
-          </p>
-        </div>
-
-      </div>
-
+    <div class="sz-how">
+      <div><span class="n">STEP 1</span><h4>Pick a product</h4><p>Choose the type of garment you want to make on Smallotz.</p></div>
+      <div><span class="n">STEP 2</span><h4>Add your quantity</h4><p>Commit only the units you need. Your order joins a lot with other buyers.</p></div>
+      <div><span class="n">STEP 3</span><h4>Lot fills, production starts</h4><p>Once the pooled lot reaches the factory minimum, Voz Cruda coordinates production.</p></div>
     </div>
+  </div>
+</section>
 
-  </section>
-
-  <!-- PRODUCT CATEGORIES -->
-  <section id="categories" class="py-24 px-6 bg-black border-y border-white/5">
-    <div class="max-w-7xl mx-auto">
-      <div class="mb-16 max-w-3xl">
-        <p class="uppercase tracking-[0.35em] text-xs text-[#1ABABD] mb-6">What Can You Source?</p>
-        <h2 class="display-font text-5xl md:text-6xl leading-tight font-semibold mb-6">Built around the products modern fashion businesses need.</h2>
-        <p class="text-zinc-400 text-lg leading-relaxed">From everyday essentials to private-label collections, Voz Cruda helps businesses navigate apparel sourcing across key product categories.</p>
+<!-- CATEGORIES -->
+<section id="categories">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="label dye">What you can source</span>
+        <h2>Built around the products modern fashion businesses sell.</h2>
       </div>
-      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
-        <div class="hover-card border border-white/10 rounded-2xl p-7 bg-[#0D0D0D]"><svg viewBox="0 0 48 48" class="w-10 h-10 mb-5 text-[#1ABABD]" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 12l8 5 8-5 9 8-5 8-5-3v13H17V25l-5 3-5-8 9-8z"/><path d="M17 12c0 4 3 7 7 7s7-3 7-7"/></svg><h3 class="text-lg font-semibold">T-Shirts & Tops</h3></div>
-        <div class="hover-card border border-white/10 rounded-2xl p-7 bg-[#0D0D0D]"><svg viewBox="0 0 48 48" class="w-10 h-10 mb-5 text-[#1ABABD]" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 9h16l7 9-5 5v16H14V23l-5-5 7-9z"/><path d="M20 9l4 8 4-8"/><path d="M24 17v15"/></svg><h3 class="text-lg font-semibold">Shirts</h3></div>
-        <div class="hover-card border border-white/10 rounded-2xl p-7 bg-[#0D0D0D]"><svg viewBox="0 0 48 48" class="w-10 h-10 mb-5 text-[#1ABABD]" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 9h18l3 30h-9l-3-14-3 14h-9l3-30z"/><path d="M24 9v16"/><path d="M15 16h18"/></svg><h3 class="text-lg font-semibold">Bottomwear</h3></div>
-        <div class="hover-card border border-white/10 rounded-2xl p-7 bg-[#0D0D0D]"><svg viewBox="0 0 48 48" class="w-10 h-10 mb-5 text-[#1ABABD]" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 9h8l2 9 9 18H9l9-18 2-9z"/><path d="M20 9c0 3 2 5 4 5s4-2 4-5"/><path d="M18 18h12"/></svg><h3 class="text-lg font-semibold">Dresses</h3></div>
-        <div class="hover-card border border-white/10 rounded-2xl p-7 bg-[#0D0D0D]"><svg viewBox="0 0 48 48" class="w-10 h-10 mb-5 text-[#1ABABD]" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 34c7-9 17-15 26-19"/><path d="M28 10l8 5-3 8-8-5 3-8z"/><path d="M12 34c-2 3 0 5 3 5h8"/><path d="M19 31l5 5"/></svg><h3 class="text-lg font-semibold">Ethnic Wear</h3></div>
-        <div class="hover-card border border-white/10 rounded-2xl p-7 bg-[#0D0D0D]"><svg viewBox="0 0 48 48" class="w-10 h-10 mb-5 text-[#1ABABD]" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 10l7 5 7-5 8 8-4 8-5-3v16H18V23l-5 3-4-8 8-8z"/><path d="M24 15v24"/><path d="M18 20l6 5 6-5"/></svg><h3 class="text-lg font-semibold">Outerwear</h3></div>
-        <div class="hover-card border border-white/10 rounded-2xl p-7 bg-[#0D0D0D]"><svg viewBox="0 0 48 48" class="w-10 h-10 mb-5 text-[#1ABABD]" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 20l13-13h10l5 5v10L25 35 10 20z"/><circle cx="29" cy="14" r="2"/><path d="M17 27l14-14"/></svg><h3 class="text-lg font-semibold">Private Label</h3></div>
-        <div class="hover-card border border-[#1ABABD]/30 rounded-2xl p-7 bg-[#102021]"><svg viewBox="0 0 48 48" class="w-10 h-10 mb-5 text-[#1ABABD]" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M24 7c1.8 9.2 7.8 15.2 17 17-9.2 1.8-15.2 7.8-17 17-1.8-9.2-7.8-15.2-17-17 9.2-1.8 15.2-7.8 17-17z"/><circle cx="37" cy="11" r="2"/></svg><h3 class="text-lg font-semibold">Custom Requirements</h3></div>
-      </div>
+      <p>From everyday essentials to private-label collections, we help you navigate sourcing across the key apparel categories.</p>
     </div>
-  </section>
-
-  <!-- WHO WE SERVE -->
-  <section id="who-we-help" class="py-24 px-6 bg-black border-y border-white/5">
-
-    <div class="max-w-7xl mx-auto">
-
-      <div class="mb-16">
-
-        <p class="uppercase tracking-[0.35em] text-xs text-[#1ABABD] mb-6">
-          Who We Help
-        </p>
-
-        <h2 class="display-font text-5xl md:text-6xl leading-tight font-semibold max-w-5xl">
-          Built for businesses that need to make apparel without building a sourcing department first.
-        </h2>
-
-      </div>
-
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-
-        <div class="border border-white/10 rounded-3xl p-8 bg-[#0D0D0D] hover-card">
-          <h3 class="text-2xl font-semibold mb-4">Emerging Fashion Brands</h3>
-          <p class="text-zinc-400 leading-relaxed">
-            From your first collection to your next production run, get help navigating the manufacturing side of your brand.
-          </p>
-        </div>
-
-        <div class="border border-white/10 rounded-3xl p-8 bg-[#0D0D0D] hover-card">
-          <h3 class="text-2xl font-semibold mb-4">Growing Apparel Businesses</h3>
-          <p class="text-zinc-400 leading-relaxed">
-            Find additional manufacturing options as your product range, order volume, and sourcing needs evolve.
-          </p>
-        </div>
-
-        <div class="border border-white/10 rounded-3xl p-8 bg-[#0D0D0D] hover-card">
-          <h3 class="text-2xl font-semibold mb-4">Private Label Businesses</h3>
-          <p class="text-zinc-400 leading-relaxed">
-            Source products under your own brand with a clearer starting point for manufacturing requirements and coordination.
-          </p>
-        </div>
-
-      </div>
-
+    <div class="cats">
+      <div class="cat"><span class="swatch sw-knit" aria-hidden="true"></span><div><h3>T-shirts &amp; tops</h3><p>Knits, basics, graphic tees</p></div></div>
+      <div class="cat"><span class="swatch sw-shirt" aria-hidden="true"></span><div><h3>Shirts</h3><p>Casual, formal, resort</p></div></div>
+      <div class="cat"><span class="swatch sw-denim" aria-hidden="true"></span><div><h3>Bottomwear</h3><p>Denim, trousers, joggers</p></div></div>
+      <div class="cat"><span class="swatch sw-dress" aria-hidden="true"></span><div><h3>Dresses</h3><p>Day, occasion, co-ords</p></div></div>
+      <div class="cat"><span class="swatch sw-ethnic" aria-hidden="true"></span><div><h3>Ethnic wear</h3><p>Kurtas, sets, fusion</p></div></div>
+      <div class="cat"><span class="swatch sw-outer" aria-hidden="true"></span><div><h3>Outerwear</h3><p>Jackets, hoodies, layers</p></div></div>
+      <div class="cat"><span class="swatch sw-label" aria-hidden="true">YOUR<br>LABEL</span><div><h3>Private label</h3><p>Your brand, your trims</p></div></div>
+      <div class="cat"><span class="swatch sw-custom" aria-hidden="true"></span><div><h3>Custom</h3><p>Tell us what you need</p></div></div>
     </div>
+  </div>
+</section>
 
-  </section>
+<!-- WHO -->
+<section class="who" id="who-we-help">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="label dye">Who we help</span>
+        <h2>For businesses that make apparel without a sourcing department.</h2>
+      </div>
+      <p>Whether it's your first collection or your fiftieth reorder, we fit the sourcing process around where your business is today.</p>
+    </div>
+    <div class="who-grid">
+      <div class="who-card"><h3>Emerging fashion brands</h3><p>From your first collection to your next production run, get help with the manufacturing side of your brand.</p><span class="label dye tag">Often starts on Smallotz</span></div>
+      <div class="who-card"><h3>Growing apparel businesses</h3><p>Add manufacturing options as your range, order volumes and sourcing needs grow.</p><span class="label dye tag">Supplier matching</span></div>
+      <div class="who-card"><h3>Private label businesses</h3><p>Source products under your own brand with a clear starting point for requirements and coordination.</p><span class="label dye tag">End-to-end coordination</span></div>
+    </div>
+  </div>
+</section>
 
-  <!-- TRUST & MANUFACTURING NETWORK -->
-  <section class="py-24 px-6 bg-[#0D0D0D]">
-    <div class="max-w-7xl mx-auto">
-      <div class="grid lg:grid-cols-2 gap-16 items-start">
+<!-- HUBS -->
+<section id="network">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="label dye">India's apparel ecosystem</span>
+        <h2>We build around the regions where India makes clothes.</h2>
+      </div>
+      <p>Each hub has its own strengths. Matching your product to the right region is the first step to the right manufacturer.</p>
+    </div>
+    <div class="hubs">
+      <div class="hub"><span class="label">Tamil Nadu</span><h3>Tiruppur</h3><p>Knitwear and basics</p></div>
+      <div class="hub"><span class="label">Gujarat</span><h3>Surat</h3><p>Synthetic and woven apparel</p></div>
+      <div class="hub"><span class="label">Rajasthan</span><h3>Jaipur</h3><p>Ethnic wear and fashion</p></div>
+      <div class="hub"><span class="label">NCR</span><h3>Delhi NCR</h3><p>Fashion and private label</p></div>
+      <div class="hub"><span class="label">Karnataka</span><h3>Bengaluru</h3><p>Contemporary apparel and a growing brand ecosystem</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- SHOP -->
+<section id="shop">
+  <div class="wrap shop-band">
+    <div>
+      <span class="label dye">Voz Cruda Store</span>
+      <h2>Our own label, Edition 2026.</h2>
+      <p class="lede">Alongside sourcing, Voz Cruda makes its own contemporary streetwear: oversized silhouettes, heavyweight fabrics and utilitarian design, released as curated drops.</p>
+      <div class="shop-tags"><span>Oversized &amp; relaxed</span><span>Heavyweight sweats</span><span>Cropped &amp; fitted</span><span>Ships internationally</span></div>
+      <a class="btn btn-primary" href="https://shop.vozcruda.com/" target="_blank" rel="noopener">Visit the store <span class="arr">↗</span></a>
+    </div>
+    <div class="drops">
+      <a class="drop" href="https://shop.vozcruda.com/" target="_blank" rel="noopener"><div class="drop-art"><span class="tag">HEAVYWEIGHT</span><svg viewBox="0 0 100 80"><path d="M35 8 L20 14 L6 30 L18 40 L26 33 L26 74 L74 74 L74 33 L82 40 L94 30 L80 14 L65 8 Q50 18 35 8 Z"/></svg></div><div class="drop-row"><h3>911 Heavyweight Tee</h3><span class="price">₹1,250</span></div></a>
+      <a class="drop" href="https://shop.vozcruda.com/" target="_blank" rel="noopener"><div class="drop-art"><span class="tag">OVERSIZED</span><svg viewBox="0 0 100 80"><path d="M38 10 Q50 -2 62 10 L80 16 L94 50 L82 54 L74 36 L74 76 L26 76 L26 36 L18 54 L6 50 L20 16 Z M40 12 Q50 26 60 12 M42 50 L58 50 L58 62 L42 62 Z"/></svg></div><div class="drop-row"><h3>Formula Oversized Hoodie</h3><span class="price">₹2,200</span></div></a>
+      <a class="drop" href="https://shop.vozcruda.com/" target="_blank" rel="noopener"><div class="drop-art"><span class="tag">UNISEX</span><svg viewBox="0 0 100 80"><path d="M36 8 L20 14 L6 54 L18 58 L26 36 L26 74 L74 74 L74 36 L82 58 L94 54 L80 14 L64 8 Q50 16 36 8 Z M26 70 L74 70 M8 50 L19 54 M92 50 L81 54"/></svg></div><div class="drop-row"><h3>Unisex Oversized Sweatshirt</h3><span class="price">₹1,399</span></div></a>
+      <a class="drop" href="https://shop.vozcruda.com/" target="_blank" rel="noopener"><div class="drop-art"><span class="tag">OVERSIZED</span><svg viewBox="0 0 100 80"><path d="M36 8 L22 14 L10 34 L24 40 L26 74 L74 74 L76 40 L90 34 L78 14 L64 8 L50 22 Z M40 40 L60 40"/></svg></div><div class="drop-row"><h3>Oversized Jersey</h3><span class="price">₹699</span></div></a>
+    </div>
+  </div>
+</section>
+
+<hr class="seam">
+
+<!-- MANUFACTURERS -->
+<section id="manufacturers">
+  <div class="wrap mfr">
+    <div>
+      <span class="label dye">For manufacturers</span>
+      <h2>Have the capability? Let's see where you fit.</h2>
+      <p class="lede">We're building a manufacturing network around real product capability. Tell us what you make, your production strengths and the orders that suit you. Pooled Smallotz lots can help fill your capacity with orders that meet your MOQ.</p>
+      <a class="btn btn-dark" href="mailto:sales@vozcruda.com?subject=Manufacturer%20Partnership%20Enquiry">Become a manufacturing partner <span class="arr">→</span></a>
+    </div>
+    <ol class="mfr-list">
+      <li><span class="k">01</span><div><b>Tell us what you manufacture</b><span>Product categories, capabilities, location and production strengths.</span></div></li>
+      <li><span class="k">02</span><div><b>Share your operating requirements</b><span>MOQ, capacity, lead times and the types of orders that suit you.</span></div></li>
+      <li><span class="k">03</span><div><b>Get matched with real demand</b><span>We connect your capability with genuine buyer requirements.</span></div></li>
+    </ol>
+  </div>
+</section>
+
+<!-- INSIGHTS -->
+<section class="insights" id="insights">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="label dye">Insights</span>
+        <h2>Practical guides for apparel businesses in India.</h2>
+      </div>
+      <p>Sourcing, MOQs, supplier vetting and scaling a fashion business, written for founders and retailers.</p>
+    </div>
+    <div class="ins-grid">
+      <a class="feature" href="apparel-sourcing-guide.html">
         <div>
-          <p class="uppercase tracking-[0.35em] text-xs text-[#1ABABD] mb-6">Built for Reliable Sourcing</p>
-          <h2 class="display-font text-5xl md:text-6xl leading-tight font-semibold mb-8">Structure, visibility, and the right manufacturing fit.</h2>
-          <div class="space-y-6">
-            <div class="border-l-2 border-[#1ABABD] pl-6"><h3 class="text-xl font-semibold mb-2">Manufacturing Network</h3><p class="text-zinc-500 leading-relaxed">Supplier discovery and coordination focused on product capability, category, MOQ, and production requirements.</p></div>
-            <div class="border-l-2 border-[#244A73] pl-6"><h3 class="text-xl font-semibold mb-2">Structured Coordination</h3><p class="text-zinc-500 leading-relaxed">Clearer workflows between buyers, suppliers, and production requirements.</p></div>
-            <div class="border-l-2 border-[#4CAF70] pl-6"><h3 class="text-xl font-semibold mb-2">Built for Growing Businesses</h3><p class="text-zinc-500 leading-relaxed">Infrastructure designed to support emerging brands and businesses that need flexibility as they scale.</p></div>
-          </div>
+          <span class="label">Sourcing guide · 10 min read</span>
+          <h3>The Complete Apparel Sourcing Guide for Small Businesses in India</h3>
+          <p>Finding manufacturers, navigating MOQs, managing quality and building a supply chain that scales.</p>
         </div>
-        <div class="border border-white/10 rounded-3xl p-8 md:p-10 bg-black">
-          <p class="uppercase tracking-[0.25em] text-xs text-zinc-500 mb-8">India's Apparel Ecosystem</p>
-          <h3 class="text-2xl font-semibold mb-8">Key production regions we understand and build around.</h3>
-          <div class="grid sm:grid-cols-2 gap-4">
-            <div class="border border-white/10 rounded-2xl p-5"><h4 class="font-semibold text-[#1ABABD]">Tiruppur</h4><p class="text-zinc-500 text-sm mt-2">Knitwear & basics</p></div>
-            <div class="border border-white/10 rounded-2xl p-5"><h4 class="font-semibold text-[#1ABABD]">Surat</h4><p class="text-zinc-500 text-sm mt-2">Synthetic & woven apparel</p></div>
-            <div class="border border-white/10 rounded-2xl p-5"><h4 class="font-semibold text-[#1ABABD]">Jaipur</h4><p class="text-zinc-500 text-sm mt-2">Ethnic wear & fashion</p></div>
-            <div class="border border-white/10 rounded-2xl p-5"><h4 class="font-semibold text-[#1ABABD]">Delhi NCR</h4><p class="text-zinc-500 text-sm mt-2">Fashion & private label</p></div>
-            <div class="border border-white/10 rounded-2xl p-5 sm:col-span-2"><h4 class="font-semibold text-[#1ABABD]">Bengaluru</h4><p class="text-zinc-500 text-sm mt-2">Contemporary apparel & growing brand ecosystem</p></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- PROCESS -->
-  <section id="process" class="py-24 px-6 bg-[#0D0D0D]">
-
-    <div class="max-w-7xl mx-auto">
-
-      <div class="mb-16">
-
-        <p class="uppercase tracking-[0.35em] text-xs text-[#1ABABD] mb-6">
-          How We Work
-        </p>
-
-        <h2 class="display-font text-5xl md:text-6xl leading-tight font-semibold mb-8">
-          Four simple steps. One clearer path to production.
-        </h2>
-
-      </div>
-
-      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-
-        <div class="border border-white/10 rounded-3xl p-8 bg-black hover-card">
-          <div class="text-5xl text-zinc-800 mb-6">01</div>
-          <h3 class="text-xl font-semibold mb-4">Tell Us What You Need</h3>
-          <p class="text-zinc-400 leading-relaxed text-sm">
-            Tell us about the product, quantity, budget, specifications, and timeline you have in mind.
-          </p>
-        </div>
-
-        <div class="border border-white/10 rounded-3xl p-8 bg-black hover-card">
-          <div class="text-5xl text-zinc-800 mb-6">02</div>
-          <h3 class="text-xl font-semibold mb-4">Supplier Matching</h3>
-          <p class="text-zinc-400 leading-relaxed text-sm">
-            We look for manufacturing options that fit the product, quantity, capability, and production needs you have shared.
-          </p>
-        </div>
-
-        <div class="border border-white/10 rounded-3xl p-8 bg-black hover-card">
-          <div class="text-5xl text-zinc-800 mb-6">03</div>
-          <h3 class="text-xl font-semibold mb-4">You Choose the Right Path</h3>
-          <p class="text-zinc-400 leading-relaxed text-sm">
-            Review the most relevant direction with clarity around the requirement before moving into the next stage.
-          </p>
-        </div>
-
-        <div class="border border-white/10 rounded-3xl p-8 bg-black hover-card">
-          <div class="text-5xl text-zinc-800 mb-6">04</div>
-          <h3 class="text-xl font-semibold mb-4">Move Forward & Repeat</h3>
-          <p class="text-zinc-400 leading-relaxed text-sm">
-            Coordinate the next steps and build a more repeatable sourcing process as your business grows.
-          </p>
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- SUPPLIER ONBOARDING -->
-  <section id="suppliers" class="py-24 px-6 bg-[#0B0B0B] border-y border-white/5">
-    <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-start">
+        <span class="read">Read the guide →</span>
+      </a>
       <div>
-        <p class="uppercase tracking-[0.35em] text-xs text-[#1ABABD] mb-6">For Manufacturers</p>
-        <h2 class="display-font text-5xl md:text-6xl leading-tight font-semibold mb-8">Have the capability? Let's understand where you fit.</h2>
-        <p class="text-zinc-400 text-lg leading-relaxed max-w-xl">Voz Cruda is building a structured manufacturing network around real product capability and requirements. We want to understand what you make, your production strengths, and the types of orders that suit your business.</p>
+        <ul class="upcoming">
+          <li><h4>What is MOQ aggregation and why it matters for small brands</h4><span class="label">Coming soon</span></li>
+          <li><h4>How to launch a private label fashion brand in India</h4><span class="label">Coming soon</span></li>
+          <li><h4>How to vet apparel suppliers: quality, reliability and red flags</h4><span class="label">Coming soon</span></li>
+          <li><h4>India's apparel hubs: Tiruppur, Surat, Jaipur and beyond</h4><span class="label">Coming soon</span></li>
+        </ul>
+        <a class="btn btn-ghost" style="margin-top:22px" href="blog.html">All insights <span class="arr">→</span></a>
       </div>
-      <div class="border border-white/10 rounded-3xl p-8 md:p-10 bg-black">
-        <p class="uppercase tracking-[0.25em] text-xs text-zinc-500 mb-8">Manufacturer Onboarding</p>
-        <div class="space-y-5">
-          <div class="flex gap-4"><span class="text-[#1ABABD] font-semibold">01</span><div><h3 class="font-semibold mb-1">Tell us what you manufacture</h3><p class="text-zinc-500 text-sm">Product categories, capabilities, locations, and production strengths.</p></div></div>
-          <div class="flex gap-4"><span class="text-[#1ABABD] font-semibold">02</span><div><h3 class="font-semibold mb-1">Share your operating requirements</h3><p class="text-zinc-500 text-sm">MOQ, capacity, lead times, and the type of orders that suit you.</p></div></div>
-          <div class="flex gap-4"><span class="text-[#1ABABD] font-semibold">03</span><div><h3 class="font-semibold mb-1">Build the right fit</h3><p class="text-zinc-500 text-sm">Help us understand where your capability can match genuine buyer requirements.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="wrap contact-grid">
+    <div>
+      <span class="label dye">Start your sourcing request</span>
+      <h2>Tell us what you want to make.</h2>
+      <p class="lede">Launching a label, scaling wholesale or making sourcing more reliable, we'll help you find the right way forward.</p>
+      <div class="contact-info">
+        <div><span class="label">Business enquiries</span><a href="mailto:sales@vozcruda.com">sales@vozcruda.com</a></div>
+        <div><span class="label">Small orders</span><a href="https://smallotz.vozcruda.com/" target="_blank" rel="noopener">smallotz.vozcruda.com</a></div>
+        <div><span class="label">Registered office</span>
+          <address>Voz Cruda LLP, Balaji Arcade, 2nd &amp; 3rd Floor,<br>A.V.S. Compound, 20th L Cross Road, AVS Layout,<br>4th Block, Ejipura, Bengaluru, Karnataka, India</address>
         </div>
-        <a href="mailto:sales@vozcruda.com?subject=Manufacturer%20Partnership%20Enquiry" class="inline-flex mt-8 px-6 py-3 rounded-full border border-[#1ABABD] text-[#1ABABD] hover:bg-[#1ABABD] hover:text-black transition-all duration-300 text-sm font-medium">Become a Manufacturing Partner →</a>
       </div>
     </div>
-  </section>
 
-  <!-- VISION -->
-  <section class="py-24 px-6 bg-black border-y border-white/5">
+    <form class="req" id="reqForm" novalidate>
+      <div class="field full">
+        <label>What are you looking to source?</label>
+        <div class="chips" role="radiogroup" aria-label="Product category">
+          <input type="radio" name="product" id="p1" value="T-Shirts & Tops" checked><label for="p1">T-shirts &amp; tops</label>
+          <input type="radio" name="product" id="p2" value="Shirts"><label for="p2">Shirts</label>
+          <input type="radio" name="product" id="p3" value="Bottomwear"><label for="p3">Bottomwear</label>
+          <input type="radio" name="product" id="p4" value="Dresses"><label for="p4">Dresses</label>
+          <input type="radio" name="product" id="p5" value="Ethnic Wear"><label for="p5">Ethnic wear</label>
+          <input type="radio" name="product" id="p6" value="Outerwear"><label for="p6">Outerwear</label>
+          <input type="radio" name="product" id="p7" value="Private Label"><label for="p7">Private label</label>
+          <input type="radio" name="product" id="p8" value="Other"><label for="p8">Other</label>
+        </div>
+      </div>
+      <div class="field">
+        <label for="quantity">Estimated quantity</label>
+        <select id="quantity" name="quantity">
+          <option>Under 100 units</option>
+          <option>100–300 units</option>
+          <option>300–500 units</option>
+          <option>500–1,000 units</option>
+          <option>1,000+ units</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="timeline">Timeline</label>
+        <select id="timeline" name="timeline">
+          <option>Within 1 month</option>
+          <option selected>1–3 months</option>
+          <option>3+ months</option>
+          <option>Just exploring</option>
+        </select>
+      </div>
+      <p class="sz-hint" id="szHint">Ordering under 300 units? <a href="https://smallotz.vozcruda.com/" target="_blank" rel="noopener">Smallotz</a> lets you pool with other buyers and skip factory minimums.</p>
+      <div class="field">
+        <label for="name">Your name</label>
+        <input id="name" name="name" autocomplete="name" required>
+      </div>
+      <div class="field">
+        <label for="brand">Brand / business</label>
+        <input id="brand" name="brand" autocomplete="organization">
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" autocomplete="email" required>
+      </div>
+      <div class="field">
+        <label for="phone">Phone / WhatsApp</label>
+        <input id="phone" name="phone" type="tel" autocomplete="tel">
+      </div>
+      <div class="field full">
+        <label for="details">Tell us about your product</label>
+        <textarea id="details" name="details" placeholder="Fabric, GSM, fit, colours, trims, target price…"></textarea>
+      </div>
+      <div class="form-foot">
+        <small>We reply within 2 business days.</small>
+        <button class="btn btn-primary" type="submit">Submit sourcing request <span class="arr">→</span></button>
+      </div>
+      <p class="form-msg" id="formMsg" hidden></p>
+    </form>
+  </div>
+</section>
 
-    <div class="max-w-5xl mx-auto text-center">
+</main>
 
-      <p class="uppercase tracking-[0.35em] text-xs text-[#1ABABD] mb-6">
-        Our Vision
-      </p>
-
-      <h2 class="display-font text-5xl md:text-6xl leading-tight font-semibold mb-10">
-        Making apparel sourcing easier to understand, easier to navigate, and easier to repeat.
-      </h2>
-
-      <p class="text-zinc-400 text-lg leading-relaxed max-w-4xl mx-auto">
-        We believe growing fashion businesses should spend more time building products and customers — not getting lost in the process of finding and coordinating the right manufacturing path.
-      </p>
-
-    </div>
-
-  </section>
-
-  <!-- CONTACT -->
-  <section id="contact" class="py-24 px-6 bg-[#0D0D0D]">
-
-    <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-start">
-
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
       <div>
-
-        <p class="uppercase tracking-[0.35em] text-xs text-[#1ABABD] mb-6">
-          Start Your Sourcing Request
-        </p>
-
-        <h2 class="display-font text-5xl md:text-6xl leading-tight font-semibold">
-          Tell us what you want to make. We'll help you find the right way forward.
-        </h2>
-
-        <p class="mt-8 text-zinc-400 text-lg leading-relaxed max-w-xl">
-          Whether you're launching a fashion label, scaling wholesale operations, or improving sourcing reliability, Voz Cruda helps businesses build dependable apparel infrastructure designed for long-term growth.
-        </p>
-
+        <a class="brand" href="#top">Voz <span>Cruda</span></a>
+        <p>Making apparel sourcing easier to understand, easier to navigate and easier to repeat.</p>
       </div>
-
-      <div class="space-y-8">
-
-        <form id="sourcing-form" class="border border-[#1ABABD]/30 rounded-3xl p-8 bg-black">
-          <p class="uppercase tracking-[0.2em] text-xs text-[#1ABABD] mb-3">Start Your Sourcing Request</p>
-          <p class="text-zinc-500 text-sm leading-relaxed mb-7">Tell us what you are looking to source and we will have the right conversation with you.</p>
-          <div class="grid sm:grid-cols-2 gap-4">
-            <input required name="name" placeholder="Your Name" class="w-full rounded-xl border border-white/10 bg-[#0D0D0D] px-4 py-3 text-sm text-white placeholder:text-zinc-600 outline-none focus:border-[#1ABABD]" />
-            <input required name="business" placeholder="Business / Brand Name" class="w-full rounded-xl border border-white/10 bg-[#0D0D0D] px-4 py-3 text-sm text-white placeholder:text-zinc-600 outline-none focus:border-[#1ABABD]" />
-            <select required name="product" class="w-full rounded-xl border border-white/10 bg-[#0D0D0D] px-4 py-3 text-sm text-zinc-400 outline-none focus:border-[#1ABABD]"><option value="">What are you looking to source?</option><option>T-Shirts & Tops</option><option>Shirts</option><option>Bottomwear</option><option>Dresses</option><option>Ethnic Wear</option><option>Outerwear</option><option>Private Label</option><option>Other</option></select>
-            <select name="quantity" class="w-full rounded-xl border border-white/10 bg-[#0D0D0D] px-4 py-3 text-sm text-zinc-400 outline-none focus:border-[#1ABABD]"><option value="">Estimated Quantity</option><option>Under 100 units</option><option>100–300 units</option><option>300–500 units</option><option>500–1,000 units</option><option>1,000+ units</option></select>
-          </div>
-          <textarea required name="message" rows="4" placeholder="Tell us about your requirement" class="w-full mt-4 rounded-xl border border-white/10 bg-[#0D0D0D] px-4 py-3 text-sm text-white placeholder:text-zinc-600 outline-none focus:border-[#1ABABD]"></textarea>
-          <button type="submit" class="mt-5 w-full rounded-xl bg-[#1ABABD] px-5 py-4 text-sm font-medium text-black hover:bg-white transition-all">Submit Sourcing Request →</button>
-        </form>
-
-        <div class="border border-white/10 rounded-3xl p-8 bg-black">
-
-          <p class="uppercase tracking-[0.2em] text-xs text-zinc-500 mb-3">
-            Business Enquiries
-          </p>
-
-          <a
-            href="mailto:sales@vozcruda.com"
-            class="text-2xl text-zinc-300 hover:text-[#1ABABD] transition-colors"
-          >
-            sales@vozcruda.com
-          </a>
-
-        </div>
-
-        <div class="border border-white/10 rounded-3xl p-8 bg-black">
-
-          <p class="uppercase tracking-[0.2em] text-xs text-zinc-500 mb-4">
-            Registered Office
-          </p>
-
-          <address class="not-italic text-zinc-400 leading-relaxed">
-            Voz Cruda LLP, Balaji Arcade
-            <br />
-            2nd & 3'd Floor, A.V.S. Compound, 20th L Cross Road, AVS Layout, 4th Block,Ejipura
-            <br />
-            Karnataka, India
-          </address>
-
-        </div>
-
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#process">How it works</a></li>
+          <li><a href="#why-vozcruda">Why Voz Cruda</a></li>
+          <li><a href="#manufacturers">For manufacturers</a></li>
+        </ul>
       </div>
-
+      <div>
+        <h4>Products</h4>
+        <ul>
+          <li><a href="https://smallotz.vozcruda.com/" target="_blank" rel="noopener">Smallotz ↗</a></li>
+          <li><a href="https://shop.vozcruda.com/" target="_blank" rel="noopener">Voz Cruda Store ↗</a></li>
+          <li><a href="#categories">What we source</a></li>
+          <li><a href="#network">Manufacturing network</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="blog.html">Insights</a></li>
+          <li><a href="apparel-sourcing-guide.html">Sourcing guide</a></li>
+          <li><a href="mailto:sales@vozcruda.com">sales@vozcruda.com</a></li>
+        </ul>
+      </div>
     </div>
-
-  </section>
-
-  <!-- FOOTER -->
-  <footer class="border-t border-white/10 bg-black py-8 px-6">
-
-    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
-
-      <div class="display-font text-3xl font-semibold tracking-tight">
-        Voz <span class="text-[#1ABABD]">Cruda</span>
-      </div>
-
-      <p class="text-zinc-600 text-sm">
-        © 2026 Voz Cruda LLP. All rights reserved.
-      </p>
-
+    <div class="foot-bottom">
+      <span>© <span id="yr">2026</span> Voz Cruda LLP. All rights reserved.</span>
+      <span>Bengaluru, India</span>
     </div>
+  </div>
+</footer>
 
-  </footer>
+<script>
+(function(){
+  // mobile menu
+  var btn=document.getElementById('menuBtn'), links=document.getElementById('navLinks');
+  btn.addEventListener('click',function(){var o=links.classList.toggle('open');btn.setAttribute('aria-expanded',o)});
+  links.addEventListener('click',function(e){if(e.target.tagName==='A'){links.classList.remove('open');btn.setAttribute('aria-expanded',false)}});
 
-  <script>
-    const sourcingForm = document.getElementById('sourcing-form');
-    if (sourcingForm) {
-      sourcingForm.addEventListener('submit', function (event) {
-        event.preventDefault();
-        const data = new FormData(sourcingForm);
-        const subject = encodeURIComponent('New Voz Cruda Sourcing Request');
-        const body = encodeURIComponent(
-          'Name: ' + data.get('name') + '\n' +
-          'Business: ' + data.get('business') + '\n' +
-          'Product: ' + data.get('product') + '\n' +
-          'Estimated Quantity: ' + data.get('quantity') + '\n\n' +
-          'Requirement:\n' + data.get('message')
-        );
-        window.location.href = 'mailto:sales@vozcruda.com?subject=' + subject + '&body=' + body;
-      });
+  // pool simulator
+  var MOQ=500, others=[80,120,60]; // fixed example buyers
+  var qty=document.getElementById('qty'), out=document.getElementById('qtyOut');
+  var segYou=document.getElementById('segYou'), segLast=document.getElementById('segLast');
+  function draw(){
+    var q=+qty.value, fixed=others.reduce(function(a,b){return a+b},0);
+    var last=Math.max(MOQ-q-fixed,0);
+    segYou.style.width=(q/MOQ*100)+'%';
+    segLast.style.width=(last/MOQ*100)+'%';
+    out.textContent=q+' pcs';
+    document.getElementById('alone').textContent=q+' of '+MOQ;
+    document.getElementById('aloneTxt').textContent='You are '+(MOQ-q)+' pcs short. Most factories decline.';
+    var total=q+fixed+last;
+    document.getElementById('pooled').textContent='Lot full: '+total+' pcs';
+  }
+  qty.addEventListener('input',draw); draw();
+
+  // smallotz hint only for small quantities
+  var qSel=document.getElementById('quantity'), hint=document.getElementById('szHint');
+  function hintToggle(){hint.hidden=qSel.selectedIndex>1}
+  qSel.addEventListener('change',hintToggle); hintToggle();
+
+  // form -> email to sales (replace with your form handler if you have one)
+  document.getElementById('reqForm').addEventListener('submit',function(e){
+    e.preventDefault();
+    var f=e.target, msg=document.getElementById('formMsg');
+    if(!f.name.value.trim()||!f.email.checkValidity()||!f.email.value){
+      msg.hidden=false; msg.textContent='Please add your name and a valid email so we can reply.'; return;
     }
-  </script>
+    var prod=f.querySelector('input[name=product]:checked').value;
+    var body=['Product: '+prod,'Quantity: '+f.quantity.value,'Timeline: '+f.timeline.value,'Name: '+f.name.value,'Brand: '+f.brand.value,'Email: '+f.email.value,'Phone: '+f.phone.value,'','Details:',f.details.value].join('\n');
+    window.location.href='mailto:sales@vozcruda.com?subject='+encodeURIComponent('Sourcing request: '+prod)+'&body='+encodeURIComponent(body);
+    msg.hidden=false; msg.textContent='Your email app should open with the request filled in. If it doesn\'t, write to sales@vozcruda.com.';
+  });
 
+  document.getElementById('yr').textContent=new Date().getFullYear();
+})();
+</script>
 </body>
 </html>
