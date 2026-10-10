@@ -82,7 +82,9 @@ p{margin:0}
 .prose strong{color:var(--ink);font-weight:600}
 .prose a{color:var(--teal-ink);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
 .prose a:hover{color:#fff}
-.prose a.btn{text-decoration:none}
+.prose a.btn,.prose .toc-inline a{text-decoration:none}
+.prose .toc-inline a{color:var(--ink-2)}
+.prose .toc-inline a:hover{color:var(--teal-ink)}
 .prose a.btn-primary,.prose a.btn-primary:hover{color:#0A0A0A}
 .prose ul,.prose ol{padding-left:1.3em}
 .prose li{margin:.45em 0;padding-left:.2em}
