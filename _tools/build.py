@@ -5,7 +5,7 @@ Each post lives in _content/posts/<slug>.html:
   a JSON block inside <!--meta ... --> followed by the article body HTML.
 
 Run from the repo root:  python3 _tools/build.py
-Outputs: <slug>.html for every post, blog.html, sitemap.xml, llms.txt.
+Outputs: <slug>.html for every post, blog.html, sitemap.xml, sitemap-pages.xml, llms.txt.
 GitHub Pages (Jekyll) ignores folders starting with "_", so _content and _tools are not published.
 """
 import html, json, math, re
@@ -285,9 +285,10 @@ def build_sitemap(listing):
     urls = [(SITE + "/", today, "1.0"), (SITE + "/blog.html", today, "0.8")]
     urls += [(f"{SITE}/{p['slug']}.html", p["updated"], "0.7") for p in listing]
     body = "\n".join(f"  <url><loc>{u}</loc><lastmod>{d}</lastmod><priority>{pr}</priority></url>" for u, d, pr in urls)
-    (ROOT / "sitemap.xml").write_text(
-        f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{body}\n</urlset>\n',
-        encoding="utf-8")
+    xml = f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{body}\n</urlset>\n'
+    # sitemap-pages.xml is the address to submit in Search Console; sitemap.xml is kept for robots.txt and old links.
+    for name in ("sitemap.xml", "sitemap-pages.xml"):
+        (ROOT / name).write_text(xml, encoding="utf-8")
 
 def build_llms(listing):
     lines = "\n".join(f"- [{p['title']}]({SITE}/{p['slug']}.html): {p['card']}" for p in listing)
@@ -319,7 +320,7 @@ def main():
     build_index(posts, listing)
     build_sitemap(listing)
     build_llms(listing)
-    print(f"Built {len(posts)} posts, blog.html, sitemap.xml, llms.txt")
+    print(f"Built {len(posts)} posts, blog.html, sitemap.xml, sitemap-pages.xml, llms.txt")
 
 if __name__ == "__main__":
     main()
