@@ -14,3 +14,8 @@ Folders starting with `_` are not published by GitHub Pages.
 - Give every post 4 to 6 `faq` entries phrased the way people ask. They become visible FAQs and FAQPage structured data.
 - `llms.txt` (summary and index) and `llms-full.txt` (full text) are rebuilt automatically. Keep the facts in `build_llms` and `_content/pages/about.html` in sync with the homepage.
 - After each push to main, the IndexNow workflow tells Bing and other engines about every URL in the sitemap. Do not delete the key file `78888b40451e82693e4b8c120581e4a4.txt` at the site root.
+
+# Free tools and downloads
+
+- Standalone pages live in `_content/pages/`. Set `"kind"` to `"tool"` (interactive, e.g. the cost calculator) or `"download"`; `build.py` adds the matching structured data, footer links and llms.txt entries. Wrap widgets and download cards in `<!--tool-->` … `<!--/tool-->` so they stay out of llms-full.txt.
+- Tech pack downloads in `/downloads` are generated: `pip install openpyxl`, then `python3 _tools/techpack/make_techpack.py` and `node _tools/techpack/make_pdf.js` (needs Playwright).
