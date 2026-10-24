@@ -12,7 +12,9 @@ Key facts:
 
 ## Pages
 - [Home](https://vozcruda.com/): apparel sourcing and Smallotz overview
+- [About Voz Cruda: Apparel Sourcing and Low MOQ Clothing in India](https://vozcruda.com/about.html): Voz Cruda LLP is an apparel sourcing company in Bengaluru, India. It matches brands with clothing manufacturers and runs Smallotz for low MOQ orders.
 - [Insights](https://vozcruda.com/blog.html): all guides
+- [Full text of all guides](https://vozcruda.com/llms-full.txt): every page below as plain text
 
 ## Guides
 - [Low MOQ Clothing Manufacturers in India: How to Order Small Batches in 2026](https://vozcruda.com/low-moq-clothing-manufacturers-india.html): Typical MOQs by category, every route below the minimum, and how order pooling gets you factory pricing in small quantities.

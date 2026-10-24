@@ -1,0 +1,2480 @@
+# Voz Cruda: full text of the company page and guides
+
+> Source: https://vozcruda.com/ . Summary and index: https://vozcruda.com/llms.txt
+
+# About Voz Cruda: Apparel Sourcing and Low MOQ Clothing in India
+
+URL: https://vozcruda.com/about.html
+Updated: 2026-10-24
+
+**Short answer:** **Voz Cruda LLP** is an apparel sourcing company in Bengaluru, India. It matches fashion brands, boutiques, D2C sellers and private label businesses with suitable clothing manufacturers and coordinates production. Its service **Smallotz** lets small buyers order low MOQ clothing by pooling orders with other buyers until the factory's minimum order quantity is reached.
+
+## What we do
+
+Finding a factory is rarely the hard part of building a fashion brand. Finding one that fits your product, quantity and production needs is. Voz Cruda works on that problem in four steps:
+
+- **Share your requirement:** product, quantity, budget, specifications and timeline.
+- **Match with suppliers:** we find manufacturing options that fit your category, capability and volume.
+- **Choose your path:** compare the most relevant options before you commit.
+- **Produce and repeat:** we coordinate next steps and help build a process you can reorder from.
+
+Our services are supplier matching, MOQ aggregation (order pooling), production coordination and private label sourcing.
+
+## Smallotz: low MOQ clothing by order pooling
+
+Factories set minimum order quantities that small brands often cannot reach on their own. [Smallotz](https://smallotz.vozcruda.com/) pools your order with other buyers making the same kind of product, so together you reach the factory MOQ and each of you orders only what you need. That gives small brands access to factory production runs, keeps less cash locked in stock, and makes it practical to test new styles in small lots and reorder what sells. Read more in [What is MOQ aggregation?](https://vozcruda.com/what-is-moq-aggregation.html)
+
+## What we source
+
+- **T-shirts and tops:** knits, basics, graphic tees
+- **Shirts:** casual, formal, resort
+- **Bottomwear:** denim, trousers, joggers
+- **Dresses:** day, occasion, co-ords
+- **Ethnic wear:** kurtas, sets, fusion
+- **Outerwear:** jackets, hoodies, layers
+- **Private label** and **custom** requirements
+
+## Who we work with
+
+We work with apparel businesses that do not have their own sourcing department: emerging fashion brands making their first collection, growing apparel businesses adding manufacturing options, and private label businesses sourcing products under their own brand. On the supply side, we are building a network of manufacturers matched by real product capability.
+
+## Where we source in India
+
+We build around the regions where India makes clothes: **Tiruppur** (knitwear and basics), **Surat** (synthetic and woven apparel), **Jaipur** (ethnic wear and fashion), **Delhi NCR** (fashion and private label) and **Bengaluru** (contemporary apparel). See our guide to [India's apparel manufacturing hubs](https://vozcruda.com/india-apparel-manufacturing-hubs.html).
+
+## Our own label
+
+Alongside sourcing, Voz Cruda makes its own contemporary streetwear, released as curated drops at the [Voz Cruda Store](https://shop.vozcruda.com/).
+
+## Company details
+
+- **Legal name:** Voz Cruda LLP
+- **Registered office:** Balaji Arcade, 2nd & 3rd Floor, A.V.S. Compound, 20th L Cross Road, AVS Layout, 4th Block, Ejipura, Bengaluru, Karnataka, India
+- **Business enquiries:** [sales@vozcruda.com](mailto:sales@vozcruda.com)
+- **Small orders:** [smallotz.vozcruda.com](https://smallotz.vozcruda.com/)
+
+## Frequently asked questions
+
+**What is Voz Cruda?**
+Voz Cruda LLP is an apparel sourcing company based in Bengaluru, India. It matches fashion brands and growing apparel businesses with manufacturers that fit their product, quantity and requirements, then helps coordinate the path to production.
+
+**What is Smallotz?**
+Smallotz by Voz Cruda is a low MOQ ordering service for clothing. It pools your order with other buyers making the same kind of product, so together you reach the factory's minimum order quantity and each brand orders only what it needs. It is available at smallotz.vozcruda.com.
+
+**How does a pooled lot on Smallotz work?**
+You pick a product, add the quantity you need, and your order joins a lot with other buyers. Once the pooled lot reaches the factory minimum, production goes ahead and Voz Cruda coordinates it.
+
+**What kinds of clothing can I source through Voz Cruda?**
+T-shirts and tops, shirts, bottomwear, dresses, ethnic wear, outerwear and hoodies, private label products, and custom requirements.
+
+**Who does Voz Cruda work with?**
+Emerging fashion brands, growing apparel businesses, private label businesses, boutiques and D2C sellers, especially those without their own sourcing department. Brands ordering under 300 units are usually pointed to Smallotz.
+
+**Which manufacturing regions does Voz Cruda work with?**
+Voz Cruda builds around India's apparel hubs: Tiruppur for knitwear and basics, Surat for synthetic and woven apparel, Jaipur for ethnic wear and fashion, Delhi NCR for fashion and private label, and Bengaluru for contemporary apparel.
+
+**Can garment manufacturers partner with Voz Cruda?**
+Yes. Manufacturers can share their product categories, capabilities, location, MOQ, capacity and lead times. Voz Cruda matches that capability with buyer requirements, and pooled Smallotz lots can bring orders that meet a factory's MOQ.
+
+**How do I contact Voz Cruda?**
+Email sales@vozcruda.com or send a sourcing request from the form on vozcruda.com. The team replies within 2 business days.
+
+---
+
+# Low MOQ Clothing Manufacturers in India: How to Order Small Batches in 2026
+
+URL: https://vozcruda.com/low-moq-clothing-manufacturers-india.html
+Updated: 2026-10-24
+
+**Short answer:** Low MOQ clothing means ordering garments from a manufacturer in small quantities, typically under 100 to 150 pieces per style. In India you can get there three ways: small job-work units (higher prices), factories that charge a below-MOQ surcharge, or **order pooling**, where several brands combine orders to meet one factory's minimum. Voz Cruda runs pooled lots through [Smallotz](https://smallotz.vozcruda.com/).
+
+If you have emailed a garment factory as a new brand, you have probably heard some version of "our minimum is 500 pieces per style, per colour." For a first drop, a boutique restock or a test of a new silhouette, that number can lock lakhs of rupees into stock you are not yet sure will sell.
+
+This guide covers what MOQs look like across categories in India, why factories set them, and every realistic way to order below them, including the one we built Smallotz around.
+
+## What is low MOQ? MOQ meaning in clothing
+
+**MOQ (minimum order quantity)** is the smallest order a manufacturer will accept for one product. In apparel it is usually set per style, and often per colour too. A factory quoting "300 pieces MOQ, 100 per colour" means you need at least three colours of 100 pieces each.
+
+**Low MOQ** simply means that minimum is small. In Indian garment manufacturing, people usually say low MOQ for anything under about 100 to 150 pieces per style. Some suppliers advertise low MOQ but apply it per style and per colour, or only on their stock fabrics, so always ask what the number covers.
+
+### The MOQs you will hear
+
+| Type of minimum | What it means |
+|---|---|
+| Per style | Total pieces of one design, across all colours and sizes |
+| Per colour | Minimum pieces in each colour of that style |
+| Fabric MOQ | The mill or trader's minimum for a custom fabric or dye colour, often in kilos or metres |
+| Print or embroidery MOQ | The minimum the print or embroidery unit accepts per design |
+| Trims MOQ | Minimums for custom labels, tags, zips or buttons |
+
+The real minimum for your order is usually the highest of these. A factory may happily sew 100 pieces, but if your custom colour needs a full dye lot, the fabric minimum decides.
+
+### Why factories set minimums
+
+Factories are not being difficult. Every production run has costs that stay the same whether they make 50 pieces or 5,000:
+
+- **Line setup:** grading patterns, setting markers, adjusting machines and briefing tailors.
+- **Fabric minimums:** mills and traders sell by the roll or by a minimum dye lot, so small orders leave expensive leftovers.
+- **Dyeing and printing:** a dye batch, a set of screens or an embroidery program costs the same regardless of quantity.
+- **Trims:** custom labels, tags and packaging are sold in bulk lots.
+- **Overheads:** sampling, paperwork and quality checks for every order.
+
+Below the MOQ, those fixed costs are spread over too few pieces. The factory either loses money or quotes a price you cannot sell at.
+
+## Typical MOQs by clothing category in India
+
+MOQs vary by factory, fabric and finish, so treat these as the ranges you are likely to hear, not fixed rules.
+
+| Category | Common factory MOQ per style | What drives it |
+|---|---|---|
+| T-shirts and basic knits | 300 to 1,000 pieces | Knitted fabric and dye lots, screen setup |
+| Hoodies and sweatshirts | 200 to 500 pieces | Fleece fabric minimums, rib matching |
+| Shirts (woven) | 200 to 500 pieces | Fabric minimums, buttons and collar interlining |
+| Denim and trousers | 300 to 1,000 pieces | Washing runs, hardware like rivets and zips |
+| Kurtas and ethnic wear | 100 to 300 pieces | Printing or dyeing batches, handwork |
+| Dresses and co-ords | 100 to 300 pieces | Fabric, pattern complexity |
+
+Category guides: [t-shirts](https://vozcruda.com/small-batch-t-shirt-manufacturing-india.html), [hoodies](https://vozcruda.com/low-moq-hoodie-manufacturer-india.html), [kidswear](https://vozcruda.com/low-moq-kidswear-manufacturers-india.html) and [ethnic wear](https://vozcruda.com/low-moq-ethnic-wear-manufacturers-india.html).
+
+Many factories also set a **per-colour minimum**. If you want a tee in four colours, check whether the MOQ applies to the style or to each colour.
+
+## Five ways to get low MOQ clothing, compared
+
+Every route to small-batch clothing trades something away. The question is which trade-off suits your brand right now.
+
+| Route | Typical quantity | Price per piece | Customisation | Main trade-off |
+|---|---|---|---|---|
+| Print-on-demand | 1 piece | Highest | Prints on stock blanks | Thin margins, no custom fit or fabric |
+| Wholesale blanks + local print | 10 to 50 | High | Print, neck labels | Same blanks as many other brands |
+| Small job-work or sampling units | 30 to 100 | High | Full | Limited capacity, inconsistent quality |
+| Factory with below-MOQ surcharge | Below MOQ | Very high | Full | Surcharge can wipe out your margin |
+| Order pooling (Smallotz) | What you need | Close to bulk | Shared base product, your quantity, your branding | Wait while the lot fills |
+
+### When each route makes sense
+
+- **Print-on-demand** works for testing designs with zero stock risk, but rarely builds a premium brand.
+- **Job-work units** suit fully custom pieces in very small numbers, if you can supervise quality closely.
+- **Pooling** suits brands that want factory quality and near-bulk pricing on proven product types, like heavyweight tees, hoodies, joggers or basic shirts.
+
+## How order pooling works
+
+Order pooling, also called MOQ aggregation, lets several buyers share one production run. The factory sees one order that meets its minimum. Each buyer pays for, and receives, only their share.
+
+Here is a simple example. A Tiruppur knitwear unit has an MOQ of 500 pieces for a 240 GSM oversized cotton tee. Your brand needs 120. Alone, you are 380 pieces short and most factories will say no. In a pooled lot, three other buyers add 80, 120 and 180 pieces. The lot reaches 500, production goes ahead, and every brand pays a per-piece price close to the bulk rate.
+
+### What stays shared and what stays yours
+
+In a pooled lot the **base product** is shared: the garment type, fabric, GSM and construction. Your quantity, size split and, depending on the lot, colours, prints and labels can be your own. That is what keeps setup costs shared while your product still looks like your brand.
+
+## How to order low MOQ clothing step by step
+
+- **Define the product clearly.** Garment type, fabric and GSM, fit, sizes, colours and any print or embroidery. A simple tech pack helps. See our [beginner's tech pack guide](https://vozcruda.com/tech-pack-guide-for-beginners.html).
+- **Pick your quantity per style.** Start with what you can sell in 6 to 10 weeks. Reorder winners instead of guessing big.
+- **Choose your route.** Under about 300 pieces per style, a pooled lot on Smallotz is usually the most cost-effective. Above that, Voz Cruda can match you with a factory directly.
+- **Approve a sample.** Check fabric hand-feel, measurements, stitching and print quality before bulk production.
+- **Confirm in writing.** Quantity, size split, price, delivery date and quality standard on a purchase order, not only a WhatsApp chat.
+- **Inspect on arrival and reorder.** Count, measure and check a sample of pieces. Then reorder the styles that sold.
+
+## How to get a lower MOQ from a factory
+
+Minimums are often negotiable when you remove what causes them. Choosing the factory's stock fabric instead of a custom dye, ordering fewer colours, using the same fabric across two styles and keeping trims standard can all bring the number down. Offering a clear reorder plan or a flexible delivery date helps too. Our guide on [how to negotiate MOQ with clothing manufacturers](https://vozcruda.com/how-to-negotiate-moq-clothing-manufacturers.html) covers each tactic and includes a message you can send.
+
+## Questions to ask any low MOQ supplier
+
+- Is the MOQ per style, per colour, or per fabric?
+- What is the price at my quantity, and what would it be at 2x and 5x?
+- How much does a sample cost, and is it adjusted against the bulk order?
+- What is the lead time after sample approval?
+- What happens if pieces fail measurements or have defects?
+- Can I reorder the same product later at the same quantity?
+
+For a deeper checklist, read [how to vet apparel suppliers](https://vozcruda.com/how-to-vet-apparel-suppliers.html).
+
+## The bottom line
+
+Factory MOQs exist for good reasons, but they no longer have to decide whether your brand can launch. If you need a few hundred pieces of something unique, a small unit may suit you. If you want factory quality at close to bulk pricing in the quantity you can actually sell, pool your order. [Start on Smallotz](https://smallotz.vozcruda.com/) or [tell Voz Cruda what you want to make](https://vozcruda.com/#contact).
+
+## Frequently asked questions
+
+**What is low MOQ?**
+Low MOQ means a low minimum order quantity: the supplier accepts small orders. In clothing manufacturing it usually means under 100 to 150 pieces per style, where many factories ask for 300 to 1,000 or more.
+
+**What does low MOQ mean in clothing?**
+MOQ is the minimum order quantity a factory accepts per style. Low MOQ usually means under 100 to 150 pieces per style, compared with the 300 to 1,000+ pieces many garment factories ask for.
+
+**Which clothing manufacturers in India accept small orders?**
+Small job-work units, sampling studios and some knitwear units in Tiruppur and Delhi NCR accept small orders, usually at a higher price per piece. Order pooling platforms such as Smallotz let you reach a regular factory's MOQ by combining your order with other buyers.
+
+**Can I order 50 pieces from a garment factory?**
+Most mid-size factories will decline or charge a surcharge for 50 pieces of one style. You can get 50 pieces at near-bulk pricing by joining a pooled lot, where other buyers make up the rest of the factory's minimum.
+
+**What is the difference between low MOQ and no MOQ?**
+Low MOQ means the factory still has a minimum, just a small one. No MOQ means you can order any quantity, even one piece, which is how print-on-demand works. Pooled lots on Smallotz feel like no MOQ to the buyer because other buyers fill the factory minimum.
+
+**What is a good MOQ for a new clothing brand?**
+Order what you expect to sell in 6 to 10 weeks. For many first drops that is somewhere between 30 and 150 pieces per style, then reorder the styles that sell instead of guessing big upfront.
+
+**Is low MOQ clothing more expensive?**
+Ordering alone below MOQ usually costs more per piece because setup, cutting and fabric minimums are spread over fewer units. Pooling spreads those fixed costs across the whole lot, so the per-piece price stays close to bulk.
+
+**How long does a low MOQ order take?**
+Plan for 4 to 10 weeks from approved sample to delivery for most basics, depending on fabric availability and print or embroidery work. A pooled lot also needs time to fill, which is usually faster for popular products like t-shirts and hoodies.
+
+---
+
+# What Is MOQ Aggregation? How Order Pooling Helps Small Clothing Brands
+
+URL: https://vozcruda.com/what-is-moq-aggregation.html
+Updated: 2026-10-10
+
+**Short answer:** **MOQ aggregation**, also called order pooling, means combining orders from several buyers so that together they meet a factory's minimum order quantity. The factory runs one efficient production order; each buyer receives only the pieces they committed to, at a price close to bulk.
+
+Minimum order quantities are one of the biggest barriers for small fashion brands in India. A brand that can sell 100 hoodies a season cannot place a 500-piece order without tying up cash in stock it does not need. MOQ aggregation solves the mismatch from the other side: instead of asking the factory to lower its minimum, it brings the factory more buyers.
+
+## How MOQ aggregation works
+
+In apparel, a pooled order usually runs in five stages:
+
+- **A base product is defined.** For example, a 240 GSM oversized cotton t-shirt made by a knitwear unit in Tiruppur, with a 500-piece minimum.
+- **Buyers commit quantities.** Each brand adds the number of pieces it wants, along with its size split and any options the lot allows.
+- **The lot fills.** Commitments add up until the combined quantity reaches the factory MOQ.
+- **Production runs as one order.** Fabric is bought, cut and stitched as a single run, which is what keeps unit costs low.
+- **Each buyer receives their share.** Pieces are sorted, packed and dispatched per brand.
+
+### A worked example
+
+| Buyer | Pieces committed | Running total |
+|---|---|---|
+| Your brand | 120 | 120 of 500 |
+| Instagram label, Pune | 80 | 200 of 500 |
+| Boutique, Kochi | 120 | 320 of 500 |
+| D2C brand, Delhi | 180 | 500 of 500 |
+| Result | Lot full. Production goes ahead. |
+
+The buyers here are illustrative. The point is that none of them could reach 500 pieces alone, and all of them get factory pricing together.
+
+## What is shared and what stays yours
+
+Aggregation only works if the parts of a garment that drive setup cost are shared. Everything else can be individual.
+
+| Usually shared across the lot | Often yours to choose |
+|---|---|
+| Garment type and pattern block | Quantity and size split |
+| Fabric composition and GSM | Colour, where the lot offers several |
+| Construction and stitching spec | Neck labels, hang tags and packaging |
+| Factory and production timeline | Prints or embroidery, where supported |
+
+Because customers see your print, your label and your branding, two brands in the same lot can still look completely different on the shelf.
+
+## Why factories like pooled orders
+
+Factories set MOQs because a production run has fixed costs: line setup, fabric minimums, dye batches and screens. A pooled lot meets that minimum, so the run is just as efficient as one from a large buyer. For the factory, aggregation means:
+
+- Filled capacity during slower months.
+- Orders that meet their MOQ without negotiating with dozens of small buyers.
+- Access to a pipeline of growing brands that may become direct customers later.
+
+## MOQ aggregation vs ordering alone
+
+|  | Ordering alone below MOQ | Pooled lot |
+|---|---|---|
+| Will the factory accept it? | Often not | Yes, once the lot is full |
+| Price per piece | Higher, or a surcharge | Close to bulk |
+| Cash tied up in stock | Low if accepted, but rarely possible | Only what you commit |
+| Design freedom | Full | Within the shared base product |
+| Timeline | Production only | Lot fill time + production |
+
+## Risks and how to manage them
+
+- **Fill time.** A lot for a niche product may take longer to fill. Popular basics fill faster. Plan launches with this buffer.
+- **Less design freedom.** You work within the shared base. If you need a unique fabric or pattern, a direct factory order may suit you better.
+- **Quality consistency.** Because one factory makes the whole lot, quality depends on that factory. Look for a coordinator who checks quality before dispatch.
+- **Clear terms.** Understand how long the lot stays open, when you pay, and what happens if specifications change.
+
+## When MOQ aggregation is the right choice
+
+Pooling is a strong fit when you need fewer than about 300 pieces per style, you are selling proven product types like tees, hoodies, joggers or shirts, and you care about factory quality and margin. It is less suited to one-off couture pieces or garments built on a fabric no one else is using.
+
+Ready to try it? Read the full [guide to low MOQ clothing in India](https://vozcruda.com/low-moq-clothing-manufacturers-india.html), or [open Smallotz](https://smallotz.vozcruda.com/) and add your quantity to a lot.
+
+## Frequently asked questions
+
+**What is MOQ aggregation?**
+MOQ aggregation is combining orders from several buyers so that together they meet a manufacturer's minimum order quantity. Each buyer pays for and receives only their own share of the production run.
+
+**Is MOQ aggregation the same as group buying?**
+They are closely related. Group buying usually means buyers getting a discount on a finished product. MOQ aggregation is about getting into a production run at all, by pooling quantities of a product that is made after the lot fills.
+
+**Can I still have my own brand label in a pooled order?**
+Usually yes. The base garment, fabric and construction are shared, while labels, prints and colours can often be specified per buyer, depending on the lot. Check what is customisable before you join.
+
+**What happens if a pooled lot does not fill?**
+That depends on the platform's terms. On Smallotz, production goes ahead once the lot reaches the factory's minimum. Before you commit, check how long a lot stays open and what happens to your order if it does not fill.
+
+**Who benefits from MOQ aggregation?**
+Buyers get factory pricing without buying hundreds of units. Factories fill production capacity with orders that meet their MOQ, from customers they could not serve one by one.
+
+---
+
+# How to Start a Clothing Brand in India with Low Investment
+
+URL: https://vozcruda.com/start-clothing-brand-low-investment-india.html
+Updated: 2026-10-10
+
+**Short answer:** To start a clothing brand in India on a small budget: pick a narrow niche, launch 2 to 4 styles, produce them in small quantities through a low MOQ route such as order pooling, sell through Instagram and your own store first, and reinvest in reorders of the styles that sell. Stock is your biggest cost, so keeping your first drop small keeps your investment small.
+
+The most common way new fashion brands run out of money is not bad design. It is buying too much stock too early. A factory asks for 500 pieces per style, the founder orders three styles, and suddenly most of the budget is sitting in cartons. This plan is built to avoid that.
+
+## Step 1: Choose a niche you can describe in one line
+
+"Clothing for everyone" is impossible to market on a small budget. A narrow niche makes every rupee of marketing work harder. Good niches combine a customer, a product and a reason to buy:
+
+- Heavyweight oversized basics for college students in tier-2 cities.
+- Breathable co-ord sets for working women in humid cities.
+- Minimal graphic tees for indie music fans.
+
+Check that people already buy in that space: look at Instagram pages, marketplace reviews and what competitors restock.
+
+## Step 2: Keep your first drop small
+
+Launch **2 to 4 styles** in 2 or 3 colours each. A small drop is cheaper to produce, easier to shoot and gives you clean data. If one style sells out and another sits, you have learned something worth more than a big collection.
+
+Rule of thumbOrder what you can realistically sell in 6 to 10 weeks. Reordering a winner is cheaper than discounting dead stock.
+
+## Step 3: Get the product right before you buy stock
+
+- **Write a simple tech pack:** sketches, measurements per size, fabric, GSM, colours and print placement. Our [tech pack guide](https://vozcruda.com/tech-pack-guide-for-beginners.html) walks through it.
+- **Order samples:** expect one or two rounds. Wear-test and wash-test them.
+- **Fix the size chart:** fit problems are the top reason for returns in online fashion.
+
+## Step 4: Produce in low MOQ
+
+This is where most of your budget goes, so the route matters. Your main options:
+
+| Route | Good for | Watch out for |
+|---|---|---|
+| Print-on-demand | Testing designs with no stock | Low margin, generic blanks |
+| Small job-work unit | Fully custom pieces in very small runs | Higher unit cost, quality varies |
+| Pooled lot on Smallotz | Factory quality on basics at near-bulk price | Lot needs time to fill |
+| Direct factory order | 300+ pieces per style | Large cash commitment |
+
+For a deeper comparison, read [low MOQ clothing manufacturers in India](https://vozcruda.com/low-moq-clothing-manufacturers-india.html).
+
+## Step 5: Budget for more than production
+
+Founders often budget for stock and forget everything around it. Plan a line for each of these:
+
+- **Samples and tech pack:** sampling rounds, courier and any design help.
+- **Production:** pieces, labels, tags, polybags and boxes.
+- **Brand basics:** logo, trademark application through IP India, website and domain.
+- **Photography:** product and on-model shots. This sells more than any ad.
+- **Marketing:** creator collaborations and a small paid ads test.
+- **Operations:** shipping partner, payment gateway fees and returns.
+- **Buffer:** keep money aside for the reorder of your best seller.
+
+To turn these lines into a selling price, see [how to price your clothing products](https://vozcruda.com/how-to-price-clothing-products.html).
+
+## Step 6: Set up the business basics
+
+- Choose a structure: sole proprietorship, partnership, LLP or private limited company.
+- Open a business bank account.
+- Check GST registration requirements with a chartered accountant, especially before selling on marketplaces.
+- Register on the Udyam portal to be recognised as an MSME.
+- Search and file your brand name as a trademark early.
+
+## Step 7: Sell where your customers already are
+
+- **Instagram first:** build interest before launch with behind-the-scenes posts from sampling and production.
+- **Your own store:** a Shopify or similar store keeps your margin and customer data.
+- **Marketplaces later:** Myntra, Ajio and others add reach but come with commissions and return costs.
+- **Pop-ups and flea markets:** great for feedback and cash flow in your own city.
+
+## Step 8: Reorder fast, expand slowly
+
+Track sell-through by style, colour and size. When something sells, reorder it quickly, in a pooled lot or directly once volumes grow. Add new styles one or two at a time. Brands that grow on reorders keep their cash moving and avoid the dead-stock trap.
+
+Want help with the manufacturing side? [Tell Voz Cruda what you want to make](https://vozcruda.com/#contact) and we will suggest the right route for your quantity.
+
+## Frequently asked questions
+
+**How much money do I need to start a clothing brand in India?**
+It depends mostly on how much stock you buy. Production is the largest cost, so the smaller your first drop, the smaller your investment. Low MOQ ordering and pooled lots let you start with tens of pieces per style instead of hundreds.
+
+**Can I start a clothing brand without a factory MOQ of 500 pieces?**
+Yes. You can use print-on-demand, small job-work units, or order pooling. Pooling on Smallotz lets you order factory-made pieces in small quantities by combining your order with other buyers.
+
+**How many designs should my first collection have?**
+Most first-time founders do better with 2 to 4 styles in a few colours than with a large collection. A tight drop is cheaper to produce, easier to photograph and market, and gives clearer data on what sells.
+
+**Do I need GST registration to sell clothing online in India?**
+Registration rules depend on your turnover, where you sell and which marketplaces you use, and they change from time to time. Speak to a chartered accountant before your first sale, especially if you plan to sell on marketplaces.
+
+**What clothing products are best for a first brand?**
+Products with steady demand and simple construction, such as t-shirts, hoodies, sweatshirts and joggers, are easiest to launch. They are widely produced, which also makes them well suited to pooled low MOQ lots.
+
+---
+
+# How to Launch a Private Label Clothing Brand in India
+
+URL: https://vozcruda.com/private-label-clothing-brand-india.html
+Updated: 2026-10-10
+
+**Short answer:** A **private label clothing brand** sells garments made by a manufacturer under your own brand name. You start from a proven product, customise the details that matter (fabric, colour, fit, print, labels, packaging) and sell it as yours. It is faster and cheaper than designing every piece from scratch, and in India it can now start at low MOQ.
+
+## Private label vs white label vs custom design
+
+These three terms get mixed up. The difference is how much of the product you change.
+
+| Model | What you change | Speed to launch | Brand uniqueness |
+|---|---|---|---|
+| White label | Only your label and packaging | Fastest | Low |
+| Private label | Labels plus fabric, colour, print, fit tweaks | Fast | Medium to high |
+| Full custom design | Everything, from pattern to fabric | Slowest | Highest |
+
+Most successful small brands start with private label on a few hero products, then move into custom design once they know what their customers want.
+
+## Step 1: Pick your hero products
+
+Choose two or three products your niche buys again and again. For most streetwear and casual brands that means heavyweight tees, hoodies, sweatshirts or joggers. For womenswear it could be co-ord sets, kurtas or shirts. Fewer products means lower MOQ pressure and a clearer brand.
+
+## Step 2: Decide what to customise
+
+- **Fabric and GSM:** for example, 240 GSM cotton for a premium oversized tee.
+- **Fit:** oversized, boxy, regular or cropped. Small changes to body length and sleeve make a big difference.
+- **Colour:** your signature shades.
+- **Decoration:** screen print, DTF print, puff print or embroidery.
+- **Branding:** woven neck labels or printed neck labels, wash care labels, hang tags and packaging.
+
+## Step 3: Find the right private label manufacturer
+
+Match the product to the region that specialises in it. Tiruppur leads in knitwear like tees and hoodies; Surat in synthetics and wovens; Jaipur in ethnic wear and prints; Delhi NCR in fashion and private label. Read our guide to [India's apparel hubs](https://vozcruda.com/india-apparel-manufacturing-hubs.html) for more.
+
+When you speak to manufacturers, confirm:
+
+- They make your exact product category regularly.
+- MOQ per style and per colour, plus minimums for labels and tags.
+- Sampling cost and time.
+- Whether they can source your fabric or need you to supply it.
+
+Use our checklist on [how to vet apparel suppliers](https://vozcruda.com/how-to-vet-apparel-suppliers.html) before you commit.
+
+## Step 4: Build your brand kit
+
+Private label lives or dies on how branded it feels. Prepare:
+
+- Logo files in vector format for labels and prints.
+- Neck label design, with size and fibre content.
+- Wash care label with fibre composition and care instructions.
+- Hang tag and price tag design.
+- Packaging: polybag, mailer box or tissue and sticker.
+
+Check the labelling requirements that apply to your products and channels, such as fibre content, size, maker details and MRP for retail sales.
+
+## Step 5: Sample, then produce
+
+Approve a pre-production sample with your exact fabric, print and labels. Compare it against your tech pack measurements. Only then confirm bulk production on a written purchase order with quantity, size split, price and delivery date.
+
+## Step 6: Launch and reorder
+
+Shoot strong product photos, launch on Instagram and your own store, and track which sizes and colours sell. Reorder winners fast. Once a style regularly sells a few hundred units per run, you can move it from pooled lots to a direct factory order through Voz Cruda.
+
+## Private label launch checklist
+
+- Niche and 2 to 3 hero products chosen
+- Customisation decided: fabric, GSM, fit, colours, decoration
+- Manufacturer or pooled lot selected
+- Brand kit ready: logo, labels, tags, packaging
+- Sample approved against tech pack
+- Purchase order confirmed in writing
+- Photos, store and launch plan ready
+
+Need help finding the right private label partner? [Send us your requirement](https://vozcruda.com/#contact).
+
+## Frequently asked questions
+
+**What is private label clothing?**
+Private label clothing is made by a manufacturer but sold under your brand. You choose or adapt a proven product, then add your own labels, tags, packaging and often your own colours, prints or small design changes.
+
+**What is the difference between private label and white label?**
+White label means buying a ready-made product and simply adding your brand, with no changes to the product. Private label usually involves some customisation, such as fabric, colour, fit tweaks or prints, made exclusively for your brand.
+
+**What is the MOQ for private label clothing in India?**
+Many factories ask for 100 to 500 pieces per style for private label, plus minimums on custom woven labels and tags. Pooled lots on Smallotz let you start with smaller quantities by sharing the base product with other brands.
+
+**Do I need my own designs for private label?**
+No. You can start from a manufacturer's existing product and customise it. Many brands begin this way and move to fully custom designs once they understand their customers.
+
+**Which private label products are easiest to start with?**
+Basics with steady demand, such as t-shirts, hoodies, sweatshirts, joggers and shirts, are the easiest. Their production is well established and they are simple to brand with prints, embroidery and labels.
+
+---
+
+# How to Vet Apparel Suppliers in India: Quality, Reliability and Red Flags
+
+URL: https://vozcruda.com/how-to-vet-apparel-suppliers.html
+Updated: 2026-10-10
+
+**Short answer:** To vet an apparel supplier in India: confirm they regularly make your exact product, verify their GST registration and factory address, speak to existing clients, order a paid sample and test it, agree everything in a written purchase order, and use staged payments rather than full advance. Walk away if any of these are refused.
+
+Two factories in the same city making the same garment can deliver very different quality, timelines and communication. For a small brand, one bad order can mean returns, delays and a lost season. Vetting takes a few days. Skipping it can take months to recover from.
+
+Still building a shortlist? Start with [how to find clothing manufacturers in India](https://vozcruda.com/how-to-find-clothing-manufacturers-india.html).
+
+## 1. Check capability first
+
+The most common mistake is choosing a supplier that can make clothes, but not your clothes. Ask:
+
+- Which categories do you produce every month? Ask for photos of current production, not a catalogue.
+- Do you knit, dye, print and stitch in-house, or outsource some steps? Outsourcing is common, but you should know who does what.
+- What is your monthly capacity, and how much is free in my timeline?
+- What is your MOQ per style and per colour?
+
+## 2. Verify the business
+
+| What to check | How |
+|---|---|
+| GST registration | Search their GSTIN on the official GST portal and match the legal name and address. |
+| Factory address | Visit, or ask for a live video walk-through of the production floor. |
+| Client references | Ask for two or three brands they currently supply and speak to them. |
+| Online presence | Look for consistent details across their website, directory listings and reviews. |
+| Who makes your goods | Confirm whether the person you deal with is the factory or a middleman. |
+
+## 3. Order a paid sample and test it properly
+
+A sample is the single best predictor of bulk quality. Pay for it, and test it like a customer would:
+
+- **Measure** every point on your size chart. Tolerances of about 1 cm are common; agree yours in advance.
+- **Feel and weigh** the fabric. Ask for the GSM and check it matches.
+- **Inspect stitching:** even seams, no loose threads, secure hems and necklines.
+- **Check decoration:** print sharpness, colour accuracy and embroidery density.
+- **Wash it** three to five times. Look for shrinkage, colour bleeding, pilling and twisting.
+
+Our [tech pack guide](https://vozcruda.com/tech-pack-guide-for-beginners.html) shows how to write specifications a factory can check against.
+
+## 4. Ask the questions that reveal reliability
+
+- What is the lead time after sample approval, and what usually causes delays?
+- How do you handle defects or pieces that fail measurements?
+- Will bulk use the same fabric lot as the sample?
+- Who is my single point of contact, and how often will I get updates?
+- Can I see the goods, or photos and videos, before dispatch?
+
+Clear, specific answers are a good sign. Vague answers are not.
+
+## 5. Put everything in writing
+
+WhatsApp messages are useful but not enough. A purchase order should include:
+
+- Style, fabric, GSM, colours and decoration, referencing the approved sample.
+- Quantity and size split.
+- Unit price, taxes and what is included (labels, packing, freight).
+- Delivery date and the agreed quality standard.
+- Payment terms and what happens with defects.
+
+## 6. Use safer payment terms
+
+With a new supplier, avoid paying 100% upfront. A deposit to start production and the balance after you approve finished goods is common and protects both sides. For larger orders, an inspection before the final payment is worth the cost.
+
+## Red flags: when to walk away
+
+- Refuses to make a sample, or wants a large order before showing quality.
+- Quotes change after you agree, or extras appear late.
+- No verifiable GST details or factory address.
+- Pushes for full advance payment and urgency.
+- Cannot name current clients or show current production.
+- Avoids written purchase orders.
+- Sample quality is far above what bulk pricing could realistically support.
+
+## Or let a sourcing partner do the vetting
+
+Vetting many suppliers is time-consuming for a founder who also has to design, market and sell. Voz Cruda matches brands with manufacturers based on product capability, quantity and requirements, then coordinates production through one point of contact. For small quantities, Smallotz pools your order into a lot that meets a vetted factory's minimum. [Start a sourcing request](https://vozcruda.com/#contact).
+
+## Frequently asked questions
+
+**How do I know if a clothing manufacturer is genuine?**
+Check their GST registration on the official GST portal, ask for a factory address and visit or video call the floor, request references from current clients, and order a paid sample before any bulk order.
+
+**Should I pay a clothing manufacturer 100% in advance?**
+It is safer to avoid paying everything upfront to a new supplier. Common arrangements are a deposit to start production and the balance after you approve the finished goods, ideally after an inspection.
+
+**What should I check in a garment sample?**
+Check measurements against your size chart, fabric weight and feel, stitching quality, print or embroidery quality, colour accuracy, and how the piece behaves after a few washes.
+
+**What are the biggest red flags with clothing suppliers?**
+Refusing samples, unclear or changing prices, no written purchase order, no verifiable address or GST details, pressure for full advance payment, and vague answers about who actually makes your goods.
+
+**Can someone vet suppliers for me?**
+Yes. Sourcing partners like Voz Cruda match brands with manufacturers based on product capability and quantity, and coordinate production so you are not managing every supplier conversation yourself.
+
+---
+
+# India's Apparel Manufacturing Hubs: Tiruppur, Surat, Jaipur and Beyond
+
+URL: https://vozcruda.com/india-apparel-manufacturing-hubs.html
+Updated: 2026-10-24
+
+**Short answer:** Source knitwear like t-shirts and hoodies from **Tiruppur**, synthetics, sarees and dress materials from **Surat**, block-printed ethnic wear from **Jaipur**, winterwear and hosiery from **Ludhiana**, fashion and private label from **Delhi NCR**, and woven and denim garments from **Bengaluru** and nearby clusters. Matching your product to its hub usually means better prices, faster sampling and more experienced factories.
+
+India's apparel industry is not one market. It is a set of specialised clusters, each built over decades around particular fabrics, skills and buyers. A factory in Tiruppur that makes excellent cotton tees may be the wrong partner for a printed kurta, and a Jaipur unit known for hand block printing is not where you go for fleece hoodies.
+
+## Garment hubs in India: what to source where
+
+| Hub | State | Best known for |
+|---|---|---|
+| Tiruppur | Tamil Nadu | Cotton knitwear: t-shirts, polos, hoodies, sweatshirts, innerwear, kidswear |
+| Surat | Gujarat | Synthetic fabrics, sarees, dress materials, woven and ethnic apparel |
+| Jaipur | Rajasthan | Block-printed and hand-finished ethnic wear, kurtas, dresses, home textiles |
+| Ludhiana | Punjab | Woollens, sweaters, knitted winterwear, hosiery |
+| Delhi NCR | Delhi, UP, Haryana | Export garments, women's fashion, private label, embroidery |
+| Bengaluru | Karnataka | Woven garments, shirts, trousers, denim, contemporary apparel |
+| Kolkata | West Bengal | Hosiery, innerwear, budget knitwear and kidswear |
+| Mumbai | Maharashtra | Fashion and wovens, women's wear, wholesale markets |
+
+## Tiruppur: India's knitwear capital
+
+If your brand sells t-shirts, polos, hoodies, sweatshirts or joggers, Tiruppur is usually the first stop. The cluster covers the full knit chain, from knitting and dyeing to printing, stitching and finishing, which makes it efficient for cotton basics.
+
+- **Good for:** 180 to 300 GSM cotton tees, French terry and fleece, kidswear, private label basics.
+- **Keep in mind:** many units are export-focused with higher MOQs. Pooled lots help small brands get in.
+
+Read our [Tiruppur buyer's guide](https://vozcruda.com/tiruppur-garment-manufacturing-guide.html) for how the cluster works, or the guide to [small-batch t-shirt manufacturing](https://vozcruda.com/small-batch-t-shirt-manufacturing-india.html).
+
+## Surat: synthetics and ethnic fabrics
+
+Surat is a major centre for synthetic and blended fabrics, and for sarees and dress materials. It suits brands working with polyester, viscose blends, georgette and crepe.
+
+- **Good for:** ethnic wear, sarees, dress materials, women's western wear in synthetic fabrics.
+- **Keep in mind:** fabric choice is huge, so be specific about composition and finish.
+
+## Jaipur: prints and hand-finished ethnic wear
+
+Jaipur and nearby towns like Sanganer and Bagru are known for hand block printing, and for ethnic and fusion wear with handwork.
+
+- **Good for:** printed kurtas, co-ord sets, dresses, cotton ethnic wear.
+- **Keep in mind:** hand processes create natural variation and longer lead times. Build them into your launch plan.
+
+## Ludhiana: winterwear and woollens
+
+Ludhiana is India's main hub for sweaters, woollen and acrylic knitwear, and hosiery.
+
+- **Good for:** sweaters, cardigans, knitted winterwear, thermal and hosiery products.
+- **Keep in mind:** demand is seasonal. Book production well before winter.
+
+## Delhi NCR: fashion and private label
+
+Noida, Gurugram, Okhla and surrounding areas host many export houses and fashion manufacturers, with strong embroidery and embellishment skills.
+
+- **Good for:** women's fashion, private label, embroidered and embellished pieces, fusion wear.
+- **Keep in mind:** range is wide, so vet each unit for your specific category.
+
+## Bengaluru: wovens, denim and a growing brand scene
+
+Bengaluru has long been a large garment manufacturing cluster, especially for woven garments. It is also home to a growing community of D2C fashion brands, and to Voz Cruda.
+
+- **Good for:** shirts, trousers, denim, contemporary casualwear.
+- **Keep in mind:** many large units are export-focused; smaller units serve domestic brands.
+
+## Kolkata and Mumbai
+
+**Kolkata** has a large hosiery and innerwear industry and serves value-focused knitwear and kidswear. **Mumbai** combines fashion design, woven manufacturing and big wholesale markets, useful for women's wear and fast-moving fashion.
+
+## How to choose the right hub
+
+- **Start from the fabric.** Knit cotton points to Tiruppur, synthetics to Surat, wool to Ludhiana, hand prints to Jaipur.
+- **Consider decoration.** Embroidery-heavy designs often suit Delhi NCR; block prints suit Jaipur.
+- **Check your quantity.** Export-focused units have higher MOQs. Domestic-focused units or pooled lots suit small runs.
+- **Vet the specific unit.** A hub's reputation does not guarantee every factory. Use our [supplier vetting checklist](https://vozcruda.com/how-to-vet-apparel-suppliers.html).
+
+Not sure which hub fits your product? [Share your requirement](https://vozcruda.com/#contact) and Voz Cruda will match you with suitable units across India.
+
+## Frequently asked questions
+
+**Which is the biggest garment hub in India?**
+It depends on the product. Tiruppur is the best-known hub for cotton knitwear, Delhi NCR and Bengaluru have large clusters of export garment factories, and Surat leads in synthetic textiles. Pick the hub that specialises in your garment rather than the one that sounds biggest.
+
+**Which city in India is best for t-shirt manufacturing?**
+Tiruppur in Tamil Nadu is India's best-known knitwear hub and the usual first choice for cotton t-shirts, polos, hoodies and other knit basics.
+
+**Where are ethnic wear manufacturers concentrated in India?**
+Jaipur is known for block-printed and hand-finished ethnic wear, while Surat is a major centre for sarees, dress materials and synthetic ethnic fabrics. Delhi NCR also has many ethnic and fusion wear units.
+
+**Which Indian city is known for winterwear?**
+Ludhiana in Punjab is India's main centre for woollens, sweaters, knitted winterwear and hosiery.
+
+**Where is denim made in India?**
+Ahmedabad is home to several large denim fabric mills, and garment units in Bengaluru, Delhi NCR and Ballari produce jeans and other denim garments.
+
+**Do I need to visit a hub to source from it?**
+Not necessarily. Many buyers source remotely through samples and video calls, or through a sourcing partner. Voz Cruda matches your product to suitable units across these hubs and coordinates production.
+
+---
+
+# Custom T-Shirts in Small Quantities: A Guide to Low MOQ T-Shirt Manufacturing in India
+
+URL: https://vozcruda.com/small-batch-t-shirt-manufacturing-india.html
+Updated: 2026-10-10
+
+**Short answer:** To make custom t-shirts in small quantities in India: choose your fabric and GSM (for example 240 GSM cotton for an oversized fit), pick a print method that suits small runs (DTF or DTG for many colours, screen print for bold few-colour designs), approve a sample, then produce through a low MOQ route. Pooled lots on Smallotz let you order factory-made tees in small quantities at close to bulk pricing.
+
+## Step 1: Choose the fabric
+
+Fabric decides how your tee feels, drapes and lasts. The most common options:
+
+| Fabric | Feel | Best for |
+|---|---|---|
+| 100% cotton single jersey | Soft, breathable | Everyday and oversized tees |
+| Combed cotton | Smoother, more even than carded | Premium basics |
+| Bio-washed cotton | Softer, less pilling | Premium feel at a small extra cost |
+| Cotton-polyester blend | Less shrinkage, quicker drying | Merchandise, team and event wear |
+| Polyester (dri-fit) | Light, moisture-wicking | Sportswear and activewear |
+
+## Step 2: Pick the right GSM
+
+Our [fabric guide](https://vozcruda.com/fabric-guide-for-clothing-brands.html) covers GSM for every product.
+
+GSM (grams per square metre) measures fabric weight. Heavier fabric feels more premium and holds structure; lighter fabric is cooler.
+
+- **160 to 180 GSM:** light everyday tees, summer wear, merchandise.
+- **180 to 220 GSM:** mid-weight regular-fit tees with a quality feel.
+- **220 to 260+ GSM:** heavyweight oversized streetwear tees with a structured drape.
+
+## Step 3: Decide the fit
+
+- **Regular:** classic fit, works for most customers.
+- **Oversized:** dropped shoulders, wider body and longer sleeves. Popular in streetwear.
+- **Boxy:** wide and slightly cropped.
+- **Slim:** closer to the body, often with some stretch.
+
+Write measurements for every size in a tech pack. Our [tech pack guide](https://vozcruda.com/tech-pack-guide-for-beginners.html) shows the key points to measure, and the [t-shirt tech pack example](https://vozcruda.com/tech-pack-example-t-shirt.html) shows a complete size chart.
+
+## Step 4: Choose a print method
+
+For a deeper comparison, read [screen printing vs DTF vs DTG](https://vozcruda.com/screen-printing-vs-dtf-vs-dtg-india.html).
+
+| Method | Best for | Small batch fit | Notes |
+|---|---|---|---|
+| Screen printing | Bold designs with few colours | Good from moderate quantities | Very durable; each colour needs a screen |
+| DTF (direct to film) | Multi-colour and detailed designs | Excellent | No screens; works on cotton and blends |
+| DTG (direct to garment) | Photographic, full-colour art | Excellent | Best on cotton; softer hand-feel |
+| Puff print | Raised, textured graphics | Moderate | Popular in streetwear |
+| Embroidery | Logos, small premium details | Good | Cost depends on stitch count |
+
+## What drives t-shirt cost
+
+- **Fabric and GSM:** heavier and combed or bio-washed cotton costs more.
+- **Quantity:** setup costs spread over more pieces means a lower unit price. This is why pooling helps.
+- **Colours:** custom dyed colours can carry dye-lot minimums.
+- **Decoration:** number of print colours, print size and placements.
+- **Branding:** custom neck labels, hang tags and packaging.
+
+## How to order a small batch of custom tees
+
+- Finalise fabric, GSM, fit, colours and print in a simple tech pack.
+- Join or start a pooled t-shirt lot on Smallotz, or request a direct quote if you need 300+ pieces per style.
+- Approve a sample: measure it, wash it and check print quality.
+- Confirm quantity, size split and delivery date in writing.
+- Check pieces on arrival, then reorder the colours and sizes that sell.
+
+## Where t-shirts are made in India
+
+Tiruppur in Tamil Nadu is India's best-known knitwear cluster and the usual choice for cotton tees, from fabric knitting to printing and stitching. Kolkata and Ludhiana also produce knitwear. See our guide to [India's apparel hubs](https://vozcruda.com/india-apparel-manufacturing-hubs.html) and our [Tiruppur buyer's guide](https://vozcruda.com/tiruppur-garment-manufacturing-guide.html).
+
+Ready to make your first batch? [Open Smallotz](https://smallotz.vozcruda.com/) or read the full [low MOQ clothing guide](https://vozcruda.com/low-moq-clothing-manufacturers-india.html).
+
+## Frequently asked questions
+
+**What is the MOQ for custom t-shirts in India?**
+Many factories ask for 300 to 1,000 pieces per style for fully custom t-shirts, often with a per-colour minimum. Small units accept less at a higher price, and pooled lots on Smallotz let you order smaller quantities at close to bulk pricing.
+
+**What GSM is best for an oversized t-shirt?**
+Oversized streetwear tees are commonly made in 220 to 260 GSM cotton for a heavier, structured drape. Regular-fit everyday tees are often 160 to 200 GSM.
+
+**Which printing method is best for small batches?**
+DTF and DTG are cost-effective for small runs and multi-colour designs because they need no screens. Screen printing gives excellent durability and becomes cheaper per piece as quantity grows, especially for designs with few colours.
+
+**What is bio-washed cotton?**
+Bio-washing is an enzyme treatment that removes loose surface fibres from cotton. It gives the fabric a smoother, softer feel and reduces pilling.
+
+**How long does it take to make custom t-shirts?**
+After sample approval, small batches of custom tees typically take a few weeks, depending on fabric availability, dyeing and printing. Add time for sampling and, with pooled orders, for the lot to fill.
+
+---
+
+# What Is a Tech Pack? Meaning, What to Include and How to Make One
+
+URL: https://vozcruda.com/tech-pack-guide-for-beginners.html
+Updated: 2026-10-24
+
+**Short answer:** A **tech pack** (short for technical package) is the blueprint a factory uses to make your garment. It includes flat sketches, a size chart with measurements and tolerances, fabric and GSM, trims, colours, artwork placement, labels and packing instructions. A clear tech pack means accurate quotes, fewer sample rounds and bulk production that matches what you approved.
+
+Most problems between new brands and factories come down to assumptions. You imagined a dropped shoulder; they made a regular one. You wanted a 2 cm rib; they used 1.5 cm. A tech pack removes the guesswork by putting every decision on paper.
+
+## What is a tech pack?
+
+Think of a tech pack as the recipe for one garment. A photo or a reference piece shows a factory what you like. A tech pack tells them exactly what to make: which fabric, how many centimetres for each measurement in each size, which stitch on the hem, where the print sits and how each piece is folded and packed.
+
+The factory uses it at every stage:
+
+- **Quoting:** fabric, GSM, trims and print method decide the cost, so a quote without a tech pack is a guess.
+- **Sampling:** the pattern maker and sampling tailor work from your measurements and drawings.
+- **Bulk production:** the line follows the approved version, and the quality team checks pieces against your size chart and tolerances.
+
+Without one, every one of those steps relies on memory and WhatsApp messages, which is how a sample comes back in the wrong shade or fit.
+
+## What goes into a tech pack
+
+| Section | What it includes |
+|---|---|
+| Cover page | Style name and number, season, brand, date and version |
+| Flat sketches | Front and back technical drawings, with callouts for details |
+| Size chart (spec sheet) | Measurements for every size, how to measure each point, and tolerances |
+| Bill of materials (BOM) | Fabric, composition, GSM, colour, plus every trim: thread, rib, buttons, zips, drawcords |
+| Construction details | Stitch types, seam finishes, hem widths, neck finish |
+| Artwork and placement | Print or embroidery files, sizes, colours (Pantone where possible) and exact placement |
+| Labels and packaging | Neck label, wash care label, hang tag, polybag and folding instructions |
+| Order sheet | Quantity per colour and size, and the delivery date you need |
+
+Want to see every section filled in? Our [t-shirt tech pack example](https://vozcruda.com/tech-pack-example-t-shirt.html) walks through a complete one, page by page.
+
+## The size chart: the most important page
+
+For a t-shirt, the key measuring points are usually:
+
+- Chest width (measured 2 to 3 cm below the armhole)
+- Body length (from high point of shoulder to hem)
+- Shoulder width
+- Sleeve length and sleeve opening
+- Armhole depth
+- Neck width, neck drop and rib width
+- Hem width
+
+Give each measurement for every size, and add a tolerance, for example plus or minus 1 cm on body measurements. Tolerances turn "this looks off" into an objective check.
+
+Write down how each point is measured too. "Chest" could mean half chest measured flat or the full circumference, and the two numbers differ by a factor of two. Most Indian factories measure garments flat, so say "half chest, measured flat" if that is what you mean.
+
+ShortcutFind a garment you love the fit of, measure it flat, and use those numbers as your base size. Then grade up and down for other sizes, or ask the factory to grade from your base.
+
+## Tech pack template: a page-by-page checklist
+
+Use this as your template. If a page is blank when you send it, the factory will fill the gap with its own default.
+
+- **Cover:** brand, style name, style number, version, date, contact person.
+- **Flats:** front and back drawings, with arrows to every detail (rib, topstitch, pocket, label position).
+- **Spec sheet:** measuring points down the side, sizes across the top, tolerance column, a small diagram showing where each point is measured.
+- **BOM:** main fabric (type, composition, GSM, colour), rib or contrast fabric, thread, and every trim with size and colour.
+- **Construction:** seam type for side, shoulder and sleeve, hem finish and width, neck finish, any taping or reinforcement.
+- **Artwork:** print or embroidery method, artwork size in cm, colour references, placement measured from a fixed point.
+- **Labels and packing:** neck or printed label, care label content and position, hang tag, fold, polybag, size sticker, carton marking.
+- **Order sheet:** colour by size quantities, target delivery date, delivery address.
+
+## How to make a tech pack without a designer
+
+- **Collect references:** photos of garments with the fit, fabric and details you want.
+- **Draw flats:** simple front and back outlines. Free templates and tools like Canva or Google Slides work for a first version.
+- **Measure a reference garment** and build your size chart.
+- **List materials:** fabric type, composition, GSM, colours and every trim. Our [fabric and GSM guide](https://vozcruda.com/fabric-guide-for-clothing-brands.html) explains the terms.
+- **Add artwork:** high-resolution files with placement measured from fixed points, such as "8 cm below the neck seam, centred."
+- **Specify labels and packing.**
+- **Version it:** every change after a sample gets a new version number and date.
+
+If you do hire a freelance designer or technical designer, prices vary a lot with the garment's complexity and the number of sizes. Ask whether the fee includes size grading and revisions after the first sample, because those are where extra charges usually appear.
+
+## Tech pack vs spec sheet vs BOM
+
+Factories and designers use these words loosely, so it helps to know what each one usually means.
+
+| Term | What it usually means | Enough on its own? |
+|---|---|---|
+| Tech pack | The full package: drawings, measurements, materials, construction, artwork, labels, packing | Yes, for a new style |
+| Spec sheet | The measurement table and tolerances, sometimes with a sketch | Only when the base product already exists |
+| BOM | The list of every material and trim, with quantities | No, it is one section of the tech pack |
+
+## Tech packs for pooled and private label orders
+
+If you join a pooled lot or build on a manufacturer's existing product, much of the tech pack already exists: fabric, construction and base measurements are fixed for the lot. You only need a short spec sheet covering what is yours, such as quantity and size split, colour where offered, print artwork and placement, and labels. It is one more reason pooling is a quick way to launch. Read [how private label works](https://vozcruda.com/private-label-clothing-brand-india.html) for more on building on an existing product.
+
+## Common tech pack mistakes
+
+- **Missing tolerances,** so there is no agreed standard for quality checks.
+- **Vague placement** like "print on chest" instead of measured positions.
+- **No colour references,** leading to the wrong shade. Use Pantone codes or physical swatches.
+- **Unspecified GSM or composition,** so the fabric feels different from what you imagined.
+- **Unclear measuring method,** such as not saying whether chest is half or full.
+- **Old versions in circulation.** Always send the latest version and say what changed.
+- **Forgetting labels and packing,** which leads to last-minute delays.
+
+## From tech pack to production
+
+Send your tech pack with your quote request. Review the first sample against it point by point, record changes in a new version, and approve a final pre-production sample before bulk. See [the clothing sampling process](https://vozcruda.com/clothing-sampling-process-india.html) for how samples are reviewed round by round, and our [supplier vetting guide](https://vozcruda.com/how-to-vet-apparel-suppliers.html) for how to check them. When you are ready, [share your tech pack with Voz Cruda](https://vozcruda.com/#contact) for matching and a quote.
+
+## Frequently asked questions
+
+**What is a tech pack in clothing?**
+A tech pack is a document that gives a manufacturer everything needed to make a garment: technical drawings, measurements for every size, fabric, trims, colours, artwork placement, labels and packing instructions.
+
+**What does tech pack stand for?**
+Tech pack is short for technical package. It is the technical package of drawings and specifications that goes from a brand to a factory.
+
+**Do I need a tech pack for a small order?**
+Yes. Even for small quantities, a tech pack reduces misunderstandings and sampling rounds. For pooled or private label orders built on an existing product, a shorter spec sheet covering your changes is often enough.
+
+**What is the difference between a tech pack and a spec sheet?**
+A spec sheet is usually one part of a tech pack: the table of measurements and tolerances for each size. The full tech pack adds drawings, materials, construction, artwork, labels and packing.
+
+**Can I make a tech pack without a designer?**
+Yes. You can start from a garment you like, measure it, sketch flat drawings with simple tools and list fabric, trims and artwork details. Many founders do their first tech pack themselves.
+
+**What software is used to make tech packs?**
+Many designers use Adobe Illustrator for flat sketches and spreadsheets or PDF layouts for specifications. Simple tech packs can be made in Google Slides, Canva or Excel. Send the factory a PDF so the layout does not shift.
+
+**How many pages is a tech pack?**
+A simple t-shirt tech pack can fit on four to six pages. Garments with more parts, such as jackets, shirts or lined dresses, need more pages for construction details and trims.
+
+**What is a measurement tolerance in a tech pack?**
+Tolerance is the allowed difference between your specified measurement and the finished garment, such as plus or minus 1 cm. Agreeing tolerances upfront makes quality checks objective.
+
+---
+
+# Print-on-Demand vs Low MOQ Manufacturing: Which Is Right for Your Clothing Brand?
+
+URL: https://vozcruda.com/print-on-demand-vs-low-moq-manufacturing.html
+Updated: 2026-10-10
+
+**Short answer:** Use **print-on-demand** to test designs with no stock and no upfront cost. Move to **low MOQ manufacturing** when you want better margins, your own fabric and fit, and a branded unboxing. Pooled lots on Smallotz make that move possible without committing to a factory's full minimum.
+
+## How each model works
+
+**Print-on-demand (POD):** a printer holds stock blank garments. When a customer orders, they print your design on one piece and ship it. You hold no inventory.
+
+**Low MOQ manufacturing:** you have a small batch of garments made to your specifications, such as fabric, fit, colour, print and labels. You hold the stock and ship it yourself or through a fulfilment partner.
+
+## Side-by-side comparison
+
+| Factor | Print-on-demand | Low MOQ manufacturing |
+|---|---|---|
+| Upfront cost | Almost none | Cost of a small batch |
+| Stock risk | None | Low, if you order conservatively |
+| Margin per piece | Lower | Higher |
+| Fabric, GSM and fit | Limited to the printer's blanks | Your choice |
+| Print methods | Usually DTG or DTF | Screen, DTF, puff, embroidery and more |
+| Branding | Often limited labels and packaging | Your neck labels, tags and packaging |
+| Delivery speed | Made after each order | Ships from your stock |
+| Product uniqueness | Low | High |
+
+## When print-on-demand makes sense
+
+- You are testing whether your designs sell at all.
+- You have a large catalogue of designs with low sales per design.
+- You are a creator selling occasional merchandise.
+
+## When low MOQ manufacturing makes sense
+
+- A few styles sell consistently and you want better margins on them.
+- Your brand depends on fabric, fit or feel, such as heavyweight oversized tees.
+- You want branded labels, tags and packaging.
+- You want faster dispatch from your own stock.
+
+## Signs it is time to switch
+
+- Your best designs sell week after week.
+- After POD costs and ads, there is little profit left.
+- Reviews mention fabric quality or fit.
+- You want to sell to boutiques or wholesale buyers, who expect consistent stock.
+
+## How to make the switch without big risk
+
+- **Move only your bestsellers** to production first. Keep POD for testing.
+- **Order small:** enough for 6 to 10 weeks of sales.
+- **Use a pooled lot** to get factory quality at close to bulk pricing without the full MOQ. Read [how MOQ aggregation works](https://vozcruda.com/what-is-moq-aggregation.html).
+- **Upgrade the product:** better fabric, your fit, your labels. Give customers a reason to notice.
+- **Reorder fast** when stock runs low.
+
+Ready to move your bestsellers into production? [Open Smallotz](https://smallotz.vozcruda.com/) or read the [small-batch t-shirt guide](https://vozcruda.com/small-batch-t-shirt-manufacturing-india.html).
+
+## Frequently asked questions
+
+**Is print-on-demand good for starting a clothing brand?**
+It is a good way to test designs with no stock risk. Its limits are lower margins, generic blank garments and less control over quality and packaging, which make it harder to build a premium brand.
+
+**When should I move from print-on-demand to manufacturing?**
+Consider switching when a few designs sell consistently, when margins are too thin to fund marketing, or when customers ask for better fabric, fit or packaging than print-on-demand can offer.
+
+**Is low MOQ manufacturing risky?**
+You do hold stock, so the risk is unsold inventory. Low MOQ keeps that risk small: you buy only what you expect to sell in the next few weeks and reorder what works.
+
+**Can I combine print-on-demand and low MOQ production?**
+Yes. Many brands produce proven bestsellers in low MOQ batches for better margins, and keep print-on-demand for testing new designs.
+
+---
+
+# The Complete Apparel Sourcing Guide for Small Businesses in India
+
+URL: https://vozcruda.com/apparel-sourcing-guide.html
+Updated: 2026-10-24
+
+**Short answer:** To source apparel in India as a small business: decide your product and match it to the right hub (for example Tiruppur for knitwear), shortlist **full-package manufacturers** or a sourcing partner, ask about MOQ, lead time and sampling, approve a **pre-production sample**, and confirm everything in a written purchase order with staged payments. If your quantity is below the factory minimum, order fewer styles or pool your order with other buyers.
+
+If you're running a small fashion business in India — whether you're selling on Instagram, listing on Meesho or Myntra, or building your own D2C brand — apparel sourcing is probably your biggest operational challenge. Finding the right manufacturer, negotiating terms, managing quality, and keeping your supply chain moving is genuinely hard when you're not placing lakhs of units.
+
+This guide covers the full picture: the landscape, the terminology, how to find and evaluate manufacturers, what to do about MOQs, and how to build a sourcing system that works as your business grows.
+
+## Why Apparel Sourcing Is Hard for Small Businesses
+
+India has one of the world's largest apparel manufacturing ecosystems — Tirupur, Surat, Jaipur, Delhi, Mumbai, Ludhiana — and yet most small businesses struggle to access it properly. The reasons are structural.
+
+### Manufacturers are built for large buyers
+
+Most apparel factories in India optimise for high-volume, repeat buyers: large exporters, big retail chains, and e-commerce giants. Their pricing, processes, and minimum order quantities (MOQs) are calibrated for buyers placing 500–5,000 units minimum. A small retailer ordering 30 pieces of a cotton kurta simply isn't their priority.
+
+### Information is fragmented
+
+Unlike in some other industries, there's no single, reliable directory of verified Indian apparel manufacturers organised by category, MOQ, and capability. Most sourcing still happens through referrals, trade shows like Texworld and India ITME, or WhatsApp groups — which are great if you're already in the network, and nearly useless if you're not.
+
+### Quality and reliability vary significantly
+
+Two manufacturers in the same city producing the same garment category can have dramatically different quality standards, timelines, and communication norms. Without a proper vetting process, a small business can lose significant money on a bad order — and not have the volume to negotiate a resolution.
+
+"The garment industry is not difficult to access because of a lack of manufacturers. It's difficult to access because of a lack of reliable sourcing infrastructure for buyers who aren't placing large volumes."
+
+## Understanding the Types of Apparel Manufacturers
+
+Before you start reaching out to suppliers, it helps to understand who you're actually dealing with. The apparel supply chain in India involves several distinct types of businesses, each with different capabilities and minimums.
+
+### Fabric mills
+
+These produce raw fabric — cotton, linen, polyester, blends. You won't typically source directly from mills unless you're doing full custom fabric development, which requires significant volumes (usually 500m+ per colour/weave). For most small businesses, fabric is the manufacturer's problem to source.
+
+### CMT manufacturers (Cut, Make, Trim)
+
+CMT factories take your fabric and patterns and produce finished garments. You're responsible for sourcing fabric, designing patterns, and providing trims (buttons, zips, labels). CMT is common for businesses with strong design capabilities and established fabric relationships. MOQs can be lower — sometimes 50–100 pieces — but coordination complexity is higher.
+
+### Full-package manufacturers
+
+Full-package suppliers handle the entire process: fabric sourcing, cutting, stitching, finishing, and packing. You provide a tech pack or sample, they handle the rest. This is the most common model for small businesses because it reduces operational complexity. MOQs are typically higher — 200–1,000 units — because the manufacturer is bearing more coordination cost.
+
+### Trading companies and sourcing agents
+
+These are intermediaries who don't own factories but work with a network of manufacturers. They can reduce sourcing friction significantly, especially for businesses without established factory relationships. The trade-off is an additional margin on your cost price — typically 8–15%.
+
+Which type should you use?
+
+For most small businesses just starting out: full-package manufacturers or a sourcing partner with a verified network. Once you have consistent volume and clearer product specs, moving to CMT can reduce cost per unit — but that's a later optimisation.
+
+## MOQ Explained — and How to Work Around It
+
+**MOQ (Minimum Order Quantity)** is the minimum number of units a manufacturer requires before they'll accept an order. It exists because production setup — cutting patterns, calibrating machines, sourcing fabric in required quantities — has a fixed cost that needs to be spread across enough units to be economical.
+
+### Typical MOQs in Indian apparel manufacturing
+
+- **Knitwear (t-shirts, polos, basic tees):** 50–200 units per style per colour
+- **Woven tops, kurtas, shirts:** 100–300 units per style
+- **Denim:** 200–500 units (fabric MOQs are high)
+- **Outerwear, blazers, structured garments:** 200–500 units
+- **Ethnic wear (sarees, lehengas, heavy embroidery):** Often lower MOQs but longer lead times
+
+### Strategies for managing MOQs as a small buyer
+
+There are four main approaches, and the right one depends on your business model:
+
+- **Focus on fewer SKUs, deeper inventory.** Instead of sourcing 20 styles at 30 units each, source 3 styles at 200 units each. This is less exciting but much more operationally manageable and typically produces better unit economics.
+- **Join an MOQ aggregation platform.** Platforms like Voz Cruda pool sourcing demand from multiple small buyers to collectively meet a manufacturer's MOQ. You order 30 pieces; the platform aggregates demand from other buyers for the same style, and the factory sees the full order. This is one of the most effective ways to access quality manufacturing without the volume constraint.
+- **Negotiate with padding flexibility.** Some manufacturers will accept lower MOQs if you agree to pay a slightly higher per-unit cost (a "small order surcharge") or commit to repeat orders on a schedule. This works best once you've established a relationship.
+- **Start with stock-lot buying.** Many manufacturers have excess fabric or finished goods from cancelled orders. Buying from stock — not custom production — has no MOQ in the traditional sense. The trade-off is limited style/colour control.
+
+## How to Find Reliable Manufacturers
+
+This is where most small business owners spend too much time without a clear methodology. Here's a structured approach.
+
+### Know your category and location before searching
+
+India's manufacturing hubs specialise. Searching for a manufacturer without understanding the geography wastes time and often leads to mismatches:
+
+- **Tirupur (Tamil Nadu):** Knitwear capital of India — t-shirts, hoodies, activewear, basics
+- **Surat (Gujarat):** Synthetic fabrics, woven garments, sarees, dress materials
+- **Jaipur (Rajasthan):** Block print, ethnic wear, hand-worked garments, artisan production
+- **Delhi NCR:** Wide variety — fast fashion, woven, export-oriented; Chandni Chowk for fabrics
+- **Mumbai:** Export garments, denim, western wear; Dharavi for lower-cost production
+- **Ludhiana (Punjab):** Knitwear, woollens, hosiery
+
+### Where to actually find manufacturers
+
+- **Trade shows:** Texworld India, IIGF (India International Garment Fair), and regional textile expos are the highest-quality sourcing environments. Manufacturers attend specifically to meet buyers.
+- **IndiaMART and TradeIndia:** Useful starting points, but verify everything — listings are not curated and quality varies enormously.
+- **Sourcing platforms and agents:** Reduces search time significantly if you work with someone with verified supplier relationships.
+- **Referrals from other sellers:** Often the most reliable signal. Fashion seller communities on WhatsApp, Telegram, and LinkedIn can be valuable.
+- **Direct visits:** For anything beyond a trial order, visiting a factory before placing a significant order is worth the cost. You see the actual production environment, workforce, and equipment.
+
+### Initial qualification questions to ask
+
+When you first contact a manufacturer, ask:
+
+- What product categories do you specialise in?
+- What is your MOQ per style per colour?
+- What is your typical lead time from order confirmation to dispatch?
+- Do you offer sampling? What is the sample cost and lead time?
+- Do you work with domestic buyers or only export?
+- Can you share references or previous work?
+
+## Quality Checks and Sampling
+
+Never place a production order without first going through a proper sampling process. This is the most common mistake small businesses make — skipping sampling to save time or cost, and then receiving a production run that doesn't match expectations.
+
+### The sampling process
+
+- **Proto / development sample:** First version of the garment. Likely not in the correct fabric. Used to validate the design and construction. Expect 2–4 rounds of revision.
+- **Pre-production sample (PP sample):** Made in the actual production fabric and trims, in the actual colourway. This is the sample you approve before production begins. Do not skip this.
+- **Production sample (TOP — Top of Production):** Taken from the start of the actual production run. Confirms that what's on the line matches your approved PP sample.
+
+### What to check in every sample
+
+- Measurements against your size spec / tech pack
+- Fabric feel, weight, and shrinkage (wash the sample before approving)
+- Stitching quality — stitch density, seam strength, no skipped stitches
+- Colourway — check against your reference in natural light
+- Finishing — hems, buttons, zips, labels, packaging
+
+Practical tip
+
+Always wash your approved sample before signing off on it. Many quality issues — shrinkage, colour bleeding, fabric pilling — only become apparent after a wash cycle. A garment that looks perfect off the production line but shrinks two sizes after the first wash is a returns problem waiting to happen.
+
+## Placing Your First Order
+
+Once you've approved a sample and decided to proceed, there are several things to get right before production starts.
+
+### Document everything in writing
+
+Your purchase order (PO) should specify: style name and code, size breakdown, quantity per size, colour, fabric specs, trim details, construction notes, per-unit price, total order value, payment terms, delivery date, and packaging requirements. Verbal agreements are not orders.
+
+### Payment terms
+
+The standard for domestic production in India is typically **30–50% advance** at order confirmation, and the balance before or at dispatch. For a first order with a new manufacturer, expect to pay a higher advance — it's normal and appropriate given there's no established relationship. Do not pay 100% upfront.
+
+### Lead times to plan around
+
+- Sampling: 1–3 weeks per round
+- Fabric procurement by manufacturer: 2–4 weeks
+- Production: 3–6 weeks depending on complexity and order size
+- Finishing and dispatch: 3–7 days
+- **Total from order confirmation to delivery: typically 6–12 weeks**
+
+This is why inventory planning matters. If you're selling seasonally or reacting to trends, you need to be ordering 2–3 months before you need stock on hand.
+
+## Scaling Your Sourcing Operation
+
+The sourcing processes that work for your first few orders need to evolve as your business grows. Here's what changes at different stages.
+
+### Early stage (₹0–₹25L annual sourcing)
+
+Focus on 1–3 products. Keep SKU count low. Use a sourcing partner or aggregation platform to access manufacturers without meeting high MOQs. Prioritise learning over optimisation — understand what sells before scaling what doesn't.
+
+### Growth stage (₹25L–₹1Cr annual sourcing)
+
+You now have enough volume to start building direct manufacturer relationships. Invest in proper tech packs and standardise your quality requirements. Start tracking supplier performance (lead time adherence, defect rates, communication responsiveness). Consider a second or third supplier to reduce dependency risk.
+
+### Scale stage (₹1Cr+ annual sourcing)
+
+At this level, sourcing becomes a competitive advantage. Invest in sourcing management systems, consider partial vertical integration (owning fabric relationships), and build a structured supplier scorecard process. The brands that win long-term tend to treat their supply chain as a strategic asset, not just a cost centre.
+
+## Common Sourcing Mistakes to Avoid
+
+- **Skipping sampling to save cost or time.** This almost always costs more in the end — whether through returns, dead stock, or lost customer trust.
+- **Working with too many suppliers too early.** Each supplier relationship requires coordination effort. Managing five mediocre suppliers is worse than managing two excellent ones.
+- **Not accounting for full landed cost.** Compare manufacturers on total cost: per-unit price + freight + packaging + inspection + payment processing — not just the sticker price.
+- **Chasing the lowest MOQ at the expense of quality.** A manufacturer who offers 20-piece MOQs is often doing so because they can't fill their capacity with larger buyers. Ask why before you commit.
+- **No written purchase orders.** If a dispute arises — wrong colour, wrong size breakdown, late delivery — you need documentation. WhatsApp confirmations are not adequate on their own.
+- **Ordering too much too soon.** The most common cash flow killer for small fashion businesses is over-ordering based on optimistic sell-through projections. Start conservatively. Reorder fast if demand is strong.
+
+## Final thoughts
+
+Apparel sourcing in India is genuinely complex — but it's learnable. The businesses that figure it out gain a durable operational advantage over competitors who are still struggling with inconsistent supply, missed deadlines, and quality problems.
+
+The key is to build systems: a small, reliable supplier network; standardised sampling and QC processes; clear written documentation; and realistic lead time planning. These don't require large volumes to implement — just discipline and consistency.
+
+If you're a small or growing apparel business looking for support building this infrastructure — from supplier matching and MOQ aggregation to procurement coordination — [get in touch with Voz Cruda](https://vozcruda.com/#contact). That's exactly what we're building.
+
+## Frequently asked questions
+
+**What is the best way for a small business to source apparel in India?**
+Start with a full-package manufacturer or a sourcing partner with a verified network, keep your range to a few styles, approve a pre-production sample, and put every order in a written purchase order. Move to CMT and direct factory relationships once your volume and specs are consistent.
+
+**How can I order clothing below a manufacturer's MOQ?**
+Four common routes: focus on fewer styles in deeper quantities, join an MOQ aggregation (order pooling) platform such as Smallotz, negotiate a small order surcharge or a repeat order plan, or buy from stock lots, which trades MOQ for less control over style and colour.
+
+**How long does clothing production take in India?**
+From order confirmation to delivery is typically 6 to 12 weeks: sampling takes 1 to 3 weeks per round, fabric procurement 2 to 4 weeks, production 3 to 6 weeks, and finishing and dispatch 3 to 7 days.
+
+**What payment terms are normal with Indian garment manufacturers?**
+For domestic production, typically 30 to 50% advance at order confirmation and the balance before or at dispatch. Expect a higher advance on a first order with a new manufacturer.
+
+---
+
+# Low MOQ Hoodie Manufacturers in India: Custom Hoodies and Sweatshirts in Small Batches
+
+URL: https://vozcruda.com/low-moq-hoodie-manufacturer-india.html
+Updated: 2026-10-10
+
+**Short answer:** To make custom hoodies in small quantities in India, choose your fabric (brushed fleece for warmth or French terry for year-round wear), pick a GSM (around 300 for everyday, 350 to 450 for heavyweight streetwear), decide the fit and details, approve a sample, then produce through a low MOQ route. Tiruppur is the main hub, and pooled lots on Smallotz let you order fewer pieces than a factory's usual 200 to 500 minimum.
+
+Hoodies sell at higher prices than tees and carry your brand's look in a big way. They also have more moving parts: fabric, rib, hood construction, drawcords, pockets and fit. Getting those right on a small first order is what this guide is about.
+
+## Fleece or French terry?
+
+| Fabric | Inside feel | Best for | Keep in mind |
+|---|---|---|---|
+| Brushed fleece | Soft, fluffy, warm | Winter collections, heavyweight streetwear | Too warm for much of India outside winter |
+| French terry (loop knit) | Small loops, smooth | Year-round hoodies, sweatshirts, joggers | Less warm, slightly less plush |
+| Cotton-polyester blend | Varies | Merch, team wear, value lines | Less shrinkage, less premium feel |
+
+Many Indian brands use French terry for most of the year and fleece for a winter drop. Read more in our [fabric guide for clothing brands](https://vozcruda.com/fabric-guide-for-clothing-brands.html).
+
+## Choosing the GSM
+
+- **240 to 280 GSM:** light sweatshirts and summer hoodies.
+- **280 to 320 GSM:** everyday hoodies with a solid feel.
+- **350 to 450 GSM:** heavyweight streetwear hoodies that hold their shape.
+
+Heavier fabric costs more and takes longer to dry and finish, so ask for the exact GSM in your quote and check it on the sample.
+
+## Fit and construction details
+
+- **Fit:** regular, oversized with dropped shoulders, or boxy and cropped.
+- **Hood:** two-panel or three-panel; single or double layer. A double-layer hood holds shape better.
+- **Rib:** cuffs and hem in matching rib, usually 2x2 or 1x1. Ask for rib in the same colour and dye lot.
+- **Drawcords:** flat or round, with metal eyelets or stitched holes, or none for a cleaner look.
+- **Pocket:** kangaroo pocket, side-seam pockets or none.
+- **Finishing:** pre-shrunk or garment-washed fabric reduces shrinkage after the first wash.
+
+## Decoration
+
+Screen printing, puff print and embroidery are the most popular on hoodies. Embroidery suits small chest logos; large back prints work well in screen or DTF. See [screen printing vs DTF vs DTG](https://vozcruda.com/screen-printing-vs-dtf-vs-dtg-india.html) to choose.
+
+## Typical MOQs and what drives them
+
+Hoodie MOQs are often higher than for simple knits because fleece and its matching rib are bought and dyed together in minimum lots. Custom colours add another minimum. Expect factory MOQs of around 200 to 500 pieces per style, and higher if each colour has its own minimum.
+
+## How to order a small batch of hoodies
+
+- Choose fabric, GSM, fit, colour and details, and put them in a [simple tech pack](https://vozcruda.com/tech-pack-guide-for-beginners.html). Our [tech pack example](https://vozcruda.com/tech-pack-example-t-shirt.html) notes what to add for hoodies.
+- Join or start a pooled hoodie lot on Smallotz, or request a direct quote for 300+ pieces per style.
+- Approve a sample: check GSM, measurements, rib match, hood shape and print.
+- Wash-test the sample for shrinkage and pilling.
+- Confirm quantity, size split and delivery date in writing. Book winter drops early, as factories get busy before the season.
+
+Ready to make your hoodies? [Open Smallotz](https://smallotz.vozcruda.com/) or [send us your requirement](https://vozcruda.com/#contact).
+
+## Frequently asked questions
+
+**What is the MOQ for custom hoodies in India?**
+Many factories ask for 200 to 500 pieces per style for custom hoodies, mainly because fleece fabric and matching rib are bought in minimum lots. Pooled lots on Smallotz let small brands order fewer pieces at close to bulk pricing.
+
+**What GSM is good for a hoodie?**
+Everyday hoodies are often 280 to 320 GSM. Heavyweight streetwear hoodies commonly use 350 to 450 GSM fleece or French terry for a thick, structured feel.
+
+**What is the difference between fleece and French terry?**
+Both are knitted with a smooth face. Fleece is brushed on the inside for a soft, warm, fluffy feel. French terry keeps small loops on the inside, so it is lighter and more breathable, which suits warmer climates.
+
+**Where are hoodies made in India?**
+Tiruppur is the main hub for cotton fleece and French terry hoodies. Ludhiana also produces winterwear and sweatshirts, especially in heavier and blended fabrics.
+
+**Are hoodies a good product for an Indian clothing brand?**
+Yes, but demand is seasonal in much of India. Many brands pair heavyweight winter hoodies with lighter French terry versions that sell for more of the year.
+
+---
+
+# Low MOQ Kidswear Manufacturers in India: How to Start a Kids' Clothing Brand
+
+URL: https://vozcruda.com/low-moq-kidswear-manufacturers-india.html
+Updated: 2026-10-10
+
+**Short answer:** To start a kidswear brand with low MOQ in India, focus on one age band, use soft breathable cotton fabrics, build safety into the design (no neck drawcords, secure fastenings, soft labels), and source from a kidswear hub like Tiruppur. Spread a small order across a focused size set, or join a pooled lot to order fewer pieces at near-bulk pricing.
+
+Parents buy kidswear again and again as children grow, which makes it a strong category for a new brand. The catch is that one style needs many sizes, and parents expect comfort and safety without compromise. Both affect how you plan a small first order.
+
+## Pick a focused age band
+
+| Age band | Typical products | What matters most |
+|---|---|---|
+| 0 to 24 months | Rompers, onesies, jhablas, sets | Softness, easy changing, gentle fastenings |
+| 2 to 8 years | Tees, shorts, co-ords, dresses, nightwear | Durability, washability, fun prints |
+| 8 to 14 years | Casual and occasion wear | Style that feels grown-up, fit |
+
+Starting with one band keeps sizes, patterns and stock under control.
+
+## Fabrics that work for kids
+
+- **Cotton single jersey:** soft and breathable for tees and dresses.
+- **Interlock:** thicker, smoother and stable, popular for baby wear.
+- **Rib:** stretchy, good for fitted pieces and leggings.
+- **Organic cotton:** a strong selling point with parents, at a higher fabric cost.
+- **Muslin and cotton voile:** light wovens for summer and swaddles.
+
+More detail in our [fabric guide](https://vozcruda.com/fabric-guide-for-clothing-brands.html).
+
+## Safety and comfort checklist
+
+- No drawcords at the hood or neck for young children.
+- Buttons, snaps and trims attached firmly and pull-tested.
+- Flat or covered seams near the skin, with no scratchy edges.
+- Soft labels, or printed labels instead of stiff woven tags.
+- Skin-safe dyes and print inks, and no small decorations that can come loose.
+- Easy openings for babies, such as envelope necks and snap crotches.
+
+Check the labelling and safety rules that apply to children's products where you sell, including on marketplaces.
+
+## Where kidswear is made in India
+
+**Tiruppur** is the largest hub for cotton knit kidswear and baby wear. **Kolkata** makes value kidswear and hosiery. **Delhi NCR** and **Mumbai** have units for occasion wear and woven pieces. See our guide to [India's apparel hubs](https://vozcruda.com/india-apparel-manufacturing-hubs.html).
+
+## Planning a small order across sizes
+
+A style in five sizes needs a size split. Weight it towards the sizes that sell best rather than ordering equal amounts. For example, a 100-piece order of a toddler tee might be split 15, 25, 25, 20 and 15 across five sizes. Track sell-through by size and adjust your next order.
+
+## How to order kidswear in small batches
+
+- Choose your age band and 2 to 4 hero styles.
+- Specify fabric, GSM, colours, prints and safety details in a [tech pack](https://vozcruda.com/tech-pack-guide-for-beginners.html).
+- Approve a sample in at least two sizes, and wash-test it.
+- Order through a pooled lot or a small-batch kidswear unit.
+- Inspect fastenings and seams on arrival before selling.
+
+Want help finding the right kidswear manufacturer? [Tell Voz Cruda what you want to make](https://vozcruda.com/#contact).
+
+## Frequently asked questions
+
+**What is the MOQ for kidswear in India?**
+Kidswear factories often ask for a few hundred pieces per style, spread across a size set. Because the size range is wide, MOQs per size can be small even when the total is high. Pooled lots can help you start with fewer pieces.
+
+**Which fabric is best for kids' clothing?**
+Soft, breathable cotton is the most common choice, especially combed or organic cotton single jersey, interlock and rib for babies. Avoid rough trims and scratchy seams near the skin.
+
+**Where is kidswear made in India?**
+Tiruppur is the largest hub for cotton knit kidswear. Kolkata produces value kidswear and hosiery, and Delhi NCR and Mumbai have units for occasion and woven kidswear.
+
+**What safety points matter in children's clothing?**
+Avoid drawcords at the neck for young children, secure buttons and snaps firmly, use soft labels or printed labels, choose skin-safe dyes and prints, and check that nothing small can come loose.
+
+**How many sizes should a kidswear brand start with?**
+Many brands start with a focused age band, such as 0 to 24 months or 2 to 8 years, rather than every size from newborn to teen. It keeps the first order smaller and the range easier to manage.
+
+---
+
+# Low MOQ Ethnic Wear Manufacturers in India: Kurtas, Sets and Co-ords in Small Batches
+
+URL: https://vozcruda.com/low-moq-ethnic-wear-manufacturers-india.html
+Updated: 2026-10-10
+
+**Short answer:** To source ethnic wear in small batches in India, pick your hub by style (Jaipur for block prints, Surat for synthetic and printed fabrics, Delhi NCR for embroidery and fusion), choose a print method that suits small runs such as digital print, and keep your first drop to a few designs in a focused size range. Ethnic wear MOQs are often 100 to 300 pieces per design, and pooled lots can bring that lower.
+
+Kurtas, kurta sets and ethnic co-ords sell all year in India, with festive and wedding peaks on top. Because much of the industry already works in smaller print and dye batches, ethnic wear is one of the easier categories to start small in.
+
+## Popular products and fabrics
+
+| Product | Common fabrics | Occasion |
+|---|---|---|
+| Everyday kurtas and kurtis | Cotton, cambric, mulmul, rayon, linen blends | Daily and office wear |
+| Kurta sets and co-ords | Cotton, rayon, modal, chanderi | Casual and smart casual |
+| Festive kurtas | Georgette, crepe, silk blends, chanderi | Festivals and weddings |
+| Men's kurtas | Cotton, linen, silk blends | Daily to festive |
+
+## Choosing a print or decoration method
+
+| Method | Look | Small batch fit |
+|---|---|---|
+| Hand block print | Handmade, natural variation | Good, but slower |
+| Screen print on fabric | Crisp, repeatable | Better at moderate runs |
+| Digital print | Unlimited colours, fine detail | Excellent |
+| Embroidery and handwork | Premium, festive | Good, cost depends on detail |
+| Solid dyed with trims | Minimal | Good if base fabric is shared |
+
+## Where to source
+
+- **Jaipur:** block-printed cottons, kurtas, dresses and sets with a handcrafted feel. Nearby Sanganer and Bagru are known for traditional prints.
+- **Surat:** synthetic and blended fabrics, printed dress materials and value ethnic wear.
+- **Delhi NCR:** embroidery, embellishment and fusion ethnic wear for brands.
+
+Read more in [India's apparel manufacturing hubs](https://vozcruda.com/india-apparel-manufacturing-hubs.html).
+
+## Ways to keep MOQs low in ethnic wear
+
+- **Share a base fabric** across several designs so fabric minimums are met together.
+- **Use digital printing** for multi-colour designs without screens.
+- **Limit colourways** on your first drop.
+- **Keep sizes focused,** for example S to XXL, before adding plus sizes in a later drop.
+- **Pool your order** with other buyers using the same base product.
+
+## Quality points to check on samples
+
+- Colour fastness: wash the sample and check for bleeding, especially with deep dyes.
+- Print alignment at seams and panels.
+- Shrinkage on cotton and rayon after washing.
+- Neckline finish, side slits and hem straightness.
+- Lining quality in sheer fabrics.
+
+## Plan around the festive calendar
+
+Festive demand peaks around Diwali and the wedding season. Factories get busy in the weeks before, so place festive orders well ahead and keep everyday styles running year-round.
+
+Ready to launch your ethnic wear line? [Share your requirement with Voz Cruda](https://vozcruda.com/#contact) or [open Smallotz](https://smallotz.vozcruda.com/).
+
+## Frequently asked questions
+
+**What is the MOQ for kurtas in India?**
+Ethnic wear MOQs are often lower than for knitwear, commonly around 100 to 300 pieces per design. Printing and dyeing batches drive the minimum, so designs that share a fabric or print can help reach it.
+
+**Which city is best for kurta manufacturing?**
+Jaipur is known for block-printed cotton kurtas and handwork, Surat for synthetic and printed fabrics and dress materials, and Delhi NCR for embroidered, embellished and fusion ethnic wear.
+
+**What is the difference between block print and digital print?**
+Block printing is done by hand with carved wooden blocks, giving a handmade look with natural variation. Digital printing applies designs from a file, allowing unlimited colours and detail with consistent results and often lower minimums.
+
+**Which fabrics are popular for kurtas?**
+Cotton, cambric, mulmul, rayon, linen blends, chanderi and modal are popular for everyday kurtas. Georgette, crepe and silk blends are common for festive wear.
+
+**Can I start an ethnic wear brand with small quantities?**
+Yes. Ethnic wear suits small runs, especially with digital printing and shared base fabrics. Starting with a few designs in a tight size range keeps your first order small.
+
+---
+
+# How to Price Your Clothing Products: Costing, Margins and MRP for Indian Brands
+
+URL: https://vozcruda.com/how-to-price-clothing-products.html
+Updated: 2026-10-10
+
+**Short answer:** Price a clothing product from the bottom up: add every cost to get your landed cost per piece, add the costs of selling it (shipping, returns, fees, marketing per order), then apply a markup that leaves real profit. Many D2C brands land at around three to four times landed cost. Finally, check the price against your market and positioning.
+
+## Step 1: Build your landed cost per piece
+
+Landed cost is everything it takes to get one finished, packed piece into your hands.
+
+- Fabric and making (cut, make and trim)
+- Printing or embroidery
+- Labels, hang tags and trims
+- Polybag, mailer box and inserts
+- Freight from the factory to you
+- Sampling and tech pack costs, spread over the order
+- Taxes you cannot recover
+
+## Step 2: Add the cost of selling each order
+
+- **Shipping to the customer**, including cash-on-delivery charges if you offer COD.
+- **Payment gateway fees** on prepaid orders.
+- **Returns and exchanges:** reverse shipping and repacking, spread across kept orders.
+- **Marketplace commission** and fees if you sell on platforms.
+- **Marketing cost per order:** ad spend and creator costs divided by orders.
+
+## Step 3: A worked example
+
+The figures below are illustrative, to show the method. Use your own quotes.
+
+| Line | Per piece (₹) |
+|---|---|
+| Heavyweight tee, made and printed | 300 |
+| Labels, tags and packaging | 40 |
+| Freight and sampling, spread over order | 20 |
+| Landed cost | 360 |
+| Shipping, gateway and returns per order | 120 |
+| Marketing per order | 250 |
+| Total cost to sell one | 730 |
+| Selling price at 3.5x landed cost | 1,260 |
+| Profit per order before overheads and tax | 530 |
+
+Notice how much marketing and fulfilment add. A brand that priced at 2x landed cost (₹720) would lose money on every order once marketing is included.
+
+## Step 4: Choose a markup that fits your channel
+
+| Channel | What eats the margin | Pricing implication |
+|---|---|---|
+| Your own website | Ads, shipping, payment fees | Highest margin if marketing is efficient |
+| Marketplaces | Commission, fees, high returns | Needs a higher multiple or a separate price |
+| Wholesale to boutiques | Retailer's own markup | Your wholesale price is often around half of MRP |
+| Pop-ups and offline | Stall rent, travel | Good margin, low return rate |
+
+If you plan to sell wholesale later, set an MRP that leaves room for a retailer's margin from the start.
+
+## Step 5: Lower your costs without cutting quality
+
+- **Avoid below-MOQ surcharges** by pooling your order. Shared setup costs keep the per-piece price close to bulk.
+- **Reduce returns** with an accurate size chart and honest photos.
+- **Push prepaid orders** to cut COD costs and cancellations.
+- **Reorder winners** instead of carrying slow stock you later discount.
+
+## Step 6: Sense-check against the market
+
+Compare your price with brands at a similar quality level, not the cheapest option. If your number is higher, ask whether your fabric, fit, design and brand justify it, and make sure your product pages show why. If it is far lower, you may be leaving money on the table.
+
+Want an accurate production cost to start your cost sheet? [Request a quote from Voz Cruda](https://vozcruda.com/#contact).
+
+## Frequently asked questions
+
+**What is a good markup for clothing?**
+Many D2C clothing brands aim to sell at roughly three to four times their landed product cost, so there is room for marketing, returns, platform fees and profit. The right multiple depends on your channel and positioning.
+
+**What costs should I include when pricing clothes?**
+Include fabric and making, printing, labels, packaging, freight to you, sampling spread over the order, taxes, payment gateway fees, shipping to customers, returns, marketplace commissions and marketing cost per order.
+
+**How do returns affect clothing pricing?**
+Returns add reverse shipping, repacking and sometimes unsellable stock. Estimate your return rate and spread that cost across the orders you keep, especially if you sell on marketplaces.
+
+**Does ordering in small quantities raise my cost per piece?**
+Ordering alone below a factory's MOQ usually does. Pooled lots keep the per-piece price close to bulk because setup costs are shared across all buyers in the lot.
+
+**Should I price lower than competitors to start?**
+Underpricing is risky. It leaves no budget for marketing and is hard to raise later. It is usually better to justify your price with product quality, fit and brand.
+
+---
+
+# Screen Printing vs DTF vs DTG: Which Print Method Is Best for Your Clothing Brand?
+
+URL: https://vozcruda.com/screen-printing-vs-dtf-vs-dtg-india.html
+Updated: 2026-10-10
+
+**Short answer:** Use **screen printing** for bold designs with few colours, the best durability and the lowest cost at larger quantities. Use **DTF** for small batches and multi-colour or detailed designs on most fabrics. Use **DTG** for photographic, full-colour art on cotton with a soft feel. For small brands, DTF is often the most flexible starting point.
+
+## How each method works
+
+- **Screen printing:** ink is pushed through a mesh screen onto the fabric, one screen per colour. Setup takes time, then printing is fast.
+- **DTF (direct to film):** the design is printed onto a film with adhesive powder, then heat-pressed onto the garment.
+- **DTG (direct to garment):** an inkjet printer sprays ink directly into the fabric, like a paper printer.
+
+## Side-by-side comparison
+
+| Factor | Screen printing | DTF | DTG |
+|---|---|---|---|
+| Best quantity | Moderate to large | 1 to moderate | 1 to small |
+| Setup cost | Screens per colour | Low | Low |
+| Colours | Few colours is cheapest | Unlimited | Unlimited |
+| Detail and gradients | Limited | Very good | Excellent |
+| Durability | Excellent | Very good | Good |
+| Feel | Soft (water-based) to thick (plastisol) | Thin layer on top | Soft, in the fabric |
+| Fabrics | Cotton, blends, many others | Cotton, polyester, blends | Mainly high-cotton |
+| Dark garments | Very good | Very good | Needs pre-treatment |
+
+## How cost changes with quantity
+
+Screen printing has a fixed setup cost for each colour, so the price per piece falls quickly as quantity rises. DTF and DTG have almost no setup, so their price per piece stays fairly flat. That is why DTF and DTG usually win at small quantities, and screen printing wins as orders grow, especially for one or two colour designs.
+
+Rule of thumbMany colours or small quantity: DTF or DTG. Few colours and growing quantity: screen print. Ask your manufacturer to quote both at your quantity.
+
+## Other decoration options
+
+- **Puff print:** a raised, textured screen print popular in streetwear.
+- **Embroidery:** premium and durable for logos. Cost depends on stitch count, not colours.
+- **Sublimation:** all-over prints on white polyester, common in sportswear.
+- **Discharge printing:** removes dye from the fabric for a very soft vintage feel on cotton.
+
+## Which method for which brand
+
+| Brand situation | Good choice |
+|---|---|
+| First drop, multi-colour artwork, under 100 pieces | DTF |
+| Photographic art on cotton tees | DTG |
+| Simple logo, reorders of a bestseller | Screen print |
+| Streetwear with texture | Puff print or screen print |
+| Premium minimal branding | Embroidery |
+| Polyester sportswear | DTF or sublimation |
+
+## Check print quality on your sample
+
+- Sharp edges and correct colours against your artwork.
+- Placement measured from the neck seam, as in your [tech pack](https://vozcruda.com/tech-pack-guide-for-beginners.html).
+- No cracking when stretched.
+- Three to five washes without fading or peeling.
+
+Not sure which method fits your design and quantity? [Send us your artwork](https://vozcruda.com/#contact) and we will suggest the best option.
+
+## Frequently asked questions
+
+**Which is better, DTF or screen printing?**
+Screen printing is usually more durable and becomes cheaper per piece at larger quantities, especially for designs with few colours. DTF is better for small quantities and multi-colour or detailed designs because it needs no screens.
+
+**Is DTF printing durable?**
+Good-quality DTF prints are durable for many washes when applied correctly. Washing inside out in cold water and avoiding high dryer heat helps them last.
+
+**Which print method feels softest?**
+DTG and water-based screen prints feel softest because the ink sits in the fabric. DTF and plastisol screen prints sit on top of the fabric and feel slightly heavier.
+
+**Can DTG print on polyester?**
+DTG works best on high-cotton fabrics. For polyester and blends, DTF or sublimation is usually a better choice.
+
+**What is the best print method for small batches?**
+For small batches, DTF and DTG avoid screen setup costs and handle full-colour designs. For simple one or two colour logos, screen printing can still be cost-effective at moderate quantities.
+
+---
+
+# Fabric Guide for Clothing Brands: Cotton, Fleece, Terry, Linen, Blends and GSM Explained
+
+URL: https://vozcruda.com/fabric-guide-for-clothing-brands.html
+Updated: 2026-10-10
+
+**Short answer:** Choose fabric by product and climate: cotton single jersey for tees, fleece or French terry for hoodies, linen, cotton or rayon for summer wovens, and polyester blends for activewear. **GSM** (grams per square metre) tells you the weight; for example, about 160 to 200 GSM for regular tees and 220 to 260 GSM for heavyweight oversized tees. Always confirm composition and GSM in writing and check them on the sample.
+
+## Knits vs wovens
+
+|  | Knit fabrics | Woven fabrics |
+|---|---|---|
+| How it is made | Interlocking loops | Threads crossed at right angles |
+| Stretch | Natural stretch | Little or none, unless blended with spandex |
+| Examples | Jersey, rib, interlock, fleece, French terry, pique | Poplin, twill, denim, linen, cambric, crepe |
+| Typical products | Tees, hoodies, joggers, polos, kidswear | Shirts, trousers, kurtas, dresses, jackets |
+| India hub | Tiruppur, Ludhiana, Kolkata | Surat, Bengaluru, Delhi NCR, Jaipur |
+
+## Common knit fabrics
+
+- **Single jersey:** the classic t-shirt fabric, smooth on one side.
+- **Rib:** stretchy with visible ridges; used for cuffs, collars and fitted tops.
+- **Interlock:** thicker, smooth on both sides, stable; popular for baby wear.
+- **Pique:** textured, breathable; used for polo shirts.
+- **French terry:** loops on the inside; for year-round sweatshirts and joggers.
+- **Fleece:** brushed on the inside for warmth; for winter hoodies.
+
+## Common woven fabrics
+
+- **Poplin and cambric:** smooth, crisp cotton for shirts and kurtas.
+- **Twill:** diagonal weave, durable; for chinos and workwear.
+- **Denim:** sturdy cotton twill for jeans and jackets.
+- **Linen:** very breathable with a natural texture; wrinkles easily.
+- **Rayon (viscose):** soft and drapey; popular for kurtas and dresses.
+- **Mulmul and voile:** very light cottons for summer wear.
+- **Georgette and crepe:** flowy synthetics or blends for festive and western wear.
+
+## Cotton quality terms
+
+- **Carded vs combed:** combed cotton removes short fibres for a smoother, stronger fabric.
+- **Bio-washed:** enzyme-treated for softness and less pilling.
+- **Compacted or pre-shrunk:** processed to reduce shrinkage after washing.
+- **Organic:** grown without synthetic pesticides and fertilisers; ask for certification if you market it.
+- **Yarn count:** higher counts mean finer yarn and a smoother fabric.
+
+## What GSM to choose
+
+| Product | Typical GSM range |
+|---|---|
+| Light summer tee | 140 to 170 |
+| Regular tee | 170 to 200 |
+| Heavyweight oversized tee | 220 to 260+ |
+| Polo shirt (pique) | 200 to 240 |
+| Sweatshirt or French terry hoodie | 260 to 320 |
+| Heavyweight fleece hoodie | 350 to 450 |
+
+These are common ranges, not rules. Ask for a fabric swatch and feel it before deciding.
+
+## Fabric checks before bulk production
+
+- Weigh a swatch or sample to confirm GSM.
+- Wash-test for shrinkage, colour bleeding and twisting.
+- Rub-test dark colours for colour transfer.
+- Check that bulk uses the same fabric lot as the approved sample.
+
+Put your fabric choices in a [tech pack](https://vozcruda.com/tech-pack-guide-for-beginners.html), or [ask Voz Cruda](https://vozcruda.com/#contact) to recommend fabrics for your product and budget.
+
+## Frequently asked questions
+
+**What does GSM mean in fabric?**
+GSM means grams per square metre. It measures fabric weight: a higher GSM fabric is heavier and usually thicker, while a lower GSM fabric is lighter and cooler.
+
+**What is the difference between knit and woven fabric?**
+Knit fabric is made from interlocking loops, so it stretches, like t-shirt jersey and fleece. Woven fabric is made by crossing threads at right angles, so it is more stable, like shirting, denim and linen.
+
+**What is combed cotton?**
+Combed cotton has been combed to remove short fibres and impurities before spinning. The resulting yarn is smoother and stronger, giving a softer, more even fabric than carded cotton.
+
+**Which fabric is best for Indian summers?**
+Light, breathable fabrics such as lightweight cotton jersey, cotton mulmul, linen and linen blends, and rayon work well in hot and humid weather.
+
+**Are cotton-polyester blends good for a clothing brand?**
+Blends shrink less, dry faster and cost less, which suits merchandise, team wear and activewear. Pure cotton usually feels more premium and breathable for fashion basics.
+
+---
+
+# The Clothing Sampling Process: Types of Samples, Costs and Timelines for New Brands
+
+URL: https://vozcruda.com/clothing-sampling-process-india.html
+Updated: 2026-10-10
+
+**Short answer:** Clothing sampling usually moves from a **proto sample** (first version) to a **fit sample** (adjusted fit), sometimes a **size set**, and finally a **pre-production sample** made with exact bulk materials. Each round often takes one to three weeks. A clear tech pack and structured feedback are the fastest ways to fewer rounds.
+
+## Types of samples
+
+| Sample | Purpose | What to check |
+|---|---|---|
+| Proto sample | First version of the design | Overall look, construction, proportions |
+| Fit sample | Refine fit on a real body | Measurements, comfort, drape |
+| Size set | Check grading across sizes | Each size against the size chart |
+| Pre-production (PP) sample | Final approval with bulk materials | Fabric, colour, print, labels, finishing |
+| Top of production (TOP) | Pieces pulled from early bulk | Bulk matches the PP sample |
+
+Small brands often combine steps, for example going from proto straight to PP for a simple tee with proven measurements.
+
+## How to brief a sample
+
+- Send a [tech pack](https://vozcruda.com/tech-pack-guide-for-beginners.html) with measurements, fabric, GSM and artwork.
+- Include a reference garment if you have one with the fit you want.
+- Confirm sample cost, timeline and whether it adjusts against bulk.
+- Agree measurement tolerances upfront.
+
+## How to review a sample
+
+- **Measure** every point and record differences in a table.
+- **Try it on** people of your target size. Check shoulders, chest, length and sleeve.
+- **Check fabric:** GSM, hand-feel, colour.
+- **Inspect construction:** seams, neck finish, hems, rib.
+- **Check decoration:** placement, colours, sharpness.
+- **Wash it** three to five times for shrinkage, bleeding and print durability.
+
+## Give feedback that gets fixed
+
+Vague comments like "make it more oversized" lead to more rounds. Give measured changes instead:
+
+| Vague | Clear |
+|---|---|
+| Make it more oversized | Chest width +4 cm in all sizes, drop shoulder by 3 cm |
+| Print looks too low | Move print up to 7 cm below neck seam |
+| Fabric feels thin | Change to 240 GSM combed cotton |
+| Neck looks off | Rib width 2 cm, reduce neck drop by 1 cm |
+
+Mark changes on photos, update the tech pack version and send both together.
+
+## Costs and timelines
+
+Samples cost more per piece than bulk because each is cut and sewn individually, sometimes from fabric bought in small quantities. Each round commonly takes one to three weeks; custom fabric, dyeing or embroidery adds time. Budget for at least two rounds on a new style.
+
+## How pooled lots shorten sampling
+
+In a pooled lot the base garment, fabric and construction are already developed and shared. You mainly review the fit, fabric and your own print or labels, instead of developing a pattern from scratch. That can save rounds, time and sampling cost on your first drop.
+
+## Common sampling mistakes
+
+- Approving a sample without washing it.
+- Changing several things at once without measurements.
+- Skipping the PP sample, then finding bulk fabric or colour is different.
+- Not keeping the approved sample as the reference for bulk checks.
+
+Want help moving from sample to production? Read [how to vet apparel suppliers](https://vozcruda.com/how-to-vet-apparel-suppliers.html) or [talk to Voz Cruda](https://vozcruda.com/#contact).
+
+## Frequently asked questions
+
+**How much does a clothing sample cost in India?**
+Sample costs vary with the garment, fabric and decoration. Samples cost more per piece than bulk because each one is made individually. Some factories adjust sample charges against your bulk order, so ask upfront.
+
+**How long does garment sampling take?**
+Each sample round often takes one to three weeks, depending on fabric availability and decoration. Most new styles need one or two rounds before approval.
+
+**What is a pre-production sample?**
+A pre-production (PP) sample is made with the exact bulk fabric, trims, labels and decoration. Once you approve it, it becomes the standard the bulk order is checked against.
+
+**Do I need samples if I join a pooled order?**
+In a pooled lot the base product is usually already developed, so you mainly review the fabric, fit and your own branding or print. It shortens sampling compared with developing a garment from scratch.
+
+**How many sample rounds are normal?**
+One or two rounds is common for simple products with a clear tech pack. Complex fits or new fabrics may need more. A detailed tech pack reduces rounds.
+
+---
+
+# How to Start a Streetwear Brand in India: Products, Drops and Small-Batch Production
+
+URL: https://vozcruda.com/start-streetwear-brand-india.html
+Updated: 2026-10-10
+
+**Short answer:** To start a streetwear brand in India: define a clear identity and audience, launch two or three hero products (usually heavyweight oversized tees and hoodies), release them as small limited drops, produce in low MOQ batches, and build a community on Instagram before each drop. Small, sold-out drops protect cash and build demand.
+
+Streetwear is built on identity, community and scarcity more than on large collections. That makes it well suited to small-batch production, as long as the product quality matches the hype.
+
+## Step 1: Define your identity
+
+Strong streetwear labels stand for something: a city, a music scene, skate culture, anime, sport, art or a point of view. Write down:
+
+- Who your customer is, and where they spend time online and offline.
+- The story or culture your brand comes from.
+- Your visual language: graphics style, colours, typography.
+
+## Step 2: Pick hero products
+
+| Product | Typical spec | Why it works |
+|---|---|---|
+| Oversized tee | 220 to 260 GSM cotton, dropped shoulder | Lowest cost, best canvas for graphics |
+| Hoodie | 320 to 450 GSM fleece or French terry | Higher price, strong brand presence |
+| Joggers or shorts | French terry | Completes a set, good for repeat buyers |
+| Caps and accessories | Embroidered | Low-cost add-on to orders |
+
+Product quality is your reputation. Fabric weight, fit and print durability are what customers talk about. See our guides to [t-shirts](https://vozcruda.com/small-batch-t-shirt-manufacturing-india.html) and [hoodies](https://vozcruda.com/low-moq-hoodie-manufacturer-india.html).
+
+## Step 3: Use the drop model
+
+- **Design a capsule:** two to four designs that tell one story.
+- **Produce small:** limited units per design.
+- **Tease early:** sampling photos, behind-the-scenes, countdowns.
+- **Release on a set date and time** to concentrate demand.
+- **Sell out, then restock or move on,** depending on your strategy.
+
+Drops keep stock risk low and make each release an event.
+
+## Step 4: Choose decoration that fits the look
+
+Streetwear graphics often use large back prints, puff print, screen print and embroidered logos. For multi-colour artwork in small runs, DTF is flexible. Compare options in [screen printing vs DTF vs DTG](https://vozcruda.com/screen-printing-vs-dtf-vs-dtg-india.html).
+
+## Step 5: Produce in small batches
+
+Most factories want 300 to 1,000 pieces per style for tees and hoodies, far more than a first drop needs. Pooled lots let you order the units your drop needs while getting factory quality and near-bulk pricing.
+
+## Step 6: Build community before you sell
+
+- Post consistently on Instagram: design process, sampling, fits, the people behind the brand.
+- Work with local creators, artists, skaters and musicians who match your identity.
+- Collect a waitlist before each drop through WhatsApp or email.
+- Show up at flea markets, pop-ups and sneaker or culture events.
+
+## Step 7: Price for the brand you want to be
+
+Heavyweight fabric, good prints and branded packaging cost more, so price accordingly and include marketing and returns in your numbers. Our guide on [how to price clothing products](https://vozcruda.com/how-to-price-clothing-products.html) walks through it.
+
+Voz Cruda runs its own streetwear label alongside sourcing, so we know these products well. [Tell us about your first drop](https://vozcruda.com/#contact).
+
+## Frequently asked questions
+
+**How much does it cost to start a streetwear brand in India?**
+Your biggest cost is your first stock. Launching a few hero products in small quantities, through low MOQ or pooled production, keeps the starting investment much lower than a full collection.
+
+**What products should a streetwear brand start with?**
+Most streetwear labels start with heavyweight oversized tees and hoodies, sometimes adding joggers or caps. They are proven sellers and carry graphics well.
+
+**What is a drop in streetwear?**
+A drop is a limited release of a small number of designs and units, announced in advance and sold for a short time. Limited supply creates urgency and keeps stock risk low.
+
+**How many pieces should my first drop have?**
+Many new labels start with a few designs and a small number of units per design, sized to what their audience can realistically buy. Selling out small is better than discounting leftovers.
+
+**Where can I make streetwear in India?**
+Tiruppur is the main hub for heavyweight cotton tees, French terry and fleece hoodies. Voz Cruda matches labels with suitable units and pools small orders through Smallotz.
+
+---
+
+# Custom T-Shirts and Merchandise for Companies, Events and Teams: Small Order Guide
+
+URL: https://vozcruda.com/custom-merchandise-small-orders-india.html
+Updated: 2026-10-10
+
+**Short answer:** For custom merchandise in small quantities, pick the product (tees, polos, hoodies or dri-fit), choose a decoration that suits the logo (embroidery for premium logos, print for large or colourful designs), collect sizes from your team, and order early. For very small runs, print on quality blanks; for custom-made pieces, pooled lots on Smallotz avoid full factory minimums.
+
+## Who orders custom merch
+
+- **Companies and startups:** onboarding kits, offsites, client gifts.
+- **Events:** conferences, marathons, product launches, volunteers.
+- **Colleges and schools:** fests, clubs, batch tees, sports teams.
+- **Teams and communities:** cricket and football teams, running clubs, cafés and restaurants.
+
+## Choose the right product
+
+| Product | Best for | Fabric suggestion |
+|---|---|---|
+| Crew-neck tee | Events, fests, everyday swag | Cotton or cotton blend, 160 to 200 GSM |
+| Polo shirt | Office, client-facing staff, uniforms | Pique cotton or blend |
+| Hoodie or sweatshirt | Premium swag, winter offsites, college merch | French terry or fleece |
+| Dri-fit tee | Sports days, marathons, outdoor events | Polyester performance fabric |
+| Caps and totes | Add-ons and giveaways | Cotton twill, canvas |
+
+## Branding options
+
+- **Screen print:** cost-effective for simple logos as quantity grows.
+- **DTF print:** flexible for multi-colour logos and small runs.
+- **Embroidery:** premium, durable look for polos, caps and hoodies.
+- **Sublimation:** all-over designs on polyester sportswear.
+
+Common placements are the left chest, centre front, upper back and sleeve. Compare methods in [screen printing vs DTF vs DTG](https://vozcruda.com/screen-printing-vs-dtf-vs-dtg-india.html).
+
+## Ready blanks vs custom-made
+
+|  | Printing on ready blanks | Custom-made in a pooled lot |
+|---|---|---|
+| Quantity | Very small runs | Small runs at near-bulk pricing |
+| Fabric and fit | Limited to available blanks | Better fabric, chosen fit |
+| Branding | Print only, generic labels | Print, embroidery and your own labels |
+| Speed | Fastest | Lot fill time plus production |
+
+## Plan sizes properly
+
+Wrong sizes are the most common merch complaint. Share a size chart with chest and length measurements, and collect each person's size through a simple form. If you cannot collect sizes, weight the order towards M and L and order a few spares.
+
+## Timeline checklist
+
+- Finalise logo files in vector format.
+- Choose products, colours and placements.
+- Collect sizes.
+- Approve a digital mock-up and, for larger orders, a physical sample.
+- Production and delivery. Build in a buffer before the event date.
+
+Need merch for your team or event? [Send Voz Cruda your requirement](https://vozcruda.com/#contact) or [open Smallotz](https://smallotz.vozcruda.com/).
+
+## Frequently asked questions
+
+**Can I order custom company t-shirts in small quantities?**
+Yes. Printing on ready blanks suits very small orders, and pooled production on Smallotz lets you order better quality custom-made tees and hoodies without meeting a full factory minimum.
+
+**Which fabric is best for corporate t-shirts?**
+Cotton is comfortable for everyday wear and events. Cotton-polyester blends shrink less and keep their shape, and polyester dri-fit suits sports days, marathons and outdoor events.
+
+**How long does custom merchandise take?**
+Printing on ready blanks can be quick, while custom-made garments need time for production and decoration. Plan several weeks ahead for events, and longer for large or custom orders.
+
+**How do I decide sizes for a team order?**
+Collect sizes from each person using a size chart with measurements. If that is not possible, a common approach is to weight the order towards M and L and add a few extra pieces.
+
+**Should I choose embroidery or printing for company logos?**
+Embroidery looks premium and lasts long on polos, caps and hoodies. Printing is better for large designs, event graphics and multi-colour artwork.
+
+---
+
+# How to Find Clothing Manufacturers in India: 7 Ways That Work for Small Brands
+
+URL: https://vozcruda.com/how-to-find-clothing-manufacturers-india.html
+Updated: 2026-10-10
+
+**Short answer:** The main ways to find clothing manufacturers in India are B2B directories like IndiaMART and TradeIndia, visiting the right hub (such as Tiruppur for knitwear), trade fairs, referrals from other founders, social media, sourcing partners like Voz Cruda, and pooling platforms like Smallotz. Start from your product and quantity, build a shortlist, then verify every option with references and a paid sample.
+
+## Before you search: know what you need
+
+Manufacturers respond faster to specific enquiries. Have these ready:
+
+- Product type and a few reference images
+- Fabric, composition and GSM
+- Quantity per style and colour
+- Sizes and decoration (print, embroidery)
+- Target price and timeline
+- A simple [tech pack](https://vozcruda.com/tech-pack-guide-for-beginners.html), if you have one
+
+## 7 ways to find a manufacturer
+
+### 1. B2B directories
+
+IndiaMART, TradeIndia and similar directories list thousands of garment suppliers searchable by product and city. They are a fast way to build a long list, but listings mix real factories with traders, so verification is essential.
+
+### 2. Visit the right hub
+
+Each cluster specialises: Tiruppur for knitwear, Surat for synthetics and ethnic fabrics, Jaipur for prints, Ludhiana for winterwear, Delhi NCR for fashion and private label. Visiting lets you see many units in a few days. See [India's garment hubs](https://vozcruda.com/india-apparel-manufacturing-hubs.html), or our [Tiruppur guide](https://vozcruda.com/tiruppur-garment-manufacturing-guide.html) for knitwear.
+
+### 3. Trade fairs and exhibitions
+
+Textile and apparel fairs bring manufacturers, fabric mills and trim suppliers under one roof. They are useful for meeting many suppliers at once, though many exhibitors target large buyers.
+
+### 4. Referrals from other founders
+
+Founder communities, WhatsApp groups and industry contacts often point to the most reliable units. Ask what the factory does well, and what went wrong.
+
+### 5. Social media and LinkedIn
+
+Many manufacturers now post production videos on Instagram and LinkedIn. It is a good way to see real work, but still verify before ordering.
+
+### 6. Sourcing partners
+
+A sourcing partner like Voz Cruda matches your product and quantity with manufacturers whose capability fits, then coordinates sampling and production through one point of contact. It saves weeks of searching and vetting.
+
+### 7. Order pooling platforms
+
+If your quantity is below a factory's minimum, pooling platforms combine your order with other buyers. You get access to factories that would otherwise decline your order.
+
+## Compare the options
+
+| Method | Speed | Vetting effort | Good for small quantities |
+|---|---|---|---|
+| B2B directories | Fast | High | Sometimes |
+| Hub visits | Medium | Medium | Sometimes |
+| Trade fairs | Depends on dates | Medium | Less often |
+| Referrals | Varies | Lower | Often |
+| Social media | Fast | High | Sometimes |
+| Sourcing partner (Voz Cruda) | Fast | Done for you | Yes |
+| Pooling (Smallotz) | Lot fill time | Done for you | Yes, built for it |
+
+## Write an enquiry that gets a reply
+
+Example enquiryHi, we are a D2C streetwear brand in Bengaluru. We need oversized tees in 240 GSM combed cotton, 3 colours, sizes S to XXL, 150 pieces per colour, with a large back screen print. Target delivery in 8 weeks. Tech pack attached. Could you share your MOQ, price at this quantity, sample cost and lead time?
+
+## Then shortlist and verify
+
+Narrow your list to three to five manufacturers, compare quotes on the same specification, and run each through our [supplier vetting checklist](https://vozcruda.com/how-to-vet-apparel-suppliers.html) before paying for samples.
+
+Want to skip the search? [Tell Voz Cruda what you want to make](https://vozcruda.com/#contact) and we will match you with suitable manufacturers.
+
+## Frequently asked questions
+
+**How do I find a clothing manufacturer in India for a small brand?**
+Start from your product and quantity. Use B2B directories and hub visits to build a shortlist, ask for references and samples, or use a sourcing partner like Voz Cruda that matches small brands with suitable manufacturers.
+
+**Are IndiaMART suppliers reliable?**
+B2B directories list many genuine manufacturers alongside traders and middlemen. Treat a listing as a starting point and verify GST details, the factory, references and a sample before ordering.
+
+**How do I contact a clothing manufacturer?**
+Send a short, specific enquiry: product, fabric and GSM, quantity per style, sizes, decoration, target price and timeline, with a tech pack or reference images. Specific enquiries get faster, more accurate replies.
+
+**Why do manufacturers not reply to small brands?**
+Many factories prioritise orders that meet their MOQ. Clear enquiries help, and pooled orders or a sourcing partner can get small brands a response by bringing combined volume.
+
+**Should I visit the factory?**
+If you can, yes. A visit, or at least a live video walk-through, shows real capability, working conditions and quality control far better than photos.
+
+---
+
+# Tech Pack Example: A Complete T-Shirt Tech Pack, Page by Page
+
+URL: https://vozcruda.com/tech-pack-example-t-shirt.html
+Updated: 2026-10-24
+
+**Short answer:** A complete t-shirt tech pack has eight parts: a cover page, front and back flat sketches, a size chart with tolerances, a bill of materials, construction details, artwork and placement, labels and packing, and an order sheet. Below is each part filled in for an example oversized cotton tee, which you can adapt for your own style.
+
+Our [beginner's guide to tech packs](https://vozcruda.com/tech-pack-guide-for-beginners.html) explains what a tech pack is and why it matters. This page is the practical companion: a worked example you can follow line by line. The style, numbers and materials are an illustration for a typical oversized tee, not a standard. Use your own reference garment for your measurements.
+
+## Page 1: Cover
+
+| Brand | Your brand name |
+| Style name | Oversized Heavy Tee |
+| Style number | TS-001 |
+| Season or drop | Drop 01 |
+| Version and date | V1, first issue |
+| Sizes | S, M, L, XL |
+| Contact | Name, phone and email of the person who approves samples |
+
+**Why it matters:** the style number and version are how you and the factory refer to this exact garment. When a sample comes back, you will review it against "TS-001 V1" and issue "V2" with the changes, so nobody works from an old file.
+
+## Page 2: Flat sketches
+
+Two simple line drawings, front and back, drawn as if the tee is lying flat. No model, no shading. Add arrows and short callouts for each detail:
+
+- Dropped shoulder seam
+- 2 cm 1x1 rib neck, with self-fabric back neck tape
+- Single-needle topstitch at neck rib
+- 2.5 cm twin-needle hem on body and sleeves
+- Front print position (see page 6) and printed neck label position (see page 7)
+
+**Why it matters:** callouts tell the sampling tailor what is intentional. Without "dropped shoulder" on the sketch, a factory used to regular fits may correct it for you.
+
+## Page 3: Size chart and tolerances
+
+All measurements in centimetres, garment measured flat. The numbers below are an example for a boxy oversized fit.
+
+| Point of measure | S | M | L | XL | Tolerance |
+|---|---|---|---|---|---|
+| A. Half chest, 2 cm below armhole | 56 | 58.5 | 61 | 63.5 | ± 1 |
+| B. Body length, from high point of shoulder | 70 | 72 | 74 | 76 | ± 1 |
+| C. Shoulder width, seam to seam | 54 | 56 | 58 | 60 | ± 1 |
+| D. Sleeve length, from shoulder seam | 22 | 23 | 24 | 25 | ± 0.5 |
+| E. Half sleeve opening | 20 | 21 | 22 | 23 | ± 0.5 |
+| F. Armhole, straight | 25 | 26 | 27 | 28 | ± 0.5 |
+| G. Neck width, seam to seam | 19 | 19.5 | 20 | 20.5 | ± 0.5 |
+| H. Front neck drop | 9 | 9 | 9.5 | 9.5 | ± 0.5 |
+| I. Neck rib width | 2 | 2 | 2 | 2 | ± 0.2 |
+| J. Half hem width | 56 | 58.5 | 61 | 63.5 | ± 1 |
+
+Add a small diagram with letters A to J so the factory's quality checker measures the same way you do.
+
+TipTolerances are tighter on small details like rib width and neck drop, because a 1 cm difference there is easy to see. Body measurements can usually take a little more.
+
+**Why it matters:** this table is what the finished garments are checked against. "Fits a bit small" is an opinion. "Half chest 55 cm against 58.5 ± 1" is a defect.
+
+## Page 4: Bill of materials
+
+| Item | Specification | Colour | Where used |
+|---|---|---|---|
+| Main fabric | 100% combed cotton single jersey, 240 GSM, bio-washed, pre-shrunk | Black, off-white | Body and sleeves |
+| Rib | 1x1 cotton rib, matched to body colour | Match body | Neck |
+| Back neck tape | Self fabric, 1 cm | Match body | Inside back neck |
+| Sewing thread | Spun polyester | Match body | All seams |
+| Care label | Printed satin, sewn into left side seam | White | Inside left side seam |
+
+**Why it matters:** GSM, composition and finish change both the feel and the price. "Cotton tee" could be quoted at 160 GSM or 260 GSM. See our [fabric and GSM guide](https://vozcruda.com/fabric-guide-for-clothing-brands.html) if these terms are new.
+
+## Page 5: Construction
+
+- **Shoulder seams:** 4-thread overlock with tape for stability.
+- **Side seams:** 4-thread overlock, no side slits.
+- **Sleeve attach:** 4-thread overlock.
+- **Neck:** rib attached with overlock, single-needle topstitch on body side.
+- **Hems:** body and sleeve hems 2.5 cm, twin-needle coverstitch.
+- **Stitch density:** state your expectation, or ask the factory for its standard and record it here.
+
+**Why it matters:** hem width and neck finish are some of the most visible signs of quality on a tee, and they are easy to change silently between sample and bulk if they are not written down.
+
+## Page 6: Artwork and placement
+
+| Method | Screen print, water-based ink |
+| Artwork file | TS-001_front_V1 (vector PDF, separate attachment) |
+| Print size | 28 cm wide x 20 cm high on size M; same size on all sizes |
+| Placement | Centred, top of artwork 8 cm below front neck seam |
+| Colours | One colour, off-white on black body (give a Pantone reference or send a swatch) |
+
+Show the artwork on the flat sketch with the 8 cm measurement drawn in. If you want the print to scale by size, say so and give the size for each one.
+
+**Why it matters:** "print on chest" means something different to every printer. Measured placement makes it repeatable across sizes and reorders. If you are still choosing a method, compare [screen printing, DTF and DTG](https://vozcruda.com/screen-printing-vs-dtf-vs-dtg-india.html).
+
+## Page 7: Labels and packing
+
+- **Neck label:** printed inside back neck, brand logo and size, 6 cm wide, centred 2 cm below neck seam.
+- **Care label:** fibre content, wash care symbols, country of origin, inside left side seam 8 cm above hem.
+- **Hang tag:** attached at left sleeve hem with a tag pin or string, if you use one.
+- **Fold:** folded with print facing out, size label visible.
+- **Polybag:** one piece per polybag with size sticker; state your polybag type if you have a preference.
+- **Cartons:** packed by size, with carton marking showing style number, colour, size and quantity.
+
+**Why it matters:** labels and packing are often the last thing a new brand thinks about and the first thing that delays dispatch. Custom labels can have their own minimums and lead times, so order them early.
+
+## Page 8: Order sheet
+
+| Colour | S | M | L | XL | Total |
+|---|---|---|---|---|---|
+| Black | 15 | 25 | 25 | 15 | 80 |
+| Off-white | 10 | 15 | 15 | 10 | 50 |
+| **Total** | 25 | 40 | 40 | 25 | **130** |
+
+Add your target delivery date and address. A size split weighted towards M and L is a common starting point for unisex oversized tees, but use your own sales data if you have it.
+
+At 130 pieces, this order sits below many factories' minimums. That is where pooling helps: the base tee is shared with other buyers so the lot reaches the factory MOQ, and your tech pack only needs the parts that are yours.
+
+## What to change for your own style
+
+- **Regular fit tee:** reduce half chest and shoulder, raise the shoulder seam to the natural shoulder, shorten body length slightly.
+- **Hoodie or sweatshirt:** add hood height and width, cuff and waistband rib measurements, pocket position, drawcord and eyelet details. See our [hoodie guide](https://vozcruda.com/low-moq-hoodie-manufacturer-india.html).
+- **Embroidery instead of print:** give stitch count or ask the embroiderer for it, thread colours, and backing type.
+- **All-over or sleeve prints:** add a placement drawing for each panel.
+
+## Before you send it
+
+- Check every page has the same style number and version.
+- Check every measuring point has a value for every size and a tolerance.
+- Attach artwork as separate files, not only as pictures inside the PDF.
+- Send it with your quantity and target date so the factory can quote properly.
+
+Then follow the [sampling process](https://vozcruda.com/clothing-sampling-process-india.html): review the first sample against this tech pack point by point and issue V2 with changes. [Share your tech pack with Voz Cruda](https://vozcruda.com/#contact) and we will match it with a suitable manufacturer.
+
+## Frequently asked questions
+
+**Can I copy this tech pack example for my own t-shirt?**
+Yes, use it as a starting structure. Replace the measurements with ones taken from a reference garment you like, and change the fabric, artwork and labels to match your product. The example numbers are illustrative, not a standard size chart.
+
+**What measurements are needed for a t-shirt tech pack?**
+At minimum: half chest, body length from high point of shoulder, shoulder width, sleeve length, sleeve opening, armhole, neck width, front neck drop, rib width and hem width, each with a tolerance.
+
+**How do I specify print placement in a tech pack?**
+Give the artwork size in centimetres and measure its position from a fixed point on the garment, such as 8 cm below the front neck seam and centred. Add a drawing showing the placement on the flat sketch.
+
+**Should the size chart be in centimetres or inches?**
+Either works if you are consistent, but most Indian garment factories work in centimetres or accept both. State the unit at the top of the size chart.
+
+**Does the factory need my tech pack in a specific format?**
+No. A clear PDF is the safest choice because it keeps the layout fixed. Send the artwork as separate high-resolution or vector files alongside it.
+
+---
+
+# How to Negotiate MOQ with Clothing Manufacturers: 9 Tactics That Work
+
+URL: https://vozcruda.com/how-to-negotiate-moq-clothing-manufacturers.html
+Updated: 2026-10-24
+
+**Short answer:** To negotiate a lower MOQ, find out what is driving the minimum and remove it. Use the factory's stock fabric, cut down on colours, share one fabric across styles, keep trims standard, offer a reorder plan or a flexible delivery date, or accept a modest surcharge. If none of that works, pool your order with other buyers so the lot meets the factory minimum.
+
+New brands often treat an MOQ like a price tag: take it or leave it. In practice it is the factory's way of protecting itself from fixed costs it cannot spread over a small order. If your request avoids those costs, or covers them another way, the number usually has room to move.
+
+If you are new to the term, start with our guide to [low MOQ clothing manufacturing in India](https://vozcruda.com/low-moq-clothing-manufacturers-india.html), which explains the different kinds of minimum and why factories set them.
+
+## First, ask what the MOQ is based on
+
+Before negotiating anything, ask one question: "Is this minimum for the stitching, the fabric, the print, or the trims?" The answer tells you where to push.
+
+| If the MOQ comes from | What usually brings it down |
+|---|---|
+| Fabric or dye lot | Stock colours, running fabrics, sharing fabric across styles |
+| Print or embroidery setup | Fewer colours in the artwork, one design across styles, a different print method |
+| Custom trims | Standard trims for the first order, printed instead of woven labels |
+| Line setup and capacity | Flexible dates, simpler construction, a reorder plan |
+
+## 9 ways to get a lower MOQ
+
+### 1. Choose stock or running fabric
+
+Custom-dyed fabric often has its own minimum from the dyeing unit or mill, and that minimum then sets yours. Ask which fabrics and colours the factory already runs. Black, white, navy, grey melange and a few seasonal shades are commonly available in basic knits, which can remove the fabric minimum entirely.
+
+### 2. Order fewer colours
+
+Per-colour minimums multiply fast. Three colours at 100 pieces each is 300 pieces; one colour at 150 might be accepted. Launch in your best colour and add others when it sells.
+
+### 3. Use one fabric across several styles
+
+If a tee and a longline tee, or a hoodie and a sweatshirt, share the same fleece, the factory can buy one larger fabric lot. Some factories will then accept lower quantities per style because the fabric total meets their minimum.
+
+### 4. Keep trims and labels standard for the first run
+
+Custom zips, woven labels, branded drawcord tips and special buttons each carry their own minimums and lead times. A printed neck label and standard trims for your first order keep things moving. Upgrade once the style has proved itself.
+
+### 5. Simplify the print
+
+In screen printing, each colour usually needs its own screen and setup. A one or two colour design is cheaper to set up than a six colour one. For small quantities of complex artwork, ask whether DTF suits the design instead. Our comparison of [screen printing vs DTF vs DTG](https://vozcruda.com/screen-printing-vs-dtf-vs-dtg-india.html) explains the trade-offs.
+
+### 6. Be flexible on timing
+
+Factories have busy and quiet periods. If your order can slot into a gap between larger orders, a smaller quantity is easier to accept. Saying "we are flexible on the delivery date by two or three weeks" is a real concession.
+
+### 7. Offer a clear reorder plan
+
+A factory takes a small first order more seriously when it can see the next one. Share your plan honestly, for example "120 pieces now, and we expect to reorder this style within three months if it sells." Do not promise volumes you cannot commit to; factories remember.
+
+### 8. Accept a small surcharge
+
+Many factories will produce below MOQ for a higher price per piece, which covers setup costs over fewer units. Before you agree, check that your margin still works using our [clothing pricing guide](https://vozcruda.com/how-to-price-clothing-products.html). A surcharge that is fine on a premium hoodie may break the numbers on a basic tee.
+
+### 9. Pool your order with other buyers
+
+If the factory will not move, change who makes up the minimum. In a pooled lot, several brands order the same base product, and the combined quantity meets the factory MOQ. Each brand pays near-bulk pricing for only its own quantity. Read [how MOQ aggregation works](https://vozcruda.com/what-is-moq-aggregation.html).
+
+## A message you can send
+
+Keep it short, specific and easy to say yes to. Factories get many vague enquiries, and a clear one stands out.
+
+TemplateHello, we are a new brand based in [city] looking to make [product], [fabric and GSM], in [colours]. Our first order is [quantity] pieces across sizes [S to XL]. We understand your usual minimum is higher. To make a smaller order work, we can use one of your running fabrics and colours, keep trims standard, and be flexible on delivery by two to three weeks. If it sells, we plan to reorder this style. Could you let us know the lowest quantity you could accept on those terms, and the price at that quantity and at your standard MOQ? Our tech pack is attached.
+
+Attaching a tech pack shows you are serious and lets the factory quote accurately. If you do not have one yet, our [tech pack guide](https://vozcruda.com/tech-pack-guide-for-beginners.html) and [t-shirt tech pack example](https://vozcruda.com/tech-pack-example-t-shirt.html) will help.
+
+## What not to do
+
+- **Do not ask for bulk pricing at sample quantities.** Ask for the price at your quantity and at their MOQ, so you can see the real difference.
+- **Do not hide your quantity.** Factories quote better when they know the real number.
+- **Do not promise future volumes you cannot commit to.**
+- **Do not skip the sample** to save money on a small order. A rejected bulk order costs far more. See the [sampling process](https://vozcruda.com/clothing-sampling-process-india.html).
+- **Do not negotiate only on WhatsApp.** Confirm the agreed quantity, price, size split and date on a purchase order.
+
+## When to stop negotiating
+
+If the price at your quantity makes the product unprofitable, or the factory agrees but shows little interest in your order, it may be the wrong fit. A factory that sees your order as a nuisance tends to slot it last. It is usually better to find a smaller unit, a factory with a running product close to yours, or a pooled lot. [Tell Voz Cruda what you want to make](https://vozcruda.com/#contact) and we can suggest the route that suits your quantity.
+
+## Frequently asked questions
+
+**Can you negotiate MOQ with a clothing manufacturer?**
+Often, yes. Most minimums come from fabric, dyeing, printing or trim costs. If you choose stock fabric, fewer colours or standard trims, or accept a small surcharge, many factories will accept a lower quantity.
+
+**What is the easiest way to get a lower MOQ?**
+Use the factory's stock or running fabric instead of a custom colour. Fabric and dye lot minimums are the most common reason a garment MOQ is high.
+
+**Is a per-colour MOQ negotiable?**
+Sometimes. Fewer colours is the simplest fix, but some factories will accept lower per-colour quantities if the total for the style stays at their minimum, or if the colours are ones they already run.
+
+**Should I pay a surcharge to order below MOQ?**
+It can be worth it for a first order you need quickly, as long as your margin still works at the higher price. Run the numbers with your landed cost and selling price before agreeing.
+
+**What if the factory will not lower its MOQ?**
+Ask for a referral to a smaller unit, look for a factory with a running product close to yours, or join a pooled lot where other buyers make up the rest of the minimum.
+
+---
+
+# Tiruppur Garment Manufacturing: A Buyer's Guide for Small Brands
+
+URL: https://vozcruda.com/tiruppur-garment-manufacturing-guide.html
+Updated: 2026-10-24
+
+**Short answer:** **Tiruppur**, in western Tamil Nadu near Coimbatore, is India's best-known hub for cotton knitwear: t-shirts, polos, hoodies, sweatshirts, joggers, innerwear and kidswear. It works as a cluster of specialised units for knitting, dyeing, printing, stitching and packing, coordinated by a manufacturer or merchant. Small brands can source there through smaller units, a sourcing partner, or pooled orders that meet a factory's minimum.
+
+Our overview of [India's garment hubs](https://vozcruda.com/india-apparel-manufacturing-hubs.html) explains what each city specialises in. This guide goes deeper on the one most small apparel brands start with, because almost every new label's first product is a tee or a hoodie.
+
+## What Tiruppur makes best
+
+| Product | Common fabrics | Good fit for Tiruppur? |
+|---|---|---|
+| T-shirts, regular and oversized | Single jersey, 160 to 260 GSM | Yes, the core product |
+| Polos | Pique | Yes |
+| Hoodies, sweatshirts, joggers | French terry, fleece | Yes |
+| Kidswear and baby wear | Soft single jersey, interlock, rib | Yes |
+| Innerwear and loungewear | Jersey, rib, cotton-elastane blends | Yes |
+| Woven shirts, denim, tailored trousers | Wovens | Usually better elsewhere |
+| Heavy woollen winterwear | Wool, acrylic knits | Usually Ludhiana |
+
+If you are new to GSM and knit types, our [fabric guide](https://vozcruda.com/fabric-guide-for-clothing-brands.html) explains them.
+
+## How the Tiruppur cluster works
+
+A buyer usually deals with one manufacturer, but the garment often passes through several specialised units before it is finished. Understanding this helps you ask better questions.
+
+- **Yarn** is bought from spinning mills.
+- **Knitting units** turn yarn into greige (undyed) fabric on circular knitting machines.
+- **Dyeing and processing units** dye, wash and finish the fabric, including compacting to control shrinkage.
+- **Cutting and stitching** happen at the manufacturer's own unit or with a job-work stitching unit.
+- **Printing and embroidery** are often done by separate specialist units.
+- **Checking, ironing and packing** finish the order.
+
+Some larger factories do several of these steps in-house. Many smaller manufacturers coordinate job-work units for the rest. Neither is automatically better. What matters is that the person you deal with controls quality across every step.
+
+Ask this"Which steps do you do in-house, and which go to job-work units?" A clear answer shows the manufacturer knows its own supply chain. It also tells you where delays are most likely, since each handover adds time.
+
+## MOQs and pricing in Tiruppur
+
+Many Tiruppur units are built for export and large domestic orders, so minimums of several hundred pieces per style are common, often with per-colour minimums too. The ranges in our [low MOQ guide](https://vozcruda.com/low-moq-clothing-manufacturers-india.html) are a good guide to what you will hear.
+
+The biggest drivers of price per piece are:
+
+- **Fabric:** yarn quality (combed or carded cotton), GSM and any special finish such as bio-wash.
+- **Colour:** running colours are cheaper and faster than custom dyed shades.
+- **Print or embroidery:** method, size and number of colours.
+- **Quantity:** setup costs spread across fewer pieces push the price up.
+- **Trims and packing:** custom labels, tags and packaging.
+
+Small brands often get the best results by choosing a running fabric and colour, keeping the first print simple, and pooling quantity with other buyers. Our guide on [how to negotiate MOQ](https://vozcruda.com/how-to-negotiate-moq-clothing-manufacturers.html) covers more tactics.
+
+## Lead times
+
+For basic tees and fleece, plan for sampling first, then several weeks of production after you approve the sample. Lead times stretch when the fabric needs a custom dye, when artwork needs several sampling rounds, or during peak seasons when units are full with large orders. Ask for a dated plan with fabric, sample approval, production and dispatch milestones. Our [sampling guide](https://vozcruda.com/clothing-sampling-process-india.html) explains each stage.
+
+## Sourcing from Tiruppur remotely
+
+You do not need to visit to work with a Tiruppur manufacturer. A remote process that works:
+
+- Send a clear [tech pack](https://vozcruda.com/tech-pack-guide-for-beginners.html) with your quantity and target date.
+- Ask for fabric swatches or a photo and GSM reading of the running fabric.
+- Approve a sample by courier, measured against your size chart.
+- Get a video walk-through of the unit and a mid-production update with photos.
+- Check a sample of finished pieces before final payment, or use a third-party inspection.
+
+Delivery within India is usually by road transport or courier. Agree who arranges and pays for it before production starts.
+
+## If you do visit
+
+- **Fly into Coimbatore** and travel to Tiruppur by road.
+- **Bring your tech pack and reference garments.** Touching fabric in person is the fastest way to agree a quality level.
+- **Visit more than one unit,** including the stitching floor, not only the office and showroom.
+- **Look for** organised cutting tables, measurement checks on the line, clean storage of finished goods and a quality checker with your spec sheet.
+- **Ask to see** a current order for another brand at a similar quantity to yours.
+
+Our [supplier vetting checklist](https://vozcruda.com/how-to-vet-apparel-suppliers.html) covers what to check and the red flags to watch for.
+
+## Is Tiruppur right for your brand?
+
+If your range is built around cotton knits, such as tees, polos, sweatshirts, hoodies, joggers or kidswear, Tiruppur is usually the right place to start. If you mainly make woven shirts, denim, structured womenswear or ethnic wear, another hub will usually suit you better. Either way, [tell Voz Cruda what you want to make](https://vozcruda.com/#contact) and we will match you with a suitable unit, or open [Smallotz](https://smallotz.vozcruda.com/) to join a pooled lot.
+
+## Frequently asked questions
+
+**Why is Tiruppur famous for garments?**
+Tiruppur has built a complete cotton knitwear chain in one region over several decades, from knitting and dyeing to printing, stitching and packing. That depth of skills and suppliers makes it efficient for t-shirts, polos, innerwear, kidswear and fleece.
+
+**Where is Tiruppur?**
+Tiruppur is in western Tamil Nadu, close to Coimbatore. Most buyers fly into Coimbatore and travel to Tiruppur by road.
+
+**Can I order small quantities from Tiruppur manufacturers?**
+Some smaller units accept small orders, usually at a higher price per piece. Many export-focused factories have higher minimums. Pooled lots on Smallotz let small brands reach a Tiruppur factory's MOQ by combining orders with other buyers.
+
+**Is Tiruppur good for hoodies and sweatshirts?**
+Yes. Tiruppur units make French terry and fleece garments such as hoodies, sweatshirts and joggers alongside t-shirts. Heavier winterwear and woollens are more often sourced from Ludhiana.
+
+**Do I need to visit Tiruppur to source from it?**
+No. Many brands work remotely using a tech pack, samples by courier and video calls, or through a sourcing partner. A visit helps when you are placing larger or repeat orders and want to see the unit for yourself.
+
+---
+
+# How Garment Manufacturers in India Can Find Buyers: A Practical Guide
+
+URL: https://vozcruda.com/how-garment-manufacturers-find-buyers-india.html
+Updated: 2026-10-24
+
+**Short answer:** Garment manufacturers in India find buyers mainly through **referrals**, **B2B marketplaces**, **trade fairs**, **buying agents and sourcing partners**, and **direct outreach** to brands whose products match their capability. Bought lists of "garment buyer contact details" rarely work. A clear capability sheet sent to the right brands works much better.
+
+Most of our guides are written for brands looking for a factory. This one is for the other side of the table: the factory owner, merchant or production head who has capacity and wants more of the right orders. It draws on what buyers tell us they look for when choosing a manufacturer.
+
+## Why buyer contact lists rarely work
+
+It is tempting to buy a spreadsheet of thousands of "garment buyers" and email them all. In practice:
+
+- **The contacts are often outdated** or generic inboxes that nobody in sourcing reads.
+- **They are rarely the decision maker.** At small brands the founder decides; at larger ones a sourcing or production manager does.
+- **Mass emails look like spam,** and sending them can hurt your email domain's reputation.
+- **Most of the brands will not match what you make.** A knitwear unit gets nowhere pitching a denim brand.
+
+Twenty well-chosen brands contacted personally usually do more than two thousand cold emails.
+
+## Know which buyers suit your unit
+
+Before looking for buyers, write down who you are actually good for. It makes every channel below work better.
+
+| Buyer type | Typical order | What they value |
+|---|---|---|
+| New and D2C brands | Small quantities, frequent reorders | Low MOQ, help with sampling, clear communication |
+| Boutiques and retailers | Small to medium, seasonal | Reliable dates, consistent quality |
+| Private label and wholesale buyers | Medium to large, repeat styles | Price, consistency, capacity |
+| Corporate and event merchandise | One-off, fixed deadline | Speed, printing and embroidery |
+| Export buyers and buying houses | Large, compliance-led | Certifications, audits, documentation |
+
+A unit that is excellent at 200-piece runs of premium tees should chase D2C brands, not large export programmes, and the other way round.
+
+## 8 channels that bring in real orders
+
+### 1. Referrals from current customers
+
+Happy buyers are your best salespeople. Ask them directly who else they know who is launching or scaling, and deliver well on small orders: small brands talk to each other constantly.
+
+### 2. B2B marketplaces and directories
+
+Platforms such as IndiaMART and TradeIndia are where many domestic buyers start searching. A listing works when it is specific: real photos of your work, products and fabrics you make, MOQ and a fast response. Generic listings with stock photos get ignored.
+
+### 3. Trade fairs and industry events
+
+Apparel and textile fairs, including events organised by export promotion bodies such as AEPC, put you in front of buyers who are actively sourcing. Bring samples, a printed capability sheet and a clear answer to "what is your MOQ?"
+
+### 4. Buying agents and buying houses
+
+Agents and buying houses connect brands, often international, with factories. They take a commission or margin, but can bring steady volume if your compliance and quality match their buyers' needs.
+
+### 5. Sourcing partners and pooled-order platforms
+
+Sourcing companies match brands with factories and coordinate production. Pooled-order platforms go further for small buyers: they combine many small orders into one that meets your MOQ, so you get factory-sized orders from brands that could never place one alone. Voz Cruda does both, through supplier matching and [MOQ aggregation on Smallotz](https://vozcruda.com/what-is-moq-aggregation.html).
+
+### 6. Direct outreach to brands that fit
+
+Look at Instagram, marketplaces and D2C websites for brands selling the kind of product you make well. Find the founder or sourcing contact on their website or LinkedIn, and send a short, personal message (template below).
+
+### 7. Your own website and Google Business Profile
+
+Many buyers search on Google for terms like "t-shirt manufacturer in Tiruppur" or "kurta manufacturer Jaipur". A simple website with your products, capacity, photos and contact details, plus a complete Google Business Profile with real photos, helps you appear in those searches.
+
+### 8. Wholesale markets and local networks
+
+For domestic wholesale and retail buyers, local markets, associations and traders in your hub remain important. They often lead to steady repeat business on running styles.
+
+## The capability sheet buyers want
+
+A one or two page PDF that answers a buyer's first questions before they ask. Include:
+
+- **What you make:** product types, fabrics and GSM ranges, and what you do not make.
+- **Processes in-house vs outsourced:** knitting, dyeing, cutting, stitching, printing, embroidery, finishing.
+- **MOQ:** per style and per colour, and whether you accept pooled or smaller orders.
+- **Capacity and lead times:** realistic monthly capacity and typical time from sample approval to dispatch.
+- **Sampling:** sample cost, time, and whether it is adjusted against bulk.
+- **Photos:** your actual unit and finished pieces, not stock images.
+- **Certifications and compliance,** if you have them, such as GST registration and any audits or fabric certifications.
+- **A named contact** with phone, WhatsApp and email.
+
+Buyers check suppliers carefully. Our guide on [how brands vet apparel suppliers](https://vozcruda.com/how-to-vet-apparel-suppliers.html) shows what they will look for, so you can prepare for it.
+
+## A message you can send to a brand
+
+TemplateHello [name], I am [your name] from [unit name] in [city]. We make [products] in [fabrics and GSM range], and work with brands ordering from [your MOQ] pieces per style. I noticed your [product] range and think our [specific capability] could suit it. I have attached a short capability sheet with photos of our recent work. Happy to send a sample of something similar if useful.
+
+Keep it short, mention something specific about their brand, and offer a sample instead of a long pitch.
+
+## Win the reorder, not just the first order
+
+- **Share a dated production plan** and update it without being chased.
+- **Flag problems early.** Buyers forgive a delay they hear about in advance far more than one they discover.
+- **Match the approved sample** in bulk. Quiet substitutions in fabric or trims lose buyers.
+- **Pack and label exactly as asked.** It is the first thing the buyer sees when the carton opens.
+
+## Become a Voz Cruda manufacturing partner
+
+Voz Cruda matches manufacturing partners with real buyer requirements, from direct brand orders to pooled Smallotz lots that meet your MOQ. If you have capacity and a clear product strength, [tell us what you manufacture](https://vozcruda.com/#manufacturers).
+
+## Frequently asked questions
+
+**Where can I find garment buyer contact details?**
+Public contact details for brands are usually on their websites and LinkedIn pages. Lists sold as buyer databases are often outdated and the contacts are rarely the person who places orders. Targeted outreach to brands that fit your capability works better than mass emailing a list.
+
+**How do small garment factories find buyers in India?**
+Through referrals from existing customers, B2B marketplaces, trade fairs, buying agents, direct outreach to D2C brands and boutiques, a clear website and Google Business Profile, and sourcing partners that match factories with buyers.
+
+**What do buyers want to see from a garment manufacturer?**
+A short capability sheet: the products and fabrics you make, MOQ, monthly capacity, lead times, sample policy, photos of the unit and of finished work, certifications if any, and a named contact who replies quickly.
+
+**Can small orders be worth it for a factory?**
+They can if they fill gaps in capacity or lead to repeat orders. Pooled orders help here: several small buyers combine quantities into one order that meets your MOQ.
+
+**How can my factory work with Voz Cruda?**
+Use the For manufacturers form on the Voz Cruda homepage to share what you make, your capacity and the orders that suit you. Voz Cruda matches manufacturing partners with buyer requirements, including pooled Smallotz lots.
