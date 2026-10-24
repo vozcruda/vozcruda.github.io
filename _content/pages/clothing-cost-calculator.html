@@ -1,0 +1,132 @@
+<!--meta
+{
+  "kind": "tool",
+  "title": "Clothing Cost and Price Calculator: Cost per Piece, MRP and Profit",
+  "seo_title": "Clothing Cost & MRP Calculator (Free) | Voz Cruda",
+  "description": "Free clothing cost calculator for Indian brands. Work out landed cost per piece, cost to sell each order, a suggested MRP with GST, and profit per order.",
+  "dek": "Enter your production and selling costs to get your landed cost per piece, a suggested selling price and MRP, and the profit you actually keep on each order.",
+  "category": "Free tools",
+  "date": "2026-10-24",
+  "faq": [
+    {"q": "How do I calculate the cost of a clothing product?", "a": "Add everything it takes to get one finished, packed piece into your hands: fabric and making, printing or embroidery, labels and trims, packaging, and your freight and sampling costs divided by the number of pieces. That total is your landed cost per piece."},
+    {"q": "What markup should a clothing brand use?", "a": "Many D2C brands price at around three to four times landed cost, because shipping, returns, payment fees and marketing come out of the selling price. Selling on marketplaces usually needs a higher multiple. Use the calculator to check that your markup still leaves profit after selling costs."},
+    {"q": "Is MRP inclusive of GST in India?", "a": "Yes. MRP is the maximum retail price including all taxes. This calculator adds the GST rate you enter on top of your selling price to suggest an MRP. GST rates on clothing depend on the product and its price, so confirm the current rate for your HSN code with your accountant."},
+    {"q": "Why is my profit so low even with a 3x markup?", "a": "Usually because of marketing cost per order, returns or marketplace fees. Try lowering returns with a better size chart, pushing prepaid orders, or raising the markup for marketplaces. A lower landed cost from pooled production also helps."},
+    {"q": "How can a small brand lower its cost per piece?", "a": "Spread fixed costs like sampling and freight over more pieces, keep to standard fabrics and trims, and avoid below-MOQ surcharges by pooling your order with other buyers on Smallotz, which keeps the per-piece price close to bulk."}
+  ]
+}
+-->
+<div class="answer"><span class="label">Short answer</span>Your <strong>landed cost</strong> is everything it takes to get one finished, packed piece into your hands. Your <strong>selling price</strong> is landed cost times your markup, and your <strong>MRP</strong> adds GST on top. What you keep is the selling price minus landed cost and the cost of selling each order (shipping, fees, returns and marketing). Fill in the calculator below to get your own numbers.</div>
+
+<!--tool-->
+<form class="calc" id="calc" autocomplete="off" onsubmit="return false">
+  <fieldset>
+    <legend><span class="label dye">1 · Production cost per piece (₹)</span></legend>
+    <div class="calc-grid">
+      <label>Fabric and making (CMT)<input type="number" inputmode="decimal" min="0" step="any" name="make" value="220"></label>
+      <label>Printing or embroidery<input type="number" inputmode="decimal" min="0" step="any" name="print" value="80"></label>
+      <label>Labels, tags and trims<input type="number" inputmode="decimal" min="0" step="any" name="trims" value="20"></label>
+      <label>Packaging (polybag, mailer)<input type="number" inputmode="decimal" min="0" step="any" name="pack" value="20"></label>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend><span class="label dye">2 · One-off costs for this order (₹)</span></legend>
+    <div class="calc-grid">
+      <label>Order quantity (pieces)<input type="number" inputmode="numeric" min="1" step="1" name="qty" value="150"></label>
+      <label>Freight from factory to you<input type="number" inputmode="decimal" min="0" step="any" name="freight" value="1500"></label>
+      <label>Sampling and tech pack<input type="number" inputmode="decimal" min="0" step="any" name="sampling" value="1500"></label>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend><span class="label dye">3 · Cost of selling each order</span></legend>
+    <div class="calc-grid">
+      <label>Shipping to customer (₹)<input type="number" inputmode="decimal" min="0" step="any" name="ship" value="75"></label>
+      <label>Payment or marketplace fees (% of MRP)<input type="number" inputmode="decimal" min="0" max="100" step="any" name="fee" value="2"></label>
+      <label>Return rate (%)<input type="number" inputmode="decimal" min="0" max="100" step="any" name="ret" value="10"></label>
+      <label>Cost per return (₹)<input type="number" inputmode="decimal" min="0" step="any" name="retcost" value="200"></label>
+      <label>Marketing per order (₹)<input type="number" inputmode="decimal" min="0" step="any" name="mkt" value="250"></label>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend><span class="label dye">4 · Pricing</span></legend>
+    <div class="calc-grid">
+      <label>Markup (× landed cost)<input type="number" inputmode="decimal" min="0" step="0.1" name="markup" value="3.5"></label>
+      <label>GST rate in MRP (%)<input type="number" inputmode="decimal" min="0" max="40" step="any" name="gst" value="5"></label>
+      <label>Or test your own MRP (₹, optional)<input type="number" inputmode="decimal" min="0" step="any" name="mrp" placeholder="e.g. 1299"></label>
+    </div>
+  </fieldset>
+
+  <div class="calc-out" aria-live="polite">
+    <div class="calc-row"><span>Landed cost per piece</span><b id="o-landed">–</b></div>
+    <div class="calc-row"><span>Cost to sell one order</span><b id="o-sell">–</b></div>
+    <div class="calc-row"><span id="o-price-label">Selling price before GST</span><b id="o-price">–</b></div>
+    <div class="calc-row big"><span id="o-mrp-label">Suggested MRP (incl. GST)</span><b id="o-mrp">–</b></div>
+    <div class="calc-row big"><span>Profit per order</span><b id="o-profit">–</b></div>
+    <div class="calc-row"><span>Profit margin on selling price</span><b id="o-margin">–</b></div>
+    <div class="calc-row"><span>Cash needed for this order</span><b id="o-cash">–</b></div>
+    <p class="calc-msg" id="o-msg"></p>
+  </div>
+  <p class="calc-note">Profit is before overheads (salaries, rent, software) and income tax. Default values are an example for a printed heavyweight tee, not quotes. GST rates on clothing depend on the product and price; confirm yours.</p>
+</form>
+<script>
+(function(){
+  var f=document.getElementById('calc');
+  function v(n){var x=parseFloat(f.elements[n].value);return isFinite(x)&&x>0?x:0}
+  function inr(x){return (x<0?'−':'')+'₹'+Math.round(Math.abs(x)).toLocaleString('en-IN')}
+  function set(id,t){document.getElementById(id).textContent=t}
+  function calc(){
+    var qty=Math.max(1,Math.round(v('qty')));
+    var landed=v('make')+v('print')+v('trims')+v('pack')+(v('freight')+v('sampling'))/qty;
+    var gst=v('gst')/100, own=v('mrp'), mrp, price;
+    if(own){mrp=own;price=own/(1+gst)}
+    else{price=landed*v('markup');mrp=price*(1+gst);if(mrp>=100)mrp=Math.ceil((mrp+1)/50)*50-1}
+    if(!own)price=mrp/(1+gst);
+    var sell=v('ship')+mrp*v('fee')/100+v('ret')/100*v('retcost')+v('mkt');
+    var profit=price-landed-sell, margin=price?profit/price*100:0;
+    set('o-landed',inr(landed));set('o-sell',inr(sell));set('o-price',inr(price));
+    set('o-mrp-label',own?'Your MRP (incl. GST)':'Suggested MRP (incl. GST)');set('o-mrp',inr(mrp));
+    set('o-profit',inr(profit));set('o-margin',margin.toFixed(0)+'%');set('o-cash',inr(landed*qty));
+    var m=document.getElementById('o-msg'), multiple=landed?price/landed:0;
+    m.className='calc-msg'+(profit<=0?' bad':'');
+    m.textContent=profit<=0?'You lose money on each order at this price. Raise the price, or cut selling costs or landed cost.'
+      :'Your selling price is '+multiple.toFixed(1)+'× landed cost. Each order adds '+inr(profit)+' towards overheads and profit.';
+  }
+  f.addEventListener('input',calc);calc();
+})();
+</script>
+<!--/tool-->
+
+<h2>How the calculator works</h2>
+<p>It follows the same method as our guide on <a href="/how-to-price-clothing-products.html">how to price your clothing products</a>:</p>
+<ol>
+  <li><strong>Landed cost per piece</strong> = fabric and making + printing + labels and trims + packaging + (freight + sampling) ÷ order quantity.</li>
+  <li><strong>Selling price before GST</strong> = landed cost × your markup.</li>
+  <li><strong>Suggested MRP</strong> = selling price + GST, rounded up to a price ending in 49 or 99.</li>
+  <li><strong>Cost to sell one order</strong> = shipping + fees (as a % of MRP) + return rate × cost per return + marketing per order.</li>
+  <li><strong>Profit per order</strong> = selling price before GST − landed cost − cost to sell one order.</li>
+</ol>
+<p>If you already have a price in mind, type it into <strong>Or test your own MRP</strong> and the calculator shows the profit at that price instead.</p>
+
+<h2>What to put in each field</h2>
+<ul>
+  <li><strong>Fabric and making:</strong> the factory's per-piece price for the garment. If you buy fabric yourself, add fabric cost per piece and the CMT (cut, make, trim) charge.</li>
+  <li><strong>Printing or embroidery:</strong> per piece, at your quantity. Small runs cost more per piece; see <a href="/screen-printing-vs-dtf-vs-dtg-india.html">screen printing vs DTF vs DTG</a>.</li>
+  <li><strong>One-off costs:</strong> anything you pay once per order, like freight, sampling and tech pack work. The calculator spreads them over your quantity.</li>
+  <li><strong>Cost per return:</strong> reverse shipping plus the forward shipping you lose and the cost of repacking.</li>
+  <li><strong>Marketing per order:</strong> your monthly ad and creator spend divided by monthly orders.</li>
+</ul>
+
+<h2>Ways to improve the numbers</h2>
+<ul>
+  <li><strong>Lower landed cost without cutting quality:</strong> stick to standard fabrics and trims, and avoid below-MOQ surcharges by pooling your order on Smallotz.</li>
+  <li><strong>Cut returns:</strong> an accurate size chart and honest photos reduce size-related returns.</li>
+  <li><strong>Push prepaid orders:</strong> cash-on-delivery adds charges and cancellations.</li>
+  <li><strong>Price per channel:</strong> marketplaces take commission and see more returns, so they usually need a higher multiple than your own site.</li>
+</ul>
+
+<div class="sz-box">
+  <span class="label">Smallotz by Voz Cruda</span>
+  <h3>Get a real production cost for your cost sheet.</h3>
+  <p>Order factory-made clothing in the quantity you need. Smallotz pools your order with other buyers so the lot reaches the factory MOQ, and the per-piece price stays close to bulk.</p>
+  <a class="btn btn-primary" href="https://smallotz.vozcruda.com/" target="_blank" rel="noopener">Open Smallotz ↗</a>
+</div>
