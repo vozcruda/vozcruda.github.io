@@ -81,6 +81,125 @@ Email sales@vozcruda.com or send a sourcing request from the form on vozcruda.co
 
 ---
 
+# Clothing Cost and Price Calculator: Cost per Piece, MRP and Profit
+
+URL: https://vozcruda.com/clothing-cost-calculator.html
+Updated: 2026-10-24
+
+**Short answer:** Your **landed cost** is everything it takes to get one finished, packed piece into your hands. Your **selling price** is landed cost times your markup, and your **MRP** adds GST on top. What you keep is the selling price minus landed cost and the cost of selling each order (shipping, fees, returns and marketing). Fill in the calculator below to get your own numbers.
+
+## How the calculator works
+
+It follows the same method as our guide on [how to price your clothing products](https://vozcruda.com/how-to-price-clothing-products.html):
+
+- **Landed cost per piece** = fabric and making + printing + labels and trims + packaging + (freight + sampling) ÷ order quantity.
+- **Selling price before GST** = landed cost × your markup.
+- **Suggested MRP** = selling price + GST, rounded up to a price ending in 49 or 99.
+- **Cost to sell one order** = shipping + fees (as a % of MRP) + return rate × cost per return + marketing per order.
+- **Profit per order** = selling price before GST − landed cost − cost to sell one order.
+
+If you already have a price in mind, type it into **Or test your own MRP** and the calculator shows the profit at that price instead.
+
+## What to put in each field
+
+- **Fabric and making:** the factory's per-piece price for the garment. If you buy fabric yourself, add fabric cost per piece and the CMT (cut, make, trim) charge.
+- **Printing or embroidery:** per piece, at your quantity. Small runs cost more per piece; see [screen printing vs DTF vs DTG](https://vozcruda.com/screen-printing-vs-dtf-vs-dtg-india.html).
+- **One-off costs:** anything you pay once per order, like freight, sampling and tech pack work. The calculator spreads them over your quantity.
+- **Cost per return:** reverse shipping plus the forward shipping you lose and the cost of repacking.
+- **Marketing per order:** your monthly ad and creator spend divided by monthly orders.
+
+## Ways to improve the numbers
+
+- **Lower landed cost without cutting quality:** stick to standard fabrics and trims, and avoid below-MOQ surcharges by pooling your order on Smallotz.
+- **Cut returns:** an accurate size chart and honest photos reduce size-related returns.
+- **Push prepaid orders:** cash-on-delivery adds charges and cancellations.
+- **Price per channel:** marketplaces take commission and see more returns, so they usually need a higher multiple than your own site.
+
+Smallotz by Voz Cruda
+
+### Get a real production cost for your cost sheet.
+
+Order factory-made clothing in the quantity you need. Smallotz pools your order with other buyers so the lot reaches the factory MOQ, and the per-piece price stays close to bulk.
+
+[Open Smallotz ↗](https://smallotz.vozcruda.com/)
+
+## Frequently asked questions
+
+**How do I calculate the cost of a clothing product?**
+Add everything it takes to get one finished, packed piece into your hands: fabric and making, printing or embroidery, labels and trims, packaging, and your freight and sampling costs divided by the number of pieces. That total is your landed cost per piece.
+
+**What markup should a clothing brand use?**
+Many D2C brands price at around three to four times landed cost, because shipping, returns, payment fees and marketing come out of the selling price. Selling on marketplaces usually needs a higher multiple. Use the calculator to check that your markup still leaves profit after selling costs.
+
+**Is MRP inclusive of GST in India?**
+Yes. MRP is the maximum retail price including all taxes. This calculator adds the GST rate you enter on top of your selling price to suggest an MRP. GST rates on clothing depend on the product and its price, so confirm the current rate for your HSN code with your accountant.
+
+**Why is my profit so low even with a 3x markup?**
+Usually because of marketing cost per order, returns or marketplace fees. Try lowering returns with a better size chart, pushing prepaid orders, or raising the markup for marketplaces. A lower landed cost from pooled production also helps.
+
+**How can a small brand lower its cost per piece?**
+Spread fixed costs like sampling and freight over more pieces, keep to standard fabrics and trims, and avoid below-MOQ surcharges by pooling your order with other buyers on Smallotz, which keeps the per-piece price close to bulk.
+
+---
+
+# Free Tech Pack Template for Clothing Brands (Excel, Google Sheets and PDF)
+
+URL: https://vozcruda.com/tech-pack-template.html
+Updated: 2026-10-24
+
+**Short answer:** Download the free tech pack template below as an **Excel file** (also opens in Google Sheets and Numbers) or a **printable PDF**. It has the eight parts factories expect: cover, flat sketches, size chart with tolerances, bill of materials, construction, artwork and placement, labels and packing, and an order sheet. A filled-in t-shirt example is included so you can see what good looks like.
+
+## What is in the template
+
+| Sheet | What you fill in | Why the factory needs it |
+|---|---|---|
+| 1. Cover | Brand, style name and number, drop, version, sizes, quantity, contact | Everyone refers to the same garment and version |
+| 2. Flat sketches | Front and back drawings with numbered callouts | Shows what is intentional, like a dropped shoulder |
+| 3. Size chart | Points of measure for each size, with tolerances | Finished garments are checked against it |
+| 4. Bill of materials | Fabric, GSM, composition, rib, thread, labels, trims | Accurate quotes and the right materials in bulk |
+| 5. Construction | Seam types, stitch types, hem widths, finishes | Stops quiet changes between sample and bulk |
+| 6. Artwork | Print or embroidery method, file, size, placement, colours | Repeatable placement across sizes and reorders |
+| 7. Labels and packing | Neck and care labels, hang tags, fold, polybag, cartons | Avoids last-minute dispatch delays |
+| 8. Order sheet | Quantity per colour and size, delivery date and address | Lets the factory plan fabric and production |
+
+## How to fill it in
+
+- **Start with the cover.** Give the style a number (for example TS-001) and call the first issue V1.
+- **Measure a garment you like** for the size chart, laid flat, in centimetres. Grade the other sizes from it and add a tolerance for each point.
+- **Be specific in the bill of materials.** Write "100% combed cotton single jersey, 240 GSM, bio-washed", not "cotton". Our [fabric and GSM guide](https://vozcruda.com/fabric-guide-for-clothing-brands.html) explains the terms.
+- **Measure placements.** "Top of print 8 cm below front neck seam" instead of "print on chest".
+- **Attach artwork as separate files**, not only as pictures inside the tech pack.
+- **Send it with your quantity and target date** so the factory can quote properly, then review each sample against it and issue V2 with changes. See the [sampling process](https://vozcruda.com/clothing-sampling-process-india.html).
+
+New to tech packs? Read [what a tech pack is and how to make one](https://vozcruda.com/tech-pack-guide-for-beginners.html), then follow the [page-by-page t-shirt example](https://vozcruda.com/tech-pack-example-t-shirt.html). Once you have a cost per piece, check your pricing with the [clothing cost and price calculator](https://vozcruda.com/clothing-cost-calculator.html).
+
+Smallotz by Voz Cruda
+
+### Tech pack ready? Order only what you need.
+
+Smallotz pools your order with other buyers making the same kind of product, so together you reach the factory MOQ and each brand orders only its own quantity.
+
+[Open Smallotz ↗](https://smallotz.vozcruda.com/)
+
+## Frequently asked questions
+
+**What should a tech pack include?**
+A cover page with style number and version, front and back flat sketches with callouts, a size chart with tolerances, a bill of materials, construction details, artwork and placement, labels and packing instructions, and an order sheet with quantities by colour and size.
+
+**Can I use this tech pack template in Google Sheets?**
+Yes. Download the Excel file, then in Google Drive choose New, File upload, and open it with Google Sheets. All sheets and formulas carry over.
+
+**Do I need a designer to make a tech pack?**
+Not for simple products like t-shirts and hoodies. Measure a garment you like for the size chart, draw simple flat sketches or trace a photo, and fill in each sheet. A designer helps for complex styles.
+
+**Is this template only for t-shirts?**
+No. The structure works for most garments. The example file is a t-shirt; for a hoodie add hood, cuff, waistband rib and pocket measurements, and for a shirt add collar, cuff and button details.
+
+**Can I send this tech pack to Voz Cruda for a quote?**
+Yes. Send your completed tech pack with your quantity and target date through the sourcing request form or to sales@vozcruda.com, and Voz Cruda will match it with a suitable manufacturer, or a pooled lot on Smallotz for small quantities.
+
+---
+
 # Low MOQ Clothing Manufacturers in India: How to Order Small Batches in 2026
 
 URL: https://vozcruda.com/low-moq-clothing-manufacturers-india.html
@@ -857,7 +976,7 @@ ShortcutFind a garment you love the fit of, measure it flat, and use those numbe
 
 ## Tech pack template: a page-by-page checklist
 
-Use this as your template. If a page is blank when you send it, the factory will fill the gap with its own default.
+Use this as your template. If a page is blank when you send it, the factory will fill the gap with its own default. Prefer a ready-made file? [Download our free tech pack template](https://vozcruda.com/tech-pack-template.html) in Excel, Google Sheets or PDF.
 
 - **Cover:** brand, style name, style number, version, date, contact person.
 - **Flats:** front and back drawings, with arrows to every detail (rib, topstitch, pocket, label position).
@@ -1482,6 +1601,8 @@ The figures below are illustrative, to show the method. Use your own quotes.
 | Profit per order before overheads and tax | 530 |
 
 Notice how much marketing and fulfilment add. A brand that priced at 2x landed cost (₹720) would lose money on every order once marketing is included.
+
+Run your own numbers in the free [clothing cost and price calculator](https://vozcruda.com/clothing-cost-calculator.html). It uses this exact method and shows your landed cost, suggested MRP and profit per order.
 
 ## Step 4: Choose a markup that fits your channel
 
@@ -2135,6 +2256,8 @@ At 130 pieces, this order sits below many factories' minimums. That is where poo
 - **Hoodie or sweatshirt:** add hood height and width, cuff and waistband rib measurements, pocket position, drawcord and eyelet details. See our [hoodie guide](https://vozcruda.com/low-moq-hoodie-manufacturer-india.html).
 - **Embroidery instead of print:** give stitch count or ask the embroiderer for it, thread colours, and backing type.
 - **All-over or sleeve prints:** add a placement drawing for each panel.
+
+Want this example as a file? [Download the free tech pack template](https://vozcruda.com/tech-pack-template.html), including this t-shirt example filled in as an Excel sheet.
 
 ## Before you send it
 

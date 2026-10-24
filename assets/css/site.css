@@ -157,3 +157,24 @@ footer{border-top:1px solid var(--line);padding-block:56px 32px}
 .foot-grid a{text-decoration:none;color:var(--ink-2)}
 .foot-grid a:hover{color:var(--ink)}
 .foot-bottom{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;margin-top:40px;padding-top:20px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
+
+/* free tools: calculator and downloads */
+.calc{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:clamp(18px,3vw,28px);color:var(--ink)}
+.calc fieldset{border:0;margin:0 0 22px;padding:0;min-width:0}
+.calc legend{padding:0;margin-bottom:10px}
+.calc-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:12px 16px}
+.calc label{display:flex;flex-direction:column;justify-content:flex-end;gap:6px;font-size:14px;line-height:1.35;color:var(--ink-2)}
+.calc input{width:100%;background:var(--cloth);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:10px 12px;font:500 16px var(--f-body)}
+.calc input:focus{border-color:var(--teal);outline:none}
+.calc-out{border-top:2px dashed var(--line);padding-top:16px;margin-top:4px}
+.calc-row{display:flex;justify-content:space-between;gap:16px;padding:7px 0;font-size:16px;color:var(--ink-2)}
+.calc-row b{color:var(--ink);font-variant-numeric:tabular-nums;white-space:nowrap}
+.calc-row.big{font-size:19px}.calc-row.big b{color:var(--teal-ink);font-family:var(--f-display);font-size:24px}
+.calc-msg{margin-top:12px;padding:12px 14px;border-radius:12px;background:rgba(26,186,189,.10);border:1px solid rgba(26,186,189,.35);font-size:15px;line-height:1.5}
+.calc-msg.bad{background:rgba(232,93,74,.10);border-color:rgba(232,93,74,.45)}
+.calc-note{margin-top:14px;font-size:13px;line-height:1.5;color:var(--muted)}
+.dl-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
+.prose a.dl{display:flex;flex-direction:column;gap:8px;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px;text-decoration:none;color:var(--ink-2);font-size:15px;line-height:1.5;transition:transform .2s,border-color .2s}
+.prose a.dl:hover{transform:translateY(-2px);border-color:rgba(26,186,189,.5);color:var(--ink-2)}
+.dl b{font:600 19px/1.25 var(--f-display);color:var(--ink)}
+.dl .read{margin-top:auto;color:var(--teal);font-weight:600;font-size:14px}

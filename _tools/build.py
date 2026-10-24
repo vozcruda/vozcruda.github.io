@@ -5,7 +5,8 @@ Each post lives in _content/posts/<slug>.html:
   a JSON block inside <!--meta ... --> followed by the article body HTML.
 
 Run from the repo root:  python3 _tools/build.py
-Each standalone page (currently about) lives in _content/pages/<slug>.html in the same format.
+Each standalone page lives in _content/pages/<slug>.html in the same format, with "kind" in the meta:
+"about" (the About page), "tool" (an interactive tool) or "download" (a free download page).
 Outputs: <slug>.html for every post and page, blog.html, sitemap.xml, sitemap-pages.xml,
 llms.txt and llms-full.txt (the full text of every guide, for AI assistants).
 GitHub Pages (Jekyll) ignores folders starting with "_", so _content and _tools are not published.
@@ -142,6 +143,8 @@ def footer(posts):
           <li><a href="{SMALLOTZ}" target="_blank" rel="noopener">Smallotz ↗</a></li>
           <li><a href="https://shop.vozcruda.com/" target="_blank" rel="noopener">Voz Cruda Store ↗</a></li>
           <li><a href="/#categories">What we source</a></li>
+          <li><a href="/clothing-cost-calculator.html">Cost calculator</a></li>
+          <li><a href="/tech-pack-template.html">Tech pack template</a></li>
         </ul>
       </div>
       <div>
@@ -254,8 +257,27 @@ def faq_ld(faq):
         {"@type": "Question", "name": q["q"],
          "acceptedAnswer": {"@type": "Answer", "text": re.sub(r"<[^>]+>", "", q["a"])}} for q in faq]}
 
+def page_ld(p, url):
+    """Main structured data block for a standalone page, by its kind."""
+    base = {"@context": "https://schema.org", "@id": url, "url": url, "name": p["title"],
+            "description": p["description"], "inLanguage": "en-IN", "dateModified": p["updated"]}
+    kind = p.get("kind", "about")
+    if kind == "tool":
+        return {**base, "@type": "WebApplication", "applicationCategory": "BusinessApplication",
+                "operatingSystem": "Any (runs in the browser)", "isAccessibleForFree": True,
+                "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
+                "provider": {"@id": SITE + "/#org"}, "image": OG_IMAGE}
+    if kind == "download":
+        files = re.findall(r'href="(/downloads/[^"]+)"', p["body"])
+        return {**base, "@type": "WebPage", "isAccessibleForFree": True, "publisher": {"@id": SITE + "/#org"},
+                "isPartOf": {"@id": SITE + "/#website"},
+                "hasPart": [{"@type": "DigitalDocument", "url": SITE + f, "name": f.rsplit("/", 1)[1],
+                             "isAccessibleForFree": True, "publisher": {"@id": SITE + "/#org"}} for f in files]}
+    return {**base, "@type": "AboutPage", "about": {"@id": SITE + "/#org"},
+            "mainEntity": {"@id": SITE + "/#org"}, "isPartOf": {"@id": SITE + "/#website"}}
+
 def build_page(p, all_posts):
-    """A standalone page such as about.html: post layout without byline or related guides."""
+    """A standalone page (About, a tool, a download): post layout without byline or related guides."""
     url = f"{SITE}/{p['slug']}.html"
     body, toc = add_heading_ids(p["body"])
     faq = p.get("faq", [])
@@ -263,12 +285,7 @@ def build_page(p, all_posts):
         toc.append(("faq", "Frequently asked questions"))
         body += faq_html(faq)
     toc_html = "".join(f'<li><a href="#{i}">{esc(t)}</a></li>' for i, t in toc)
-    ld = [{
-        "@context": "https://schema.org", "@type": "AboutPage", "@id": url, "url": url,
-        "name": p["title"], "description": p["description"], "inLanguage": "en-IN",
-        "dateModified": p["updated"], "about": {"@id": SITE + "/#org"}, "mainEntity": {"@id": SITE + "/#org"},
-        "isPartOf": {"@id": SITE + "/#website"},
-    }, {
+    ld = [page_ld(p, url), {
         "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE + "/"},
             {"@type": "ListItem", "position": 2, "name": p["category"], "item": url}]
@@ -310,6 +327,7 @@ def build_page(p, all_posts):
 def to_text(body):
     """Rough HTML to Markdown for llms-full.txt. Enough for headings, lists, tables and links."""
     t = body.replace("{{SMALLOTZ_BOX}}", "")
+    t = re.sub(r"<!--tool-->.*?<!--/tool-->", "", t, flags=re.S)  # interactive widgets and download cards
     t = re.sub(r'<div class="answer"><span class="label">Short answer</span>(.*?)</div>', r"\n**Short answer:** \1\n", t, flags=re.S)
     t = re.sub(r"\s+", " ", t)
     t = re.sub(r'<a [^>]*href="(/[^"]*)"[^>]*>(.*?)</a>', lambda m: f"[{m.group(2)}]({SITE}{m.group(1)})", t)
@@ -389,7 +407,8 @@ def build_sitemap(pages, listing):
 
 def build_llms(pages, listing):
     lines = "\n".join(f"- [{p['title']}]({SITE}/{p['slug']}.html): {p['card']}" for p in listing)
-    page_lines = "\n".join(f"- [{p['title']}]({SITE}/{p['slug']}.html): {p['description']}" for p in pages)
+    page_lines = "\n".join(f"- [{p['title']}]({SITE}/{p['slug']}.html): {p['description']}" for p in pages if p.get("kind", "about") == "about")
+    tool_lines = "\n".join(f"- [{p['title']}]({SITE}/{p['slug']}.html): {p['description']}" for p in pages if p.get("kind", "about") != "about")
     (ROOT / "llms.txt").write_text(f"""# Voz Cruda
 
 > Voz Cruda LLP is an apparel sourcing company in Bengaluru, India. It matches fashion brands, boutiques, D2C and private label businesses with suitable clothing manufacturers, and coordinates production. Its product Smallotz lets small buyers order low MOQ clothing with no minimums by pooling orders with other buyers until the factory's minimum order quantity (MOQ) is reached.
@@ -407,6 +426,9 @@ Key facts:
 {page_lines}
 - [Insights]({SITE}/blog.html): all guides
 - [Full text of all guides]({SITE}/llms-full.txt): every page below as plain text
+
+## Free tools
+{tool_lines}
 
 ## Guides
 {lines}

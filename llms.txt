@@ -16,6 +16,10 @@ Key facts:
 - [Insights](https://vozcruda.com/blog.html): all guides
 - [Full text of all guides](https://vozcruda.com/llms-full.txt): every page below as plain text
 
+## Free tools
+- [Clothing Cost and Price Calculator: Cost per Piece, MRP and Profit](https://vozcruda.com/clothing-cost-calculator.html): Free clothing cost calculator for Indian brands. Work out landed cost per piece, cost to sell each order, a suggested MRP with GST, and profit per order.
+- [Free Tech Pack Template for Clothing Brands (Excel, Google Sheets and PDF)](https://vozcruda.com/tech-pack-template.html): Download a free garment tech pack template: cover, flat sketches, size chart, BOM, construction, artwork, labels and order sheet. Excel, Google Sheets and PDF.
+
 ## Guides
 - [Low MOQ Clothing Manufacturers in India: How to Order Small Batches in 2026](https://vozcruda.com/low-moq-clothing-manufacturers-india.html): Typical MOQs by category, every route below the minimum, and how order pooling gets you factory pricing in small quantities.
 - [What Is MOQ Aggregation? How Order Pooling Helps Small Clothing Brands](https://vozcruda.com/what-is-moq-aggregation.html): How order pooling turns many small orders into one factory run, what stays yours, and when it beats ordering alone.
