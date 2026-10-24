@@ -1067,9 +1067,11 @@ For most small businesses just starting out: full-package manufacturers or a sou
 
 ### Typical MOQs in Indian apparel manufacturing
 
-- **Knitwear (t-shirts, polos, basic tees):** 50–200 units per style per colour
-- **Woven tops, kurtas, shirts:** 100–300 units per style
-- **Denim:** 200–500 units (fabric MOQs are high)
+- **Knitwear (t-shirts, polos, basic tees):** 300–1,000 units per style
+- **Hoodies and sweatshirts:** 200–500 units per style
+- **Woven shirts and tops:** 200–500 units per style
+- **Kurtas, ethnic wear, dresses and co-ords:** 100–300 units per style
+- **Denim and trousers:** 300–1,000 units (fabric and washing minimums are high)
 - **Outerwear, blazers, structured garments:** 200–500 units
 - **Ethnic wear (sarees, lehengas, heavy embroidery):** Often lower MOQs but longer lead times
 
