@@ -5,7 +5,9 @@ Each post lives in _content/posts/<slug>.html:
   a JSON block inside <!--meta ... --> followed by the article body HTML.
 
 Run from the repo root:  python3 _tools/build.py
-Outputs: <slug>.html for every post, blog.html, sitemap.xml, sitemap-pages.xml, llms.txt.
+Each standalone page (currently about) lives in _content/pages/<slug>.html in the same format.
+Outputs: <slug>.html for every post and page, blog.html, sitemap.xml, sitemap-pages.xml,
+llms.txt and llms-full.txt (the full text of every guide, for AI assistants).
 GitHub Pages (Jekyll) ignores folders starting with "_", so _content and _tools are not published.
 """
 import html, json, math, re
@@ -16,7 +18,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SITE = "https://vozcruda.com"
 SMALLOTZ = "https://smallotz.vozcruda.com/"
 OG_IMAGE = f"{SITE}/assets/images/og-vozcruda.png"
-ORG = {"@type": "Organization", "name": "Voz Cruda LLP", "url": SITE + "/",
+ORG = {"@type": "Organization", "@id": SITE + "/#org", "name": "Voz Cruda LLP", "url": SITE + "/",
        "logo": f"{SITE}/assets/images/og-vozcruda.png"}
 
 EXTRA_POSTS = []
@@ -29,9 +31,9 @@ def slugify(s):
     s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
     return s[:60].rstrip("-")
 
-def load_posts():
+def load_posts(folder="posts"):
     posts = []
-    for f in sorted((ROOT / "_content" / "posts").glob("*.html")):
+    for f in sorted((ROOT / "_content" / folder).glob("*.html")):
         raw = f.read_text(encoding="utf-8")
         m = re.match(r"\s*<!--meta(.*?)-->(.*)", raw, re.S)
         if not m:
@@ -128,6 +130,7 @@ def footer(posts):
       <div>
         <h4>Company</h4>
         <ul>
+          <li><a href="/about.html">About Voz Cruda</a></li>
           <li><a href="/#process">How it works</a></li>
           <li><a href="/#manufacturers">For manufacturers</a></li>
           <li><a href="/#contact">Contact</a></li>
@@ -179,8 +182,7 @@ def build_post(p, all_posts):
     faq = p.get("faq", [])
     if faq:
         toc.append(("faq", "Frequently asked questions"))
-        items = "\n".join(f'<details><summary>{esc(q["q"])}</summary><p>{q["a"]}</p></details>' for q in faq)
-        body += f'\n<h2 id="faq">Frequently asked questions</h2>\n<div class="faq">\n{items}\n</div>'
+        body += faq_html(faq)
     toc_html = "".join(f'<li><a href="#{i}">{esc(t)}</a></li>' for i, t in toc)
 
     ld = [{
@@ -197,9 +199,7 @@ def build_post(p, all_posts):
             {"@type": "ListItem", "position": 3, "name": p["title"], "item": url}]
     }]
     if faq:
-        ld.append({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
-            {"@type": "Question", "name": q["q"],
-             "acceptedAnswer": {"@type": "Answer", "text": re.sub(r"<[^>]+>", "", q["a"])}} for q in faq]})
+        ld.append(faq_ld(faq))
 
     by_slug = {x["slug"]: x for x in all_posts}
     rel = [by_slug[s] for s in p.get("related", []) if s in by_slug][:3]
@@ -245,6 +245,102 @@ def build_post(p, all_posts):
 {footer(all_posts)}"""
     (ROOT / f"{p['slug']}.html").write_text(out, encoding="utf-8")
 
+def faq_html(faq):
+    items = "\n".join(f'<details><summary>{esc(q["q"])}</summary><p>{q["a"]}</p></details>' for q in faq)
+    return f'\n<h2 id="faq">Frequently asked questions</h2>\n<div class="faq">\n{items}\n</div>'
+
+def faq_ld(faq):
+    return {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+        {"@type": "Question", "name": q["q"],
+         "acceptedAnswer": {"@type": "Answer", "text": re.sub(r"<[^>]+>", "", q["a"])}} for q in faq]}
+
+def build_page(p, all_posts):
+    """A standalone page such as about.html: post layout without byline or related guides."""
+    url = f"{SITE}/{p['slug']}.html"
+    body, toc = add_heading_ids(p["body"])
+    faq = p.get("faq", [])
+    if faq:
+        toc.append(("faq", "Frequently asked questions"))
+        body += faq_html(faq)
+    toc_html = "".join(f'<li><a href="#{i}">{esc(t)}</a></li>' for i, t in toc)
+    ld = [{
+        "@context": "https://schema.org", "@type": "AboutPage", "@id": url, "url": url,
+        "name": p["title"], "description": p["description"], "inLanguage": "en-IN",
+        "dateModified": p["updated"], "about": {"@id": SITE + "/#org"}, "mainEntity": {"@id": SITE + "/#org"},
+        "isPartOf": {"@id": SITE + "/#website"},
+    }, {
+        "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE + "/"},
+            {"@type": "ListItem", "position": 2, "name": p["category"], "item": url}]
+    }]
+    if faq:
+        ld.append(faq_ld(faq))
+    out = head(p["seo_title"], p["description"], url, "website", ld)
+    out += f"""
+<body>
+{header(active_blog=False)}
+<main>
+<article>
+  <div class="post-hero">
+    <div class="wrap"><div class="inner">
+      <ol class="crumbs"><li><a href="/">Home</a></li><li>{esc(p["category"])}</li></ol>
+      <h1>{esc(p["title"])}</h1>
+      <p class="dek">{esc(p["dek"])}</p>
+    </div></div>
+  </div>
+  <div class="post"><div class="wrap post-grid">
+    <div class="prose">
+      <nav class="toc-inline" aria-label="Contents"><span class="label">On this page</span><ol>{toc_html}</ol></nav>
+{body}
+      <div class="byline"><span>Last updated <time datetime="{p["updated"]}">{fmt_date(p["updated"])}</time>.</span></div>
+    </div>
+    <aside class="toc-side" aria-label="Contents"><span class="label">On this page</span><ol>{toc_html}</ol></aside>
+  </div></div>
+</article>
+<section class="cta-band"><div class="wrap"><div class="cta-box">
+  <span class="label dye">Start sourcing</span>
+  <h2>Tell us what you want to make.</h2>
+  <p>Share your product, quantity and timeline. We match you with suitable manufacturers, or pool your lot on Smallotz if you are ordering under a factory's minimum.</p>
+  <div class="row"><a class="btn btn-primary" href="/#contact">Start your sourcing request <span class="arr">→</span></a><a class="btn btn-ghost" href="{SMALLOTZ}" target="_blank" rel="noopener">Order small runs on Smallotz ↗</a></div>
+</div></div></section>
+</main>
+{footer(all_posts)}"""
+    (ROOT / f"{p['slug']}.html").write_text(out, encoding="utf-8")
+
+def to_text(body):
+    """Rough HTML to Markdown for llms-full.txt. Enough for headings, lists, tables and links."""
+    t = body.replace("{{SMALLOTZ_BOX}}", "")
+    t = re.sub(r'<div class="answer"><span class="label">Short answer</span>(.*?)</div>', r"\n**Short answer:** \1\n", t, flags=re.S)
+    t = re.sub(r"\s+", " ", t)
+    t = re.sub(r'<a [^>]*href="(/[^"]*)"[^>]*>(.*?)</a>', lambda m: f"[{m.group(2)}]({SITE}{m.group(1)})", t)
+    t = re.sub(r'<a [^>]*href="([^"]*)"[^>]*>(.*?)</a>', r"[\2](\1)", t)
+    t = re.sub(r"</?(strong|b)>", "**", t)
+    t = re.sub(r"<h2[^>]*>(.*?)</h2>", r"\n\n## \1\n\n", t)
+    t = re.sub(r"<h3[^>]*>(.*?)</h3>", r"\n\n### \1\n\n", t)
+    t = re.sub(r"<li[^>]*>", "\n- ", t)
+    t = re.sub(r"</t[hd]>\s*<t[hd][^>]*>", " | ", t)
+    t = re.sub(r"<tr[^>]*>\s*<t[hd][^>]*>", "\n| ", t)
+    t = re.sub(r"</t[hd]>\s*</tr>", " |", t)
+    t = re.sub(r"</?(p|div|blockquote|ul|ol|table|thead|tbody|hr)[^>]*>", "\n\n", t)
+    t = html.unescape(re.sub(r"<[^>]+>", "", t))
+    t = re.sub(r"[ \t]+\n", "\n", t)
+    t = re.sub(r"\n[ \t]+", "\n", t)
+    t = re.sub(r"\n{3,}", "\n\n", t)
+    # Header row of a table: add the Markdown separator line
+    t = re.sub(r"^(\|.*\|)\n\n(?=\|)", lambda m: m.group(1) + "\n" + "|---" * m.group(1).count(" | ") + "|---|\n", t, flags=re.M)
+    return t.strip()
+
+def build_llms_full(pages, listing):
+    parts = []
+    for p in pages + listing:
+        faq = "".join(f"\n\n**{q['q']}**\n{re.sub(r'<[^>]+>', '', q['a'])}" for q in p.get("faq", []))
+        parts.append(f"# {p['title']}\n\nURL: {SITE}/{p['slug']}.html\nUpdated: {p['updated']}\n\n"
+                     f"{to_text(p['body'])}" + (f"\n\n## Frequently asked questions{faq}" if faq else ""))
+    (ROOT / "llms-full.txt").write_text(
+        "# Voz Cruda: full text of the company page and guides\n\n"
+        f"> Source: {SITE}/ . Summary and index: {SITE}/llms.txt\n\n"
+        + "\n\n---\n\n".join(parts) + "\n", encoding="utf-8")
+
 def build_index(posts, listing):
     url = SITE + "/blog.html"
     ld = [{"@context": "https://schema.org", "@type": "Blog", "name": "Voz Cruda Insights", "url": url,
@@ -280,9 +376,10 @@ def build_index(posts, listing):
 {footer(posts)}"""
     (ROOT / "blog.html").write_text(out, encoding="utf-8")
 
-def build_sitemap(listing):
+def build_sitemap(pages, listing):
     today = date.today().isoformat()
     urls = [(SITE + "/", today, "1.0"), (SITE + "/blog.html", today, "0.8")]
+    urls += [(f"{SITE}/{p['slug']}.html", p["updated"], "0.8") for p in pages]
     urls += [(f"{SITE}/{p['slug']}.html", p["updated"], "0.7") for p in listing]
     body = "\n".join(f"  <url><loc>{u}</loc><lastmod>{d}</lastmod><priority>{pr}</priority></url>" for u, d, pr in urls)
     xml = f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{body}\n</urlset>\n'
@@ -290,8 +387,9 @@ def build_sitemap(listing):
     for name in ("sitemap.xml", "sitemap-pages.xml"):
         (ROOT / name).write_text(xml, encoding="utf-8")
 
-def build_llms(listing):
+def build_llms(pages, listing):
     lines = "\n".join(f"- [{p['title']}]({SITE}/{p['slug']}.html): {p['card']}" for p in listing)
+    page_lines = "\n".join(f"- [{p['title']}]({SITE}/{p['slug']}.html): {p['description']}" for p in pages)
     (ROOT / "llms.txt").write_text(f"""# Voz Cruda
 
 > Voz Cruda LLP is an apparel sourcing company in Bengaluru, India. It matches fashion brands, boutiques, D2C and private label businesses with suitable clothing manufacturers, and coordinates production. Its product Smallotz lets small buyers order low MOQ clothing with no minimums by pooling orders with other buyers until the factory's minimum order quantity (MOQ) is reached.
@@ -306,7 +404,9 @@ Key facts:
 
 ## Pages
 - [Home]({SITE}/): apparel sourcing and Smallotz overview
+{page_lines}
 - [Insights]({SITE}/blog.html): all guides
+- [Full text of all guides]({SITE}/llms-full.txt): every page below as plain text
 
 ## Guides
 {lines}
@@ -314,13 +414,17 @@ Key facts:
 
 def main():
     posts = load_posts()
+    pages = load_posts("pages")
     for p in posts:
         build_post(p, posts)
+    for p in pages:
+        build_page(p, posts)
     listing = posts + EXTRA_POSTS
     build_index(posts, listing)
-    build_sitemap(listing)
-    build_llms(listing)
-    print(f"Built {len(posts)} posts, blog.html, sitemap.xml, sitemap-pages.xml, llms.txt")
+    build_sitemap(pages, listing)
+    build_llms(pages, listing)
+    build_llms_full(pages, listing)
+    print(f"Built {len(posts)} posts, {len(pages)} pages, blog.html, sitemaps, llms.txt, llms-full.txt")
 
 if __name__ == "__main__":
     main()
